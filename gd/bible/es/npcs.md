@@ -39,7 +39,7 @@
 ### Wei-Ting Zhang
 **Descripción externa** Taiwanesa, baja, gafas, cuaderno de notas
 
-**Le gusta** Ciencia
+**Le gusta** Ciencia, Ingeniería mecánica
 
 **No le gusta** .
 
