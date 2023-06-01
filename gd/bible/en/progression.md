@@ -66,7 +66,7 @@ After this last scene, the summary scene is shown and the game ends.
 - The protagonist can ignore the platypuses completely.
 ## Score sources
 ### PP
-- Each class period adds 1 point (4x5=20).
+- Each class period adds 1 point (3x5=15).
 - Each "Study" extracurricular adds 2 point (first point is mandatory).
 - Two NPC scenes per NPC can optionally add 1 point.
 ### CP
@@ -85,12 +85,12 @@ main objective.
 
 | PP score | CP score | Award |
 | -------- | -------- | ----- |
-|   <=23   |   <=4    |       |
-|   <=23   |    >4    |       |
-| >23,<=26 |   <=4    |       |
-| >23,<=26 |    >4    |       |
-|    >26   |   <=4    |       |
-|    >26   |    >4    |       |
+|   <=18   |   <=4    |       |
+|   <=18   |    >4    |       |
+| >18,<=21 |   <=4    |       |
+| >18,<=21 |    >4    |       |
+|    >21   |   <=4    |       |
+|    >21   |    >4    |       |
 
 The second section is the NP section and shows how the NPCs affected the
 player and what happened to them in the future.
