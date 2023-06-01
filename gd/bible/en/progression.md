@@ -29,13 +29,14 @@ Each NPCs has their own arc corresponding to each of the NPC plots. In the end,
 all of them can get emotionally involved with the player, even if they conspire
 to make him stop ascending in the ranks.
 ## Full game structure
-The game is broken into five days. There are 3 sections in each day.
+The game is broken into four days. There are 3 sections in each day.
 
-The academy section is were the NPC scenes are shown to the player. This
+The academy section is were the NPC scenes are available to the player. This
 section is subsequently divided in three class periods with passing periods in
 between, a pre-class period and an after-class period. The passings, pre-class
 and after-class are the periods (4 in total) when the player can pick a single
-location/character and topic to interact.
+location/character and topic to interact. The player can also study instead of
+interact with the NPCs in this periods.
 
 After school, there is an extra curricular activity section. The first day,
 only the "Study" activity is present and the player has to do it. The next
@@ -48,12 +49,8 @@ This calls will be interrupted by the NPCs if the player ever tells them about
 his friend without a sufficient development in their plots. If the calls are
 interrupted, the player just studies.
 
-The last night is the game resolution night and the "night date" scenes for
-each character are shown in other of affinity (then, order of character in the
-top list) to allow the player to pick one and only one. This scene replaces the
-normal TV/informant scene.
-
-After this last scene, the summary scene is shown and the game ends.
+In the forth day, the game ends in the extracurriculars section. The end scene
+replaces this section.
 ## Keypoints
 - The protagonist plot is hinted in the beginning and the romantic partners are
   distractions from it. This is also softly hinted.
@@ -64,49 +61,55 @@ After this last scene, the summary scene is shown and the game ends.
   the conspiracy if he knows about it. But the platypuses will succeed
   eventually if the player doesn't become a Five Star General.
 - The protagonist can ignore the platypuses completely.
-## Score sources
-### PP
-- Each class period adds 1 point (3x5=15).
-- Each "Study" extracurricular adds 2 point (first point is mandatory).
-- Two NPC scenes per NPC can optionally add 1 point.
-### CP
-- Each of the 4 night scenes with the informant add 1 point.
-- One NPC scene per NPC can optionally add 1 point.
-### NP
-- Each NPC scene can add between 1 and 3 points. Some dialogue options will
-  enforce a 1.
-- Each extracurricular will add 2 points.
-## Game endings (work is pending from here)
-### Ending award criteria and order
-The game awards the endings in two different sections.
+## Game scores and endings
+### Academy scene scores
+Studying in the academy pass periods awards 1 PP point.
 
-The first section is the PP section and shows if the player succeeds in his
-main objective.
+Each scene with a NPC awards 0-1 point or, exceptionally, 2 points.
 
-| PP score | CP score | Award |
-| -------- | -------- | ----- |
-|   <=18   |   <=4    |       |
-|   <=18   |    >4    |       |
-| >18,<=21 |   <=4    |       |
-| >18,<=21 |    >4    |       |
-|    >21   |   <=4    |       |
-|    >21   |    >4    |       |
+CP scores are available in NPC scenes at the academy and the maximum amount
+will depend on the NP tier (available CP = Tier - 2 (min. 0)).
 
-The second section is the NP section and shows how the NPCs affected the
-player and what happened to them in the future.
-### Main story endings
-#### Bad ending
-If the PP score is low, the player fails to upgrade his rank and is discharged
-from the academy. He will continue working as a soldier in the shadow of the
-corrupt power. Humanity is doomed to the platypus invasion.
+In the days 2 and 3, in some of the passing periods, NPCs are distributed in
+variant groups and the player can get 1 NP in one of the NPCs in the group. A
+total of 1 CP can be scored in this scenes. Individual conversation are
+unavailable in this periods (the NPC can't be in two places at the same time).
+### Extracurricular scene scores
+Taking the "Study" awards 2 points and is always available.
 
-The player doesn't know about the platypuses: the "missing ending" for each NPC
-is shown to the player.
+The first day, an special "party" scene is an alternative to "Study" and always
+awards 2 NPs (to 1 or 2 NPCs) and up to 1 CP.
 
-or choose to stay with a platypus
-knowingly: The player will be rewarded with the NPC character "dark ending" if
-the score with the NPC is low. On a higher score, the "converse ending" will be
-rewarded instead.
+From day 2, if the NPCs had level II scenes with the player, an
+extracurriculars with the NPCs is available as an alternative to "Study" and
+it award 2 NP points.
+### Informant scene scores
+Each night talking with the informant you will get 1 CP. If you divulge the
+identity of the informant, you will get no scene and 0 CP.
+### NPC tier thresholds
 
-The player knows about the platypuses or avoid to stay with a platypus: The
-"executed ending" will be rewarded instead.
+| Level | Unlock criteria at the start of each day |
+| ----- | ---------------------------------------- |
+| II    | Unlock at day 2.                         |
+| III   | Unlock at NP > 4.                        |
+| IV    | Unlock at NP > 11.                       |
+
+### PP/CP thresholds
+Each NPC is considered on a relationship if you succeed in any of the level IV
+scenes.
+
+| Score | Minimun to succeed       |
+| ----- | ------------------------ |
+|  PP   |           >13            |
+|  CP   | >5 if PP<14, >3 if PP>13 |
+
+
+### End scenes availability (WIP)
+
+| CP/xP      | xP Failure | PP success | AP success  | RP success   | SP success  | ZP success   | WP success   |
+| ---------- | ---------- | ---------- | ----------- | ------------ | ----------- | ------------ | ------------ |
+| CP success | knowing    | hero       | alexeilove= | roxxanelove= | sharonlove= | zacharylove= | waitinglove= |
+| CP failure | niceguy    | inthedark  | alexeiblind | roxxaneblind | sharonblind | zacharyblind | waitingblind |
+
+= Optional ending: Rejection ending, or "rejection". Available if you reject the
+  romatic option.
