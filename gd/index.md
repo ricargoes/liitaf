@@ -9,4 +9,4 @@
 * [English](bible/en/progression.md)
 * [Spanish](bible/es/progression.md)
 ## Scenes
-* [Scene index](scenes.md)
+* [Scene index](bible/scenes.md)
