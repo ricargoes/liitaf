@@ -1,0 +1,21 @@
+{
+	"color": "#ff312323",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1685477911.json",
+	"mirror_portraits": false,
+	"name": "Sharon",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://resources/characters/Shannon.png"
+		}
+	],
+	"scale": 30,
+	"theme": ""
+}

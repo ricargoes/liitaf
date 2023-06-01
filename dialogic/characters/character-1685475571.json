@@ -1,0 +1,25 @@
+{
+	"color": "#ff000000",
+	"description": "Fornido, bajo, ligeramente amenazador, competitivo, rudo",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1685475571.json",
+	"mirror_portraits": false,
+	"name": "Alexei",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://resources/characters/Alexei/Default.png"
+		},
+		{
+			"name": "Surprised",
+			"path": "res://resources/characters/Alexei/Surprised.png"
+		}
+	],
+	"scale": 30,
+	"theme": ""
+}

@@ -1,0 +1,102 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://icon.png" type="Texture" id=1]
+[ext_resource path="res://scenes/game.gd" type="Script" id=2]
+[ext_resource path="res://resources/backgrounds/track.png" type="Texture" id=4]
+[ext_resource path="res://resources/icon/alexei.png" type="Texture" id=5]
+[ext_resource path="res://resources/icon/wai-ting.png" type="Texture" id=6]
+[ext_resource path="res://resources/icon/zack.png" type="Texture" id=7]
+[ext_resource path="res://resources/icon/sharon.png" type="Texture" id=8]
+[ext_resource path="res://resources/icon/roxxane.png" type="Texture" id=9]
+
+[node name="Game" type="Control"]
+margin_right = 40.0
+margin_bottom = 40.0
+script = ExtResource( 2 )
+
+[node name="Academy" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_right = 1880.0
+margin_bottom = 1040.0
+texture = ExtResource( 4 )
+
+[node name="Wai-Ting" type="TextureButton" parent="Academy"]
+margin_left = 285.0
+margin_top = 729.0
+margin_right = 385.0
+margin_bottom = 829.0
+rect_min_size = Vector2( 100, 100 )
+texture_normal = ExtResource( 6 )
+expand = true
+
+[node name="Alexei" type="TextureButton" parent="Academy"]
+margin_left = 277.0
+margin_top = 373.0
+margin_right = 377.0
+margin_bottom = 473.0
+rect_min_size = Vector2( 100, 100 )
+texture_normal = ExtResource( 5 )
+expand = true
+
+[node name="Sharon" type="TextureButton" parent="Academy"]
+margin_left = 893.0
+margin_top = 681.0
+margin_right = 993.0
+margin_bottom = 781.0
+rect_min_size = Vector2( 100, 100 )
+texture_normal = ExtResource( 8 )
+expand = true
+
+[node name="Zachary" type="TextureButton" parent="Academy"]
+margin_left = 1280.0
+margin_top = 624.0
+margin_right = 1380.0
+margin_bottom = 724.0
+rect_min_size = Vector2( 100, 100 )
+texture_normal = ExtResource( 7 )
+expand = true
+
+[node name="Roxxane" type="TextureButton" parent="Academy"]
+margin_left = 1400.0
+margin_top = 336.0
+margin_right = 1500.0
+margin_bottom = 436.0
+rect_min_size = Vector2( 100, 100 )
+texture_normal = ExtResource( 9 )
+expand = true
+
+[node name="ScoreBG" type="ColorRect" parent="."]
+anchor_left = 1.0
+anchor_right = 1.0
+margin_left = 1730.0
+margin_top = 10.0
+margin_right = 1880.0
+margin_bottom = 74.0
+rect_min_size = Vector2( 150, 64 )
+color = Color( 0, 0, 0, 1 )
+
+[node name="ScoreContainer" type="HBoxContainer" parent="ScoreBG"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 0
+rect_min_size = Vector2( 150, 0 )
+custom_constants/separation = 10
+
+[node name="Score" type="Label" parent="ScoreBG/ScoreContainer"]
+unique_name_in_owner = true
+margin_right = 76.0
+margin_bottom = 64.0
+size_flags_horizontal = 3
+size_flags_vertical = 7
+text = "0"
+align = 2
+valign = 1
+
+[node name="Icon" type="TextureRect" parent="ScoreBG/ScoreContainer"]
+margin_left = 86.0
+margin_right = 150.0
+margin_bottom = 64.0
+texture = ExtResource( 1 )
+
+[connection signal="pressed" from="Academy/Alexei" to="." method="_on_Alexei_pressed"]

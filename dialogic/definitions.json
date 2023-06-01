@@ -1,0 +1,25 @@
+{
+	"glossary": [
+
+	],
+	"variables": [
+		{
+			"id": "1685480190-265",
+			"name": "Studies",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1685638374-366",
+			"name": "day",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1685638387-146",
+			"name": "talking_themes_done",
+			"type": 0,
+			"value": ""
+		}
+	]
+}
