@@ -17,14 +17,13 @@ The main arc or PP is the arc of the player character. He is called Maverick by
 default and he is a brave and idealistic soldier in the air forces. He wants to
 contribute to society advancement but he found that the military corruption is
 holding the army back and he wants to change it. To do it, he has to go back to
-the academy and get more knowledge to ascend in ranks to a Five Star General.
+the academy and study to ascend in ranks to a Five Star General.
 ### Platypus conspiracy
-The platypus empire is infiltrating the human society after the discovery of
+The Platypus Empire is infiltrating the human society after the discovery of
 the advancements in space travel technology. A group of platypus spies is
 taking over the appearance of young military students at the military academies
-all over the world. They will try to get romantically involved with the player
-to hamper his efforts or position themselves in the future human military
-leadership. This is the CP.
+all over the world. They may get romantically involved with the player and develop
+feelings for him. This is the CP.
 ### Romantic arcs
 Each NPCs has their own arc corresponding to each of the NPC plots. In the end,
 all of them can get emotionally involved with the player, even if they conspire
