@@ -230,8 +230,12 @@
 			"value": ""
 		},
 		{
-			"emit_signal": "studies",
-			"event_id": "dialogic_040"
+			"definition": "1685480190-265",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
 		},
 		{
 			"choice": "Go frolick in the meadows",

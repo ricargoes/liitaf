@@ -8,14 +8,10 @@ func _ready():
 	launch_dialog('lore_start')
 
 func update_studies_score() -> void:
-	get_node("%Score").text = str(study_score)
+	get_node("%Score").text = Dialogic.get_variable('Studies', study_score)
 
-func _on_dialogic_event(event):
-	match event:
-		"studies":
-			study_score += 1
-			Dialogic.set_variable('Studies', study_score)
-			update_studies_score()
+func _process(delta):
+	update_studies_score()
 
 func _on_Alexei_pressed():
 	$Academy.hide()
