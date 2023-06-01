@@ -91,8 +91,8 @@ identity of the informant, you will get no scene and 0 CP.
 | Level | Unlock criteria at the start of each day |
 | ----- | ---------------------------------------- |
 | II    | Unlock at day 2.                         |
-| III   | Unlock at NP > 4.                        |
-| IV    | Unlock at NP > 11.                       |
+| III   | Unlock at day 3 and NP >= 4.             |
+| IV    | Unlock at day 4 and NP >= 9.             |
 
 ### PP/CP thresholds
 Each NPC is considered on a relationship if you succeed in any of the level IV
