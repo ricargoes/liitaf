@@ -12,7 +12,13 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Texto de introducción..."
+			"text": "Es el lejano año 1997.\n\nTu nombre es [pc_name]. Eres un piloto idealista de las USSF que ha descubierto que el ejército es una institución moralmente corrupta que no puede servir para proteger a la humanidad.\n\nLa única solución que garantize la es asumir él mismo el rol de General de Cinco Estrellas y para ello debe volver a la academia militar.\n\nPero la ajetreada vida social y los potenciales desarrollos románticos se interpondrán en su camino."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A la par, un grupo de espías del Imperio Ornitorrinco ha empezado a infiltrarse en las academias militares de La Tierra y se esconden entre sus estudiantes más atractivos.\n\n¿Conseguirá Maverick su objetivo sin enamorarse por el camino?"
 		},
 		{
 			"event_id": "dialogic_024",
