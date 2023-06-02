@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"background": "res://resources/backgrounds/camo.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Haciendo acopio de voluntad, te sientas a estudiar. Te preguntas por la interesante vida social de tus compañeros pero tu objetivo actual es más importante."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1685718457.json",
+		"name": "T03"
+	}
+}

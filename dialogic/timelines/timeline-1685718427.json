@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"background": "res://resources/backgrounds/camo.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Incas los codos y avanzas ligeramente en tu objetivo de llegar a General. Solo un poco, llegar a General no va a ser tan fácil."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1685718427.json",
+		"name": "T01"
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"background": "res://resources/backgrounds/camo.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Con mucho esfuerzo, memorizas un nuevo bloque de información que vomitarás en el examen y olvidarás una semana después."
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1685718454.json",
+		"name": "T02"
+	}
+}
