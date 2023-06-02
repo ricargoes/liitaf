@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Thoughtful.png-e2d0aabcd73ee73e3132bcdd6e38db4a.stex"
+path="res://.import/Speechless.png-7f50edf842634b13f8c39e4418d72a2a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://resources/characters/Wai-Ting/Thoughtful.png"
-dest_files=[ "res://.import/Thoughtful.png-e2d0aabcd73ee73e3132bcdd6e38db4a.stex" ]
+source_file="res://resources/characters/Wai-Ting/Speechless.png"
+dest_files=[ "res://.import/Speechless.png-7f50edf842634b13f8c39e4418d72a2a.stex" ]
 
 [params]
 

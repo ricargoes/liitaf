@@ -1,5 +1,5 @@
 {
-	"color": "#ff000000",
+	"color": "#ff185006",
 	"description": "Fornido, bajo, ligeramente amenazador, competitivo, rudo",
 	"display_name": "",
 	"display_name_bool": false,
@@ -13,11 +13,23 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": "res://resources/characters/Alexei/Default.png"
+			"path": "res://resources/characters/Alexei/normal.png"
 		},
 		{
-			"name": "Surprised",
-			"path": "res://resources/characters/Alexei/Surprised.png"
+			"name": "blushing",
+			"path": "res://resources/characters/Alexei/blushing.png"
+		},
+		{
+			"name": "angry",
+			"path": "res://resources/characters/Alexei/angry.png"
+		},
+		{
+			"name": "upset",
+			"path": "res://resources/characters/Alexei/upset.png"
+		},
+		{
+			"name": "showing off",
+			"path": "res://resources/characters/Alexei/showing off.png"
 		}
 	],
 	"scale": 30,

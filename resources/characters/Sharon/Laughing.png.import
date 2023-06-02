@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Default.png-2a63c4cd6081f15e3dc437102a1baf71.stex"
+path="res://.import/Laughing.png-aae2885342dc19ec1fd60a561994ee6e.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://resources/characters/Alexei/Default.png"
-dest_files=[ "res://.import/Default.png-2a63c4cd6081f15e3dc437102a1baf71.stex" ]
+source_file="res://resources/characters/Sharon/Laughing.png"
+dest_files=[ "res://.import/Laughing.png-aae2885342dc19ec1fd60a561994ee6e.stex" ]
 
 [params]
 

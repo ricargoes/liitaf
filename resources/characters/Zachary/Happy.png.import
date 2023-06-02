@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Sharon.png-dbf2299235c31d2823c8765a855c5b01.stex"
+path="res://.import/Happy.png-433a6c4299a1c82aeede3d481bedd96f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://resources/characters/Sharon/Sharon.png"
-dest_files=[ "res://.import/Sharon.png-dbf2299235c31d2823c8765a855c5b01.stex" ]
+source_file="res://resources/characters/Zachary/Happy.png"
+dest_files=[ "res://.import/Happy.png-433a6c4299a1c82aeede3d481bedd96f.stex" ]
 
 [params]
 

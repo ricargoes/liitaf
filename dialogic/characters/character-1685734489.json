@@ -1,0 +1,33 @@
+{
+	"color": "#ffbfcc20",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1685734489.json",
+	"mirror_portraits": false,
+	"name": "Zachary",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://resources/characters/Zachary/Zack.png"
+		},
+		{
+			"name": "Sad",
+			"path": "res://resources/characters/Zachary/Sad.png"
+		},
+		{
+			"name": "Blushing",
+			"path": "res://resources/characters/Zachary/Blushing.png"
+		},
+		{
+			"name": "Happy",
+			"path": "res://resources/characters/Zachary/Happy.png"
+		}
+	],
+	"scale": 30,
+	"theme": ""
+}

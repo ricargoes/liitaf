@@ -13,7 +13,27 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": "res://resources/characters/Shannon.png"
+			"path": "res://resources/characters/Sharon/Normal.png"
+		},
+		{
+			"name": "Platypus",
+			"path": "res://resources/characters/Sharon/Platypus.png"
+		},
+		{
+			"name": "Happy",
+			"path": "res://resources/characters/Sharon/Happy.png"
+		},
+		{
+			"name": "Angry",
+			"path": "res://resources/characters/Sharon/Angry.png"
+		},
+		{
+			"name": "Laughing",
+			"path": "res://resources/characters/Sharon/Laughing.png"
+		},
+		{
+			"name": "Flirting",
+			"path": "res://resources/characters/Sharon/Flirting.png"
 		}
 	],
 	"scale": 30,

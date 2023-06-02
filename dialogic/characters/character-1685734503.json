@@ -1,0 +1,33 @@
+{
+	"color": "#ff9a1ec7",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1685734503.json",
+	"mirror_portraits": false,
+	"name": "Roxxane",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://resources/characters/Roxxane/Roxxane.png"
+		},
+		{
+			"name": "Blushing",
+			"path": "res://resources/characters/Roxxane/Blushing.png"
+		},
+		{
+			"name": "Happy",
+			"path": "res://resources/characters/Roxxane/Happy.png"
+		},
+		{
+			"name": "Angry",
+			"path": "res://resources/characters/Roxxane/Angry.png"
+		}
+	],
+	"scale": 30,
+	"theme": ""
+}

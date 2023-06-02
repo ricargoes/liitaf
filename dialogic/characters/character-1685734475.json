@@ -1,0 +1,33 @@
+{
+	"color": "#ff000000",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1685734475.json",
+	"mirror_portraits": false,
+	"name": "Wai-Ting",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://resources/characters/Wai-Ting/normal.png"
+		},
+		{
+			"name": "Thougtful",
+			"path": "res://resources/characters/Wai-Ting/Thougtful.png"
+		},
+		{
+			"name": "Speechless",
+			"path": "res://resources/characters/Wai-Ting/Speechless.png"
+		},
+		{
+			"name": "Annoyed",
+			"path": "res://resources/characters/Wai-Ting/Annoyed.png"
+		}
+	],
+	"scale": 30,
+	"theme": ""
+}
