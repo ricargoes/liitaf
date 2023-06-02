@@ -12,16 +12,16 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Rejection ending."
+			"text": "\"¡No!\", exclamas vomitando sangre mientras el ser que pensabas que amabas te atraviesa el corazón con un cuchillo de combate. \n\n\"¡No, prefiero morir que soportar un segundo más la compañia de este monstruo!\", levantas la vista y ves lagrimas en sus extraños ojos.\n\nSu pico se mueve. Te parece escuchar un susuro.  \"Lo siento\". \"Te quiero\". \n\nNo te podían dejar vivir, sabías demasiado. Pero la verdad era que tú ya no querías seguir viviendo en este mundo demencial.\n\n\n[center]Rejection ending[/center]"
 		},
 		{
-			"event_id": "dialogic_024",
-			"set_theme": "default-theme.cfg"
+			"event_id": "dialogic_022",
+			"transition_duration": 1
 		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",
 		"file": "timeline-1685722565.json",
-		"name": "E05"
+		"name": "E00"
 	}
 }

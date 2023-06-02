@@ -8,7 +8,11 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Incas los codos y avanzas ligeramente en tu objetivo de llegar a General. Solo un poco, llegar a General no va a ser tan fácil."
+			"text": "Hincas los codos y avanzas ligeramente en tu objetivo de llegar a General. Solo un poco, llegar a General no va a ser tan fácil."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
 		}
 	],
 	"metadata": {

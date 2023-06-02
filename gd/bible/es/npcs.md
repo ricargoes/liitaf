@@ -37,9 +37,9 @@
 **Acentos** .
 
 ### Wei-Ting Zhang
-**Descripción externa** Taiwanesa, baja, gafas, cuaderno de notas
+**Descripción externa** Taiwanesa, baja, gafas, cuaderno de notas. Inepta social, brutalmente honesta, despistada, brillante, orgullosa. 
 
-**Le gusta** Ciencia, Ingeniería mecánica
+**Le gusta** Ciencia, robótica
 
 **No le gusta** .
 

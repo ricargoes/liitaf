@@ -12,16 +12,16 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Nice Guy disaster ending."
+			"text": "[pc_name] no era un individuo brillante. Más bien todo lo contrario, pero era majo y tenía tenía varios amigos. A pesar de fracasar completamente en sus estudios y no conseguir encontrar el amor, su tiempo en la academia fue el más feliz de su vida.\n\nPor ello, la llegada del Imperio Ornitorrinco la sintió como una doble tragedia. Por un lado, evidentemente, la devastación de la guerra que basicamente erradicó a los humanos. Pero por otro, la extraña y repentina forma que sus amigos de la academia dejaron de responder a sus intentos de contacto.\n\nAl final murió solo y preocupado pensando en sus compañeros a los que no pudo salvar.\n\n\n[center]Nice Guy disaster ending[/center]"
 		},
 		{
-			"event_id": "dialogic_024",
-			"set_theme": "default-theme.cfg"
+			"event_id": "dialogic_022",
+			"transition_duration": 1
 		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",
 		"file": "timeline-1685722551.json",
-		"name": "E02"
+		"name": "E12"
 	}
 }

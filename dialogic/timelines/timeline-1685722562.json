@@ -12,16 +12,16 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "In the dark ending."
+			"text": "Una concentración excepcional, una voluntad de hierro y un gran desprecio por las relaciones sociales llevaron a [pc_name] a una brillante carrera militar. Al cabo de unos años obtuvo su ansiado puesto como General de 5 Estrellas.\n\nPero no estaba preparado. ¡Oh, cielos, no estaba preparado! Ni el general ni nadie  supo ver la llegada de los despiadados y sanguinarios ornitorrincos del espacio exterior.\n\n[pc_name] comando los ejercitos de la Tierra con astucia y luchó con valor y tenacidad. Pero no fue suficiente para detener a estos demonios con pico.\n\nAl final murió solo y sin honores, puesto que ya no quedaba nadie para dárselos. \n\n[center]In the dark ending[/center]"
 		},
 		{
-			"event_id": "dialogic_024",
-			"set_theme": "default-theme.cfg"
+			"event_id": "dialogic_022",
+			"transition_duration": 1
 		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",
 		"file": "timeline-1685722562.json",
-		"name": "E04"
+		"name": "E22"
 	}
 }

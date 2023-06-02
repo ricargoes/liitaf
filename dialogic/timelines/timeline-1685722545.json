@@ -12,16 +12,16 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Knowing disaster ending."
+			"text": "Lo veías en sus ojos, no querían hacerlo. Tus compañeros de academia no querían matarte, les caías bien.\n\nPero tú eras humano y ellos, ornitorrincos.\nTú eras un militar fracasado y ellos eran espias del más alto nivel.\nTú eras un cabo suelto que conocía su secreto y ellos se dedicaban a atar cabos.\n\nAl menos te concedieron una muerte rápida y ya no tendríás que ser testigo de la destrucción de tu mundo.\n\n\n[center]Knowing disaster ending[/center]"
 		},
 		{
-			"event_id": "dialogic_024",
-			"set_theme": "default-theme.cfg"
+			"event_id": "dialogic_022",
+			"transition_duration": 1
 		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",
 		"file": "timeline-1685722545.json",
-		"name": "E01"
+		"name": "E11"
 	}
 }

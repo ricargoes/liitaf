@@ -1,6 +1,292 @@
 {
 	"events": [
+		{
+			"background": "res://resources/backgrounds/track.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pese a que la academia está abarrotada de alumnos, te sorprende ver que sólo unos pocos pasan el tiempo en la pista de atletismo. Paseas tranquilamente por los alrededores cuando de repente una voz, retumbante cual trueno, llama tu atención."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Eh, tú!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Cuando te das la vuelta ves a un hombre fornido pero de corta estatura con un parche en el ojo izquierdo."
+		},
+		{
+			"animation": "bouncing_in.gd",
+			"animation_length": 0.2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"port_defn": "1685638387-146",
+			"portrait": "angry",
+			"text": "¡Joder, qué susto…! ¿Quién eres tú?"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "¡Alto ahí, “cerebrito”! He hablado yo primero."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Ah, estás hablando? Pensaba que eran gruñidos."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Eh?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Qué?"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "angry",
+			"text": "¿Qué de qué? ¿A qué te refieres con gruñidos?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hombre, ¿a ti te parece medio normal ir por ahí gritándole a la gente?"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "¿He gritado?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Sí! Me has dado un buen susto."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Vaya, qué sensible! ¿Seguro que no estás el lugar equivocado? ¡Esta academia no es apta para… uhm... “pusilánimes”!"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Por qué dices “pusilánime” como si acabases de aprender lo que significa esa palabra?"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_010",
+			"options": [
 
+			],
+			"portrait": "",
+			"question": "¡Eh, para el carro! ¡No me vengas con… con… con “pusilanimerías”! ¡He preguntado yo primero! ¿Crees que este es el lugar adecuado para una persona que se asusta cuando alguien levanta un poquito la voz?"
+		},
+		{
+			"choice": "Buf, creo que no tengo tiempo para tests de inteligencia, lo siento.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Inteligencia? ¡Te equivocas! ¡Esto no tiene nada que ver con la inteligencia!"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡No hace falta que lo jures!"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "showing off",
+			"text": "¡La fuerza de espíritu! ¡El valor! ¡La fuerza! ¡El espíritu! ¡Pero sobre todo el valor! Sin olvidarnos de la resistencia, claro. ¿Sabes a qué me refiero, verdad?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Err… ¿sí?"
+		},
+		{
+			"choice": "Err… ¿Sí?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "¿Conque sí, ah…? ¡Bien, pues pongamos a prueba tu resistencia! ¿Qué te parecen… no sé, diez vueltas a la pista de atletismo? ¡El que termine primero, gana! Y el que termine en segundo lugar…"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "angry",
+			"text": "... no gana"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pierde."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No, que no gana."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Vamos, que pierde."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pff, ¿y tú quién eres? ¿La reencarnación de Benjamin Franklin?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Eh?"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "¡Joder!, ¡El que inventó la gravedad! Vaya, no eres tan cerebrito como pensaba, ¿ah?"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei se pone en posición para salir a correr."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "showing off",
+			"text": "Antes de correr hay que calentar un poco los músculos… ¡Aunque a mí nunca me hace falta! ¡Siempre están a punto! ¡Mira, mira!"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sí, sí, muy bonitos, pero ahora… Ahora mismo tengo que irme, lo siento."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Hum… ¡Te libras porque están a punto de empezar las clases! Pero vuelve por aquí luego: ¡esto no puede quedar así!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Por cierto, me llamo Alexei. ¡Encantado!"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hola, Alexei. Yo soy [pc_name]."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Muy bien, [pc_name]. Aquí te espero en el descanso. ¡Si no vienes, mañana todo el mundo sabrá lo… lo…! ¿cómo fue lo que dije antes?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Pusilánime?"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "showing off",
+			"text": "¡Eso! ¡Aprendiendo con Alexei!"
+		},
+		{
+			"animation": "bounce_out.gd",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei se marcha, y tú también. Empieza la siguiente clase."
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",

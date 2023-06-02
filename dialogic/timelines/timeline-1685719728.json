@@ -24,17 +24,13 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Por otro lado, los ornitorrincos siempre nos parecieron muy raros lol\n\n¡Qué contento estoy! Siento que todo va a salir bien a partir de ahora. Confío en que esta información te ayude y llegue a buenas manos.\n\nAyer hablé con una empresa de seguridad para que me escoltaran a casa esta noche a recoger más documentación que tengo allí.\n\nTe escribo desde allí justo antes de ir a dormir, un abrazo.\n\nTu amigo de la infancia,\nMiguel."
+			"text": "Por otro lado, los [i]ornithorhynchus anatinus[/i] siempre nos parecieron muy raros lol\n\n¡Qué contento estoy! Siento que todo va a salir bien a partir de ahora. Confío en que esta información te ayude y llegue a buenas manos.\n\nAyer hablé con una empresa de seguridad para que me escoltaran a casa esta noche a recoger más documentación que tengo allí.\n\nTe escribo luego antes de dormir, cuando haya recuperado los documentos, un abrazo.\n\nTu amigo de la infancia,\nMiguel."
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "--- FIN DEL MENSAJE\n\nNo recibes más correos esta noche..."
-		},
-		{
-			"event_id": "dialogic_024",
-			"set_theme": "default-theme.cfg"
 		}
 	],
 	"metadata": {

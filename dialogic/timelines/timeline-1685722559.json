@@ -12,16 +12,28 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Hero ending."
+			"text": "El Imperio Ornitorrinco se avalanzó sobre una desprevenida Tierra. \n\nLos oceanos ardieron.\nLos bosques se derritieron.\nLos casquetes polares se extendieron.\n\nY los mamíferos vivíparos y otras bestias de bien gritaron de terror."
 		},
 		{
-			"event_id": "dialogic_024",
-			"set_theme": "default-theme.cfg"
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Y fue en ese momento, cuando la hora era más oscura y todo parecía perdido, que un héroe se alzó. Se alzó en los cielos con su nave nuclear empuñando la esperanza en su mano.\n\nSe le conoció por muchos nombres: el azote de los picos, el conquistador de la charca o como los propios ornitorrincos decían con miedo en su lengua propia: QuaQinaZthor.\n\nPocos fueron los que le conocían de verdad y simplemente le llamaban [pc_name], un mamífero de verdad."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Su vasta sabiduría adquirida a través de muchas horas de estudio y su preciso conocimiento de la conspiración ornitorrinca le permitieron adelantarse a los movimientos de los viles ovíparos. \n\nEntonces emprendió un contrataque de furia y sangre que erradicaron al enemigo y le pavimentaron el camino al panteón de los heroes envuelto en laurel, oro y fuego.\n\n\n[center]Hero ending[/center]"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
 		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",
 		"file": "timeline-1685722559.json",
-		"name": "E03"
+		"name": "E21"
 	}
 }

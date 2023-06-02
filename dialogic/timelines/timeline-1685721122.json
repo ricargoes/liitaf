@@ -13,10 +13,6 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "No recibes respuesta de Miguel esta noche..."
-		},
-		{
-			"event_id": "dialogic_024",
-			"set_theme": "default-theme.cfg"
 		}
 	],
 	"metadata": {

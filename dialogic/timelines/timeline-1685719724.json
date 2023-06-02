@@ -12,7 +12,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Recibes un nuevo correo al final del día.\n\nAdjunto en el mensaje, puedes ver una atroz secuencia de imágenes de una figura animal introduciéndose en el cuerpo muerto de un joven y tomando control desde dentro. No comprendes lo que estás viendo, pero no parece un retoque."
+			"text": "Recibes un nuevo correo al final del día.\n\nAdjunto en el mensaje puedes ver una atroz secuencia de imágenes de una figura animal introduciéndose en el cuerpo muerto de un joven y tomando control desde dentro. No comprendes lo que estás viendo, pero no parece un retoque."
 		},
 		{
 			"character": "",
@@ -24,11 +24,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "¿Recibiste mi mensaje de ayer? Te necesito, [pc_name], tengo miedo de enfrentarme solo a esto.\n\nPor favor, cuídate mucho. Si consigues ascender serás una de las personas que podrá ayudar a neutralizar la amenaza.\n\nPor ahora, intenta conseguir algo de información en la academia. Pregunto a alguno de tus compañeros y trata de indagar. Lo mismo no soy el primero que se encuentra con esto.\n\nPero no hables con nadie en quien no confíes plenamente.\n\nUn abrazo."
-		},
-		{
-			"event_id": "dialogic_024",
-			"set_theme": "default-theme.cfg"
+			"text": "¿Recibiste mi mensaje de ayer? Te necesito, [pc_name], tengo miedo de enfrentarme solo a esto.\n\nPor favor, cuídate mucho. Si consigues ascender serás una de las personas que podrá ayudar a neutralizar la amenaza.\n\nPor ahora, intenta conseguir algo de información en la academia. Pregunta a alguno de tus compañeros y trata de indagar. Lo mismo no soy el primero que se encuentra con esto.\n\nPero no hables con nadie en quien no confíes plenamente.\n\nUn abrazo."
 		}
 	],
 	"metadata": {

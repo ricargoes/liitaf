@@ -8,7 +8,11 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Tras otro rato de estudio te replanteas ligeramente todas las opciones que has tomado en tu vida, pero te das cuenta pronto, sales de la espiral depresiva y vuelves al texto."
+			"text": "Te replanteas, mientras el texto memorizas,\nlas decisiones que has tomado en vida, \npero te das cuenta enseguida. \nVuelves al texto y ¡adiós! espiral depresiva."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
 		}
 	],
 	"metadata": {

@@ -9,6 +9,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Haciendo acopio de voluntad, te sientas a estudiar. Te preguntas por la interesante vida social de tus compañeros pero tu objetivo actual es más importante."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
 		}
 	],
 	"metadata": {
