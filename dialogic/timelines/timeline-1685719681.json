@@ -1,0 +1,39 @@
+{
+	"events": [
+		{
+			"background": "res://resources/backgrounds/camo.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1685563048.cfg"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mientras descansas al final de largo día, recibes un correo electrónico de un viejo amigo."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "DE: ballsofstone441@iahoo.com\nPARA: stoicsage69@coldmail.com\nASUNTO: [pc_name] soy yo, Miguel, tenemos que hablar, es urgente...\n\n¿Recuerdas aquello que hablamos hace tiempo? Se que no te lo creias pero he encontrado las pruebas definitivas que buscaba.\n\nEstán entre nosotros. Los conspiranóicos de los reptilianos siempre han estado cerca, pero se equivocaron de animal...\n\nCreo que están vigilandome y es posible que hayan intervenido mis comunicaciones. Temo por mi vida."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No hables a nadie de esto, por favor. Se que ahora parece que no tiene sentido lo que te voy a decir, pero te prometo que tengo pruebas suficientes y te las enviaré poco a poco mañana.\n\nTienes que ser tú. No puedo confiar en nadie más. Además, creo que se están infiltrando también en el ejército. Tu estabas en la academia de mandos de las USSF, ¿verdad?\n\nTen cuidado. No te fies de nadie.\n\nMañana te mando las pruebas que tengo. Te prometo que todo tendrá sentido.\n\nUn abrazo."
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "default-theme.cfg"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1685719681.json",
+		"name": "I11"
+	}
+}

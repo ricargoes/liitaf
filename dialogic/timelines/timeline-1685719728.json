@@ -1,0 +1,45 @@
+{
+	"events": [
+		{
+			"background": "res://resources/backgrounds/camo.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1685563048.cfg"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Recibes un nuevo correo, esta vez con unos análisis de sangre con unos valores muy anómalos."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "DE: ballsofstone441@iahoo.com\nPARA: stoicsage69@coldmail.com\nASUNTO: ¡Lo tengo!\n\nLo he encontrado. Un simple análisis de sangre lo demuestra.\n\nEl proceso de toma de control altera agresivamente la bioquímica del huesped. Observa esos valores en la proteína B865.\n\nEsto es un paso muy importante para localizarlos.\n\nEntre todas las especies de La Tierra, quien iba a pensarlo..."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Por otro lado, los ornitorrincos siempre nos parecieron muy raros lol\n\nQué contento estoy... Siento que todo va a salir bien. Confío en que esta información te ayude y llegue a buenas manos.\n\nAyer hablé con una empresa de seguridad para que me escoltaran a casa esta noche a recoger más documentación que tengo allí.\n\nTe escribo desde allí justo antes de ir a dormir, un abrazo.\n\nTu amigo de la infancia,\nMiguel."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "--- FIN DEL MENSAJE\n\nNo recibes más correos esta noche..."
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "default-theme.cfg"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1685719728.json",
+		"name": "I13"
+	}
+}

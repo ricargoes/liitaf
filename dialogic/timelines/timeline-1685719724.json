@@ -1,0 +1,39 @@
+{
+	"events": [
+		{
+			"background": "res://resources/backgrounds/camo.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1685563048.cfg"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Recibes un nuevo correo al final del día.\n\nAdjunto en el mensaje, puedes ver una atroz secuencia de imágenes de una figura animal introduciendose en el cuerpo muerto de un joven y tomando control desde dentro. No comprendes lo que estás viendo, pero no parece un retoque."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "DE: ballsofstone441@iahoo.com\nPARA: stoicsage69@coldmail.com\nASUNTO: Las pruebas de las que te hablaba\n\n[pc_name], estás son las pruebas de las que te hablé ayer. Tengo más, pero tengo que asegurarme de que no pueden trazar estos mensajes y localizarme.\n\nEsos \"trajes\" que usan son extremadamente realistas y es imposible diferenciarlos de otros humanos. Pero estoy investigando toda mi documentación para intentar encontrar un patrón que nos permita localizarlos."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Recibiste mi mensaje de ayer? Te necesito, [pc_name], tengo miedo de enfrentarme solo a esto.\n\nPor favor, cuídate mucho. Si consigues ascender serás una de las personas que podrá ayudar a neutralizar la amenaza.\n\nPor ahora, intenta conseguir algo de información en la academia. Pregunto a alguno de tus compañeros y trata de indagar. Lo mismo no soy el primero que se encuentra con esto.\n\nPero no hables con nadie en quien no confíes plenamente.\n\nUn abrazo."
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "default-theme.cfg"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1685719724.json",
+		"name": "I12"
+	}
+}
