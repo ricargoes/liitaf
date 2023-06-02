@@ -104,7 +104,7 @@ scenes.
 |  CP   | >5 if PP<14, >3 if PP>13 |
 
 
-### End scenes availability (WIP)
+### End scenes availability
 
 | CP/xP      | xP Failure | PP success | AP success  | RP success   | SP success  | ZP success   | WP success   |
 | ---------- | ---------- | ---------- | ----------- | ------------ | ----------- | ------------ | ------------ |
