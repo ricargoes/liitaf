@@ -5,7 +5,7 @@ var study_score = 0
 
 func _ready():
 	$Academy.hide()
-	launch_dialog('lore_start')
+	launch_dialog('N01')
 
 func update_studies_score() -> void:
 	get_node("%Score").text = Dialogic.get_variable('pp', study_score)
