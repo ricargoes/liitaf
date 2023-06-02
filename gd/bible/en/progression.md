@@ -112,4 +112,4 @@ scenes.
 | CP failure | niceguy    | inthedark  | alexeiblind | roxxaneblind | sharonblind | zacharyblind | waitingblind |
 
 = Optional ending: Rejection ending, or "rejection". Available if you reject the
-  romatic option.
+  romantic option.
