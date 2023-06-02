@@ -65,7 +65,9 @@ replaces this section.
 ### Academy scene scores
 Studying in the academy pass periods awards 1 PP point.
 
-Each scene with a NPC awards 0-1 point or, exceptionally, 2 points.
+Each scene with a NPC awards 0-1 point or, exceptionally, 2 points. 0 is rare,
+some scenes didn't even have that option. 2 is even more rare, only 1 or 2
+scenes per NPC have this option.
 
 CP scores are available in NPC scenes at the academy and the maximum amount
 will depend on the NP tier (available CP = Tier - 2 (min. 0)).
