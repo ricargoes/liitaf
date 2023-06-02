@@ -8,7 +8,7 @@ func _ready():
 	launch_dialog('lore_start')
 
 func update_studies_score() -> void:
-	get_node("%Score").text = Dialogic.get_variable('Studies', study_score)
+	get_node("%Score").text = Dialogic.get_variable('pp', study_score)
 
 func _process(delta):
 	update_studies_score()
