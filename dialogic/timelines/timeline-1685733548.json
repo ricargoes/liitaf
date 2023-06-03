@@ -20,7 +20,13 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "En el centro de la habitación, en una mesa de trabajo, hay una chica de rasgos asiaticos manejando unos viales. Ni siquiera ha mirado en tu dirección desde que has entrado, así que tú también piensas ignorarla. Es en ese momento en el que te fijas que ¡tiene un brazo mecánico!"
+			"text": "En el centro de la habitación, en una mesa de trabajo, hay una chica de rasgos asiaticos manejando unos viales. Ni siquiera ha mirado en tu dirección desde que has entrado, así que tú también piensas ignorarla."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Es en ese momento en el que te fijas que ¡tiene un brazo mecánico!"
 		},
 		{
 			"animation": "[Default]",
@@ -89,8 +95,8 @@
 			"text": "¡EY! ¿ME OYES? Soy [pc_name], vamos a ir juntos a clase."
 		},
 		{
-			"animation": "bounce.gd",
-			"animation_length": 0,
+			"animation": "wobble.gd",
+			"animation_length": 1,
 			"animation_wait": true,
 			"change_mirror_portrait": false,
 			"change_position": true,
@@ -98,7 +104,7 @@
 			"character": "character-1685734475.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
-			"portrait": "Speechless",
+			"portrait": "Default",
 			"portrait_definition": "",
 			"position": {
 				"0": false,
@@ -113,8 +119,8 @@
 		{
 			"character": "character-1685734475.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "¡MIra lo que has hecho!"
+			"portrait": "Speechless",
+			"text": "¡Mira lo que has hecho!"
 		},
 		{
 			"character": "character-1685734475.json",
@@ -157,7 +163,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Pasa 1 minutos."
+			"text": "Pasa 1 minuto."
 		},
 		{
 			"character": "",
@@ -249,13 +255,14 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Pasan 9 minutos y medios. Cuando oyes un suspiro, la chica mira el reloj y se pone en actitud pensativa."
+			"text": "Pasan 9 minutos y medio. Cuando oyes un suspiro, la chica mira el reloj y se pone en actitud pensativa."
 		},
 		{
-			"animation": "slide_in_right.gd",
+			"animation": "headshake.gd",
 			"animation_length": 1,
 			"animation_wait": true,
 			"change_mirror_portrait": false,
+			"change_position": true,
 			"change_z_index": false,
 			"character": "character-1685734475.json",
 			"event_id": "dialogic_002",
@@ -269,14 +276,26 @@
 				"3": false,
 				"4": false
 			},
-			"type": 0,
+			"type": 2,
 			"z_index": 0
 		},
 		{
 			"character": "character-1685734475.json",
 			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Ok, tu ganas. Me llamo Wai-Ting."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Y tú eres una persona molesta."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
 			"portrait": "Subtle smile",
-			"text": "Ok, tu ganas. Me llamo Wai-Ting y tú eres una persona molesta pero admiro tu tenacidad."
+			"text": "Pero admiro tu tenacidad."
 		},
 		{
 			"character": "character-1685478188.json",
@@ -310,9 +329,30 @@
 			"event_id": "dialogic_013"
 		},
 		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": true,
+			"change_z_index": false,
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Annoyed",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
 			"character": "character-1685734475.json",
 			"event_id": "dialogic_001",
-			"portrait": "Annoyed",
+			"portrait": "(Don't change)",
 			"text": "Me llamo Wai-Ting."
 		},
 		{
@@ -357,13 +397,13 @@
 		{
 			"character": "character-1685734475.json",
 			"event_id": "dialogic_001",
-			"portrait": "Subtle smile",
+			"portrait": "Annoyed",
 			"text": "Soy Taiwanesa, estúpido primate."
 		},
 		{
 			"character": "character-1685734475.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Subtle smile",
 			"text": "Bueno, al menos parece que no seré la única a la que le cuesta hablar con gente normal."
 		},
 		{

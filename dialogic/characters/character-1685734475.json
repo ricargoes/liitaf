@@ -1,5 +1,5 @@
 {
-	"color": "#ff000000",
+	"color": "#ff88897f",
 	"description": "",
 	"display_name": "",
 	"display_name_bool": false,
@@ -32,6 +32,6 @@
 			"path": "res://resources/characters/Wai-Ting/Subtle smile.png"
 		}
 	],
-	"scale": 20,
+	"scale": 30,
 	"theme": ""
 }
