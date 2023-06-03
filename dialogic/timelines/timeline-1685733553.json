@@ -1,6 +1,570 @@
 {
 	"events": [
+		{
+			"background": "res://resources/backgrounds/camo.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Entras en el laboratorio y allí te encuentras con Wei-Ting que está en una esquina del laboratorio trabajando en silencio."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A medida que te acercas ves que está manipulando un dispositivo largo y estrecho, que parece sacado de una película steampunk."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Con la mano izquierda sujeta un pincel que está usando para aplicar un líquido en el disposivo. Con la mano derecha.."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Espera, \"¿donde está la mano derecha?\" te preguntas. Y es en ese momento cuando reconoces el dispositivo que está manipulando: su brazo robótico. Le debe estar haciendo mantenimiento."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
 
+			],
+			"portrait": "",
+			"question": "Wai-Ting empieza a recoger las cosas, parece que está terminado."
+		},
+		{
+			"choice": "Espero a que termine de colocarse el brazo",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Termina de recoger el pincel y el aceite, entonces se empieza a desvestir."
+		},
+		{
+			"choice": "Carraspeas",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Al verte se apresura a terminar de desabrocharse la camisa, ponerse el brazo y vestirse de nuevo. "
+		},
+		{
+			"choice": "Te quedas paralizado, no sabes que hacer",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sin saber que hacer, miras paralizado como se quita la camisa y se queda en sujetador. Te sorprende ver que los músculos de la espalda y torso de esta rata de laboratorio están perfectamente tonificados."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " Notas como sube la temperatura de la habitación cuando te fijas en el sexy sujetador de encaje que lleva."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Con movimientos metódicos y seguros Wai-Ting coge el brazo con la mano izquierda y con destreza se lo coloca en un hueco en el hombro derecho con un sonoro click."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mientras se abrocha la camisa, por fin repara en tu presencia. No parece molestarle que le hayas visto medio desnuda."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "La saludo y, probablemente, la sobresalto",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hola Wai-Ting"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ella se gira abruptamente y cuando te ve allí, pega un gritito. Oculta su hombro derecho con el cuerpo y su brazo bueno. Pero es inutil tratar de ocultar que te falta un miembro. Te habla con frialdad."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Date la vuelta"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Actua como si la hubieras encontrado desnuda. De hecho, algo te dice que no hubiera reaccionado tan fuertemente si realmente la hubieras encontrado desnuda."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oyes el sonido de ropa quitandose y luego un sonido metálico de piezas encajando. Tras un momento, te dice que ya te puedes dar la vuelta."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Cuando te giras, todavía está atándose los botones de la camiseta."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hola, ¿qué quieres?"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No parece en absoluto afectada por lo que acaba de suceder."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Eh.."
+		},
+		{
+			"choice": "Te disculpas",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Lo siento, lo siento!"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No sabía que te ibas a cambiar.. ¿el brazo?.. de repente."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Thougtful",
+			"text": "¿De qué hablas?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "De que.. de que te he visto medio desnuda sin querer."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Y que importancia tiene eso?"
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "No me gusta que me encuentren sin el brazo porque me siento indefensa pero esta ropa tan fina no me da ninguna protección."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pero te he visto casi desnuda, ¿eso te da igual?"
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Thougtful",
+			"text": "¿Por qué no iba a darme igual?"
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Thougtful",
+			"text": "Aaaaahh"
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Subtle smile",
+			"text": "A los de aquí os incomoda mostrar el cuerpo desnudo, ¿verdad? Si es verdad que lo había leido en algún sitio. "
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Siento haberte incomodado."
+		},
+		{
+			"choice": "Ignoras lo sucedido",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Estoy intentando conocer a mis compañeros mejor."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Le dedicas una sonrisa pero no tiene ningún efecto."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Thougtful",
+			"text": "¿Quieres conocerme mejor a mi?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mmm.. ¿si?"
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Subtle smile",
+			"text": "Interesante."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Conocazmonos mejor."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Qué te paso en el brazo?"
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Tenia que hacerle mantenimiento."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Todo lo que necesitaba era un poco de aceite."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "No, me refiero.."
+		},
+		{
+			"choice": "¿Cómo perdiste el brazo?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Un dingo me pilló desprevenida."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡¿En serio?!"
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Fue una lucha sagrienta y al final conseguí defenderme."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pero el brazo estaba más allá de la salvación"
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Annoyed",
+			"text": "Quitarlo fue doloroso."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Es la historia más descabellada que he escuchado nunca."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Thougtful",
+			"question": "¿Insinúas que estoy mintiendo?"
+		},
+		{
+			"choice": "Si",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Debía habermelo imaginado."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Annoyed",
+			"text": "La gente de aquí no es muy inteligente."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Subtle smile",
+			"text": "Pero no te preocupes, haré lo posible para ayudarte a entender las cosas."
+		},
+		{
+			"choice": "No",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "Igual no deberías, apenas nos conocemos. Tal como tú has indicado al iniciar esta conversación."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Pero tienes suerte, soy una persona hones y te estoy diciendo la verdad."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Un dingo, ¿en serio?"
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Annoyed",
+			"text": "¡Son criaturas viciosas!"
+		},
+		{
+			"choice": "¿Un brazo cibernético funcional? ¡Eso es imposible!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Imposible para ti."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Nunca le he visto a nadie una tecnología similar."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ah, pero es que en toda la Tierra no encontras un igual a mi."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Y aquí tengo todos los recursos para satisfacer mis investigaciones."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Es impresionante, ¿piensas vender la tecnología?"
+		},
+		{
+			"animation": "shake_y.gd",
+			"animation_length": 0.2,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Speechless",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "¿Vender?"
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Por quien me has tomado?"
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡No tienes ni..!"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Vale, vale, vale!"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Wow, en cualquier caso, eres una persona impresionante."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Lo soy."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ha sido una conversación agradable."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Podemos conocernos más en otro momento."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ahora es momento de partir."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Con una mirada explicita hacia la puerta, la implicación está clara: la conversación ha terminado."
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",
