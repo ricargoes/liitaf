@@ -1,6 +1,9 @@
 {
 	"events": [
-
+		{
+			"background": "res://resources/backgrounds/camo.png",
+			"event_id": "dialogic_021"
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",
