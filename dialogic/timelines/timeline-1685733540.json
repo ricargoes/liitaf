@@ -14,7 +14,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Tras la cena, acabas en el apartamento de Zachary. Un ático en el centro con paredes acristaladas y una vista expectacular."
+			"text": "Tras la cena, acabas en el apartamento de Zachary. Un ático en el centro con paredes acristaladas y una vista espectacular."
 		},
 		{
 			"character": "",
@@ -74,13 +74,13 @@
 			"character": "character-1685734489.json",
 			"event_id": "dialogic_001",
 			"portrait": "Happy",
-			"text": "Es complicado encontrar a personas de confianza en estos tiempos... La verdad es que tú estás resultándome muy intersante y estaba deseando tener un momento a solas para hablar contigo de ello."
+			"text": "Es complicado encontrar a personas de confianza en estos tiempos... La verdad es que tú estás resultándome muy interesante y estaba deseando tener un momento a solas para hablar contigo de ello."
 		},
 		{
 			"character": "character-1685734489.json",
 			"event_id": "dialogic_001",
 			"portrait": "(Don't change)",
-			"text": "Por norma general la gente que conozco parece vivir en un lugar diferente al mio, pero a ti... A ti te siento mucho más cerca."
+			"text": "Por norma general la gente que conozco parece vivir en un lugar diferente al mío, pero a ti... A ti te siento mucho más cerca."
 		},
 		{
 			"character": "character-1685734489.json",
@@ -189,7 +189,7 @@
 			"character": "character-1685478188.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "No se exactamente que eres, no se por qué estás aquí... Pero siento algo muy fuerte por ti, y creo que tu sientes lo mismo.\n\nAntes de seguir avanzando, las cartas deben estar sobre la mesa."
+			"text": "No sé exactamente que eres, no sé por qué estás aquí... Pero siento algo muy fuerte por ti, y creo que tu sientes lo mismo.\n\nAntes de seguir avanzando, las cartas deben estar sobre la mesa."
 		},
 		{
 			"character": "character-1685734489.json",
@@ -207,7 +207,7 @@
 			"character": "character-1685734489.json",
 			"event_id": "dialogic_001",
 			"portrait": "Default",
-			"text": "Mira, en el fondo el futuro es algo que aun está abierto. Yo ni siquiera tengo del todo claro como van a suceder las cosas, pero si hay algo que se, es que quiero que seas importante para mi."
+			"text": "Mira, en el fondo el futuro es algo que aún está abierto. Yo ni siquiera tengo del todo claro cómo van a suceder las cosas, pero si hay algo que se, es que quiero que seas importante para mi."
 		},
 		{
 			"character": "character-1685734489.json",
@@ -219,7 +219,7 @@
 			"character": "character-1685734489.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "La humanidad y el imperio ornitorrinco tendrán que enfrentarse de todas formas, y tu y yo podemos mantenernos al margen y disfrutar de los acontecimientos tal y como sucedan."
+			"text": "La humanidad y el imperio ornitorrinco tendrán que enfrentarse de todas formas, y tú y yo podemos mantenernos al margen y disfrutar de los acontecimientos tal y como sucedan."
 		},
 		{
 			"character": "character-1685734489.json",
@@ -234,7 +234,7 @@
 
 			],
 			"portrait": "",
-			"question": "Por supuesto, la decisión es tuya. Yo no quiero que nuestra relación empiece con un acto de coherción. Quiero que te sientas totalmente libre en este instante."
+			"question": "Por supuesto, la decisión es tuya. Yo no quiero que nuestra relación empiece con un acto de coerción. Quiero que te sientas totalmente libre en este instante."
 		},
 		{
 			"choice": "¿Seré siempre libre?",
@@ -250,7 +250,7 @@
 
 			],
 			"portrait": "(Don't change)",
-			"question": "El futuro es algo muy complejo... Lo que se es que podemos permanecer juntos."
+			"question": "El futuro es algo muy complejo... Lo que sé es que podemos permanecer juntos."
 		},
 		{
 			"choice": "Creo que no puedo abandonar a todos los humanos por un futuro incierto",
