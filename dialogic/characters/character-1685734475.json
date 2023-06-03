@@ -26,8 +26,12 @@
 		{
 			"name": "Annoyed",
 			"path": "res://resources/characters/Wai-Ting/Annoyed.png"
+		},
+		{
+			"name": "Subtle smile",
+			"path": "res://resources/characters/Wai-Ting/Subtle smile.png"
 		}
 	],
-	"scale": 30,
+	"scale": 20,
 	"theme": ""
 }
