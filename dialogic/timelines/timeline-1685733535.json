@@ -3,6 +3,30 @@
 		{
 			"background": "res://resources/backgrounds/camo.png",
 			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Acompañas a Zachary a visitar a una de las actrices de la compañía de teatro. Está pasando por un mal momento.\n\nEncontráis a una chica llorando porque su perrete está enfermo."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Zachary la anima haciéndole recordar con ternura los momentos que han pasado juntos. Mientras la abraza, observas una sonrisa de extraña satisfacción en su rostro."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Cuando os alejáis del lugar, te habla sobre como le gusta hacer a los demás darse cuenta de las oportunidades que tienen de ser felices.\n\nTe coge de la mano y apoya la cabeza en tu hombro."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Te pincha un poco con la barba y os reís..."
 		}
 	],
 	"metadata": {

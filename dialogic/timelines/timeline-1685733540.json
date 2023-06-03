@@ -3,6 +3,343 @@
 		{
 			"background": "res://resources/backgrounds/camo.png",
 			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Asistes a la representación de la obra de teatro de Zachary.\n\nAl final de la obra, acompañas a toda la compañía a tomar unas copas. La satisfacción de la gente con el resultado de la obra te conmueve."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Tras la cena, acabas en el apartamento de Zachary. Un ático en el centro con paredes acristaladas y una vista expectacular."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "El lugar es muy amplio. Aun así, el salón y el dormitorio comparten estancia y están separados por una suave cortina de viso."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Notas la mente calculadora detrás de la disposición de los muebles, la forma en la que están las sillas, la limpieza... Empiezas a sospechar que, efectivamente, Zachary no es quien dice ser..."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Happy",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "(Don't change)",
+			"question": "Parece que hayas visto a un fantasma, ¿por qué no te sientas en algún sitio mientras preparo una copa?"
+		},
+		{
+			"choice": "Estoy un poco aturdido, creo que me voy a sentar en la cama...",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "Blushing",
+			"text": "Je je je... Buena elección. Es definitivamente mi lugar favorito."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Es complicado encontrar a personas de confianza en estos tiempos... La verdad es que tú estás resultándome muy intersante y estaba deseando tener un momento a solas para hablar contigo de ello."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "Por norma general la gente que conozco parece vivir en un lugar diferente al mio, pero a ti... A ti te siento mucho más cerca."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Blushing",
+			"question": "Me gustaría saber como de atados ves nuestros futuros, [pc_name]..."
+		},
+		{
+			"choice": "Parece que caminamos en la misma dirección, sí...",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Happy",
+			"question": "Me gusta la gente como tú... Me gusta liderar pero a la vez escuchar a la gente que tengo cerca. Pero mi vida tiene algunos detalles que no están hechos para gente con un corazón blando..."
+		},
+		{
+			"choice": "Lo se, se de lo que me estás hablando...",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Se por donde vas, pero antes tenemos que hablar la cosa que YO quiero saber...",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"choice": "Antes de continuar, hay algo de lo que tenemos que hablar...",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "soiknow"
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "¿Qué quieres decir? No será..."
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No creas que soy una persona tan ingenua. De hecho, tus acciones no han hecho más que confirmar constantemente mis sospechas.\n\nY los eventos de estos días lo han dejado totalmente claro."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No se exactamente que eres, no se por qué estás aquí... Pero siento algo muy fuerte por ti, y creo que tu sientes lo mismo.\n\nAntes de seguir avanzando, las cartas deben estar sobre la mesa."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "Siento mucho habertelo ocultado... Lo más importante es que sepas que eres alguien muy importante para mi.\n\nPero lo que te imaginas es probablemente la verdad."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Sí, eso también, sobre todo eso... ja ja ja."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Mira, en el fondo el futuro es algo que aun está abierto. Yo ni siquiera tengo del todo claro como van a suceder las cosas, pero si hay algo que se, es que quiero que seas importante para mi."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Y para ser importante, eso significa que tendrás que aceptar algunos cambios en tu vida."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La humanidad y el imperio ornitorrinco tendrán que enfrentarse de todas formas, y tu y yo podemos mantenernos al margen y disfrutar de los acontecimientos tal y como sucedan."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": ""
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Por supuesto, la decisión es tuya. Yo no quiero que nuestra relación empiece con un acto de coherción. Quiero que te sientas totalmente libre en este instante."
+		},
+		{
+			"choice": "¿Seré siempre libre?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "(Don't change)",
+			"question": "El futuro es algo muy complejo... Lo que se es que podemos permanecer juntos."
+		},
+		{
+			"choice": "Creo que no puedo abandonar a todos los humanos por un futuro incierto",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "Lo entiendo, pero por desgracia conoces demasiado..."
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"change_timeline": "timeline-1685722565.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Mi vida tampoco estaba yendo muy bien. Descubramos juntos ese futuro.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"anchor_id": "anchor-1685812512",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "No lo tengo muy claro, pero descubrámoslo juntos.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1685812512",
+			"index": 0,
+			"name": "sexisgonnabeweird"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1685563048.cfg"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Tu vida inicia una nueva etapa con Zachary...\n\nLos retos de mantener una doble vida os pasan factura, pero con el tiempo persistís.\n\nNo consigues avanzar en la carrera militar. Asciendes algunos rangos pero la humanidad eventualmente sucumbe a la conspiración ornitorrinca. No sin un grave coste.\n\nCon los años Zachary se va volviendo más y más controlador. Un día te miras al espejo y ves una siniestra sombra de lo que en su día pudiste ser, y lo que nunca ocurrirá...\n\n[center]Vía de amor ornitorrinco con Zachary finalizada.[/center]"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "default-theme.cfg"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
 		}
 	],
 	"metadata": {

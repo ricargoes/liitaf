@@ -3,6 +3,12 @@
 		{
 			"background": "res://resources/backgrounds/camo.png",
 			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Acompañas a Zachary al local de su compañía de teatro. ¡Resulta que es un actor excelente!\n\nLos otros actores de la obra son muy amigables contigo."
 		}
 	],
 	"metadata": {

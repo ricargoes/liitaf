@@ -3,6 +3,68 @@
 		{
 			"background": "res://resources/backgrounds/camo.png",
 			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Asistes a la representación de la obra de teatro de Zachary.\n\nAl final de la obra, acompañas a toda la compañía a tomar unas copas. La satisfacción de la gente con el resultado de la obra te conmueve."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Tras la cena, acabas en el apartamento de Zachary. Un ático en el centro con paredes acristaladas y una vista expectacular."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "El lugar es muy amplio. Aun así, el salón y el dormitorio comparten estancia y están separados por una suave cortina de viso."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Parece tu noche de suerte."
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1685563048.cfg"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Happy",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Tu vida inicia una nueva etapa con Zachary...\n\nHay cosas extrañas en vuestra relación que nunca terminas de comprender del todo... Especialmente en los momentos más íntimos.\n\nNo consigues avanzar en la carrera militar. Asciendes algunos rangos pero la humanidad eventualmente sucumbe a una invasión alienígena.\n\nTú y Zachary salís adelante. Su capacidad para ejercer control sobre los demás es sobrenatural. No sabes hasta que punto controlas tus propias ideas... pero lo único que sientes es plena satisfacción. No dirías que no a nada que te pidiese...\n\n[center]Vía de amor ciego con Zachary finalizada.[/center]"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "default-theme.cfg"
 		}
 	],
 	"metadata": {
