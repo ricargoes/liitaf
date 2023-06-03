@@ -1,6 +1,526 @@
 {
 	"events": [
+		{
+			"background": "res://resources/backgrounds/camo.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Buscando a Wai-Ting entras en el laboratorio."
+		},
+		{
+			"animation": "slide_in_right.gd",
+			"animation_length": 0.2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[pc_name], es una excelente coincidencia que llegues ahora. Necesito que alguien me ayude."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Acercate por aquí"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿En que te puedo ayudar?"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "De la que te acercas a la mesa ves un dispositivo alto y cilindrico con una gran esfera metálica en la parte superior."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Está encendido y se ve una cinta subiendo y bajando continuamente como una cinta transportadora. De cerca es un poco intimidante."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Y qué es ese cacharro?"
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Subtle smile",
+			"text": "Es un generador de Van de Graff."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
 
+			],
+			"portrait": "",
+			"question": "Wai-Ting lo dice con satisfacción mirando la máquina y no añade nada más. Obviamente asume que sabes lo que es un generador de Van de Graff."
+		},
+		{
+			"choice": "Claro, por supuesto, un generador de Van der Graff",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "shake_y.gd",
+			"animation_length": 0.1,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "De nuevo, tu compañera asiente satisfecha"
+		},
+		{
+			"choice": "¿Qué es un generador de Banderaff?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "bounce.gd",
+			"animation_length": 0.2,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Annoyed",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿En serio te tengo que explicar esto?"
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Thougtful",
+			"text": "Un generador de Van de Graff es una máquina que se usa para generar electricidad estática. Esa cinta que ves en movimiento roza continuamente el metal, transfiriendole electrones."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Diseñado a principios del s. XX por el físico americano Robert J. Van de Graaff, él lo necesitaba para .."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Wai-Ting esta un rato hablando sobre el cacharro. Te sorprendes a ti mismo escuchando con interés, para ser una chica tan distante en algunos aspectos, es muy cercana y didactica en otro. El brillo de pasión que ves en sus ojos explica esta contradicción."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": ".. y al final, al cabo de un rato corto eres capaz de generar electricidad a más de cien mil voltios en la esfera metálica. "
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿100.000 V? Eso es una barbaridad. Alguien podría morir si lo toca."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Con las intentidades que manejamos no realmente, igual un animal pequeño como un conejo si. Pero no te preocupes, no dejaré que te pase nada. Aún así sería estúpido negar que tocarlo podría ser peligroso."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Y qué necesitas que yo haga?"
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Es muy fácil, solo necesito que lo toques."
+		},
+		{
+			"choice": "¿Perdón?, ¿a qué te refieres con tocarlo?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "Annoyed",
+			"text": "Wai-Ting te mira como si tuvieses algun tipo de deficiencia mental, no te gusta lo que ves en sus ojos."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Thougtful",
+			"text": "A que pongas la mano encima."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Le cuesta pero consigue decirlo con suavidad y dulzura, como si le estuviese hablando a un niño."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Venga, pon la mano sobre la esfera metalica."
+		},
+		{
+			"choice": "Okeeeeey",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"anchor_id": "anchor-1685830830",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "No",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Valeeeee",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"anchor_id": "anchor-1685830830",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "No",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "Negarse a tocar el Van de Graff"
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Annoyed",
+			"text": "No seas irracional; estás conmigo, no te pasará nada."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Default",
+			"question": "¿Acaso no te fias de mi competencia?"
+		},
+		{
+			"choice": "(Tragas saliva y te dispones a tocar la esfera)",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"anchor_id": "anchor-1685830830",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "No",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Annoyed",
+			"text": "Entonces hemos acabado, vete de aquí."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1685830830",
+			"index": 0,
+			"name": "Tocar Van de Graff"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Lentamente y con mucha indecisión levantas la mano y te acercas al dispositivo."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Cierras los ojos y posas la mano en el frio meta."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Para tu sorpresa, no notas nada; no pasa nada. Respiras aliviado."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Esto ha sido algo anticlimático, ¿qué estamos haciendo?"
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Thougtful",
+			"text": "Estoy midiendo el índice de conductividad eléctrica de distíntos animales."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Wai-Ting termina de anotar algo en su cuaderno y se hacerca a ti."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Y yo te estoy ayudando a medir el de los humanos?"
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Si."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Y por qué no te usas a ti misma?"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La chica te vuelve a mirar con condescendencia."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Subtle smile",
+			"text": "Porque yo soy la investigadora."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Ahora callate y extiende la mano en mi dirección."
+		},
+		{
+			"choice": "(Lo haces)",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "¿Estamos seguros de esto?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Si"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No hay escapatoria, extiendes la mano libre en su dirección completamente extendida.."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ella extiende su mano buena y durante un breve momento vuestra piel se roza. A pesar de lo fría que se muestra, es caliente y suave al tacto y sientes una corriente electrica metafórica pasando entre vosotros."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "En el siguiente instante notas una corriente electrica literal pasar entre vosotros. Notas dolor. Ves y oyes una chispa eléctrica de color azul entre vuestros dedos."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Auuu, eso ha dolido."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Thougtful",
+			"text": "Dije que estarías a salvo, no que no fuese a doler."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Wai-Ting ni siquiera te mira mientras habla, esta escribiendo furiosamente en su libreta."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "De repente se gira y te mira en los ojos. Te sorprende ver una expresión de júbilo infantil en ellos.."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Gracias por ayudarme [pc_name], casi nadie se ofrece a colaborar conmigo."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No te sorprende pero no puedes evitar sentirte un poco triste por ella. Realmente disfruta estas cosas."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Thougtful",
+			"text": "Quizá podrías ayudarme con mi brazo robótico esta tarde."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Supongo que.."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Bueno, hemos acabado. Gracias por tu ayuda, vuelve otro día."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Se gira y no vuelve a mirar en tu dirección. Te vas."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",

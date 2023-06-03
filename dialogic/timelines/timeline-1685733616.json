@@ -1,6 +1,388 @@
 {
 	"events": [
+		{
+			"background": "res://resources/backgrounds/camo.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Según entras en el laboratorio, Wai-Ting se levanta y va hacia ti a toda velocidad, va tan rápido que por el camino tiene que esquivar algún obstaculo."
+		},
+		{
+			"animation": "bouncing_in.gd",
+			"animation_length": 0.2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_010",
+			"options": [
 
+			],
+			"portrait": "Default",
+			"question": "Me gustas [pc_name]."
+		},
+		{
+			"choice": "¡Yo también estoy enamorado de ti!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "wobble.gd",
+			"animation_length": 0.8,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Speechless",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "Speechless",
+			"text": "Por su reacción enseguida te das cuenta de que eso no era a lo que ella se refería. Te pones muy rojo y muy nervioso."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Eeeeeeh, queria decir que tu tambien me gustas Wai-Ting. Siempre me lo paso muy bien contigo."
+		},
+		{
+			"choice": "Tú tambien me gustas Wai-Ting.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Eeeeeh..",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Woooo, para el carro.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Thougtful",
+			"text": "Es que siempre me tratas con respeto e intentas ayudarme con mis cosas."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Subtle smile",
+			"question": "Me resulta agradable estar cerca tuyo."
+		},
+		{
+			"choice": "¡Estoy enamorado de ti!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "wobble.gd",
+			"animation_length": 0.8,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Speechless",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "Speechless",
+			"text": "Te das cuenta de que no esta intentando hacer una declaración de amor. Simplemente te está transmitiendo que le gusta estar contigo."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Como amigo quiero decir! Cuando estoy contigo el tiempo vuela, es como una descarga electrica."
+		},
+		{
+			"choice": "Somos buenos el uno para el otro.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pero bueno, seguro que tienes a mucha otra gente que se comporta como yo o mejor."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ella niega con la cabeza mirando al suelo, es lo más cabizbaja que la has visto nunca."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Thougtful",
+			"text": "Eres el único, me cuesta hacer amigos."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Incluso contigo tuve miedo de haberte espantado con las conversaciones que hemos tenido hasta ahora."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Puedes creerme cuando te digo que las conversaciones que he tenido contigo"
+		},
+		{
+			"choice": "han sido didactivas.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "han sido autenticas aventuras.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "han dado un poco de miedo.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Subtle smile",
+			"text": "A eso me refiero, es imposible tener una conversación normal conmigo. Siempre acaban siendo demasiado intensas."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Siempre acabo haciendo cosas que los demás consideran asociales, inapropiadas u hostiles."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Venga, eso no es verdad, ¿como qué?"
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Thougtful",
+			"text": "Hacer chistes sobre negros, comer con las manos,usar los cuchillos para limpiarme las uñas, electrocutar compañeros, tirarme pedos delante de gente, recalcar como de superior intelectualmente soy sobre los demás (por lo que me han dicho, eso no les gusta nada aunque es verdad), "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "prender fuego a ovejas, desnudarme delante de extraños, hablar en QuaQinaZthor, echar a la gente cuando ya no se que decirles, silencios incomodos, insultar a los demás cuando no me dejan hablar, intentar acostarme con los profesores, hablar de mi virginidad en público y de lo desesperada que estoy de llevarme algo entre las piernas,"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " matar tortugas usando solo rayos de sol o matar peces usando solo agua, desvelar detalles de mi misión al imperio sin darme cuenta, burlarme de Winni the Pooh, insultar y empujar niños, intentar hablar con patos en público, intentar tener sexo con un pato en público.. "
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Para para, ya he oido bastante."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Lo he vuelto a hacer, ¿verdad?"
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡A ti también te incomodo!"
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Annoyed",
+			"text": "Es que no entiendo porque les molesta tanto. La oveja por ejemplo: estaba haciendo un experimiento sobre los riesgos de la ropa de lana cuando hay riesgo de fuego alrededor. "
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pues resulta que es peligroso porque arde muy rápido y pude tomar muchos datos mientras la oveja ardía, también pude apuntar cosas para mi investigación sobre los límites del dolor.."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " ¡Ahí lo tienes!, una buena investigación con buenos datos de resultado. ¡Pues no veas como se pusieron!, ¡si la iban a matar de todas formas! ¡Malditos hipocritas! Lo que querían era matarla ellos y no dar nada a cambio."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A veces me gustaría tener amigos como el resto del mundo, aunque sean inferiores a mi, No tener que medir continuamente mis palabras y que los demás no se sientan intimidados por mi intelecto. Pero es demasiado dificil."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Con el tiempo que habéis pasado juntos, has desarrollado un afecto hacia esta peculiar chica. Pero es duro oirla hablar sobre todas locuras."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Wai-Ting, yo"
+		},
+		{
+			"choice": "te ayudaré a guiarte entre lo que esta aceptado y lo que no.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Speechless",
+			"question": "¿En serio?, eso sería un esfuerzo inaceptable por tu parte. Para empezar tendríamos que pasar mucho más tiempo juntos."
+		},
+		{
+			"choice": "Esa no es más que otra razón para hacerlo.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Igual podíamos hacer algo juntos esta tarde."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Wai-Ting te sorprende con una de sus extrañas, infrecuentes y dificiles de obtener sonrisas. Y te empiezas a dar cuenta que te estás volviendo adicto a ellas."
+		},
+		{
+			"choice": "Encontraremos una forma.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Wai-Ting asiente con la cabeza, mientras recupera su entereza. \"¿Donde me he metido?\", te preguntas por un lado asustado, por el otro excitado."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "me tengo que ir.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",

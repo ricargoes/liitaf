@@ -564,6 +564,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Con una mirada explicita hacia la puerta, la implicación está clara: la conversación ha terminado."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
 		}
 	],
 	"metadata": {

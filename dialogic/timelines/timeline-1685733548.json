@@ -411,6 +411,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Me voy, supongo que volveremos a vernos."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
 		}
 	],
 	"metadata": {
