@@ -3,6 +3,12 @@
 		{
 			"background": "res://resources/backgrounds/camo.png",
 			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pasas la tarde en el local de ensayo de Roxxane.\n\nSu banda es muy amigable y la forma en la toca el bajo te resulta hipnótica."
 		}
 	],
 	"metadata": {

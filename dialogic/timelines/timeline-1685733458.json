@@ -3,6 +3,68 @@
 		{
 			"background": "res://resources/backgrounds/camo.png",
 			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Por la tarde pasas de nuevo el rato con Roxxane en los locales de ensayo."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Al finalizar, te invita a su casa. Un bajo del barrio bohemio algo desordenado, pero con un cierto encanto."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Cuando entráis, te pide que te acomodes y se acerca a su cadena musical para poner algo tranquilo."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Te sientes muy bien... El ambiente es muy relajado... Sabes que estás de suerte y que si todo sale bien hoy, el futuro con Roxxane te espera en el horizonte..."
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1685563048.cfg"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Happy",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Tu vida inicia una nueva etapa con Roxanne...\n\nHay cosas extrañas en vuestra relación que nunca terminas de comprender del todo... Especialmente en los momentos más íntimos.\n\nNo consigues avanzar en la carrera militar. Asciendes algunos rangos pero la humanidad eventualmente sucumbe a una invasión alienígena.\n\nTu y Roxxane siempre sobrevivís. Ella siempre encuentra la forma de dar la vuelta a la situación y protegerte. Envejeces con ella... Pero su edad se mantiene para siempre, estática...\n\n[center]Vía de amor ciego con Roxxane finalizada.[/center]"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "default-theme.cfg"
 		}
 	],
 	"metadata": {
