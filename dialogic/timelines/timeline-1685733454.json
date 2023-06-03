@@ -26,7 +26,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Imediatamente te das cuenta de algunas cosas extrañas en la habitación y concluyes lo inevitable."
+			"text": "Inmediatamente te das cuenta de algunas cosas extrañas en la habitación y concluyes lo inevitable."
 		},
 		{
 			"character": "",
@@ -98,7 +98,7 @@
 			"question": "Me preguntaba si tu sentirías algo parecido, [pc_name]..."
 		},
 		{
-			"choice": "Sí que lo siento... Y me gustaría ver a donde lleva esa sensación.",
+			"choice": "Sí que lo siento... Y me gustaría ver a dónde lleva esa sensación.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
@@ -168,13 +168,13 @@
 			"character": "character-1685478188.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Desde hace unos días he ido sospechándolo. Mis últimas indagaciones lo han confirmado.\n\nSe quien eres en realidad."
+			"text": "Desde hace unos días he ido sospechándolo. Mis últimas indagaciones lo han confirmado.\n\nSé quien eres en realidad."
 		},
 		{
 			"character": "character-1685478188.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "A pesar de ello, no tengo muy claro como me siento... No se ni siquiera por qué estoy aquí... Supongo que espero algún tipo de explicación. O que me digas que nada es cierto."
+			"text": "A pesar de ello, no tengo muy claro cómo me siento... No se ni siquiera por qué estoy aquí... Supongo que espero algún tipo de explicación. O que me digas que nada es cierto."
 		},
 		{
 			"character": "character-1685734503.json",
@@ -222,7 +222,7 @@
 			"character": "character-1685734503.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Puede que incluso pueda garantizar la supervivencia de alguno de tus seres queridos... No se... Hasta 5 quizás. Siempre y cuando estéis dispuestos a no intervenir."
+			"text": "Puede que incluso pueda garantizar la supervivencia de alguno de tus seres queridos... No sé... Hasta 5 quizás. Siempre y cuando estéis dispuestos a no intervenir."
 		},
 		{
 			"character": "character-1685734503.json",
@@ -301,7 +301,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Tu vida inicia una nueva etapa con Roxanne...\n\nLos retos de mantener una doble vida os pasan factura, pero con el tiempo persistís.\n\nNo consigues avanzar en la carrera militar. Asciendes algunos rangos pero la humanidad eventualmente sucumbe a la conspiración ornitorrinca. No sin un grave coste.\n\nLa música de La Tierra se pierde en el olvido, salvo por los grupos que Roxxane recuerda, y que de vez en cuando te toca con su bajo.\n\n[center]Vía de amor ornitorrinco con Roxxane finalizada.[/center]"
+			"text": "Tu vida inicia una nueva etapa con Roxanne...\n\nLos retos de mantener una doble vida os pasan factura, pero con el tiempo persistís.\n\nNo consigues avanzar en la carrera militar. Asciendes algunos rangos pero la humanidad eventualmente sucumbe a la conspiración ornitorrinca. No sin un grave coste.\n\nLa música de La Tierra se pierde en el olvido, salvo por los grupos que Roxxane recuerda, y que de vez en cuando toca su bajo.\n\n[center]Vía de amor ornitorrinco con Roxxane finalizada.[/center]"
 		},
 		{
 			"event_id": "dialogic_022",
