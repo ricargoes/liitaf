@@ -1,6 +1,21 @@
 {
 	"events": [
-
+		{
+			"background": "res://resources/backgrounds/camo.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Asistes a un pequeño concierto de Roxxane en el barrio bohemio.\n\nDurante el concierto, ves que Roxxane te busca con la mirada en los descansos entre canciones."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Cuando por fin consigue cruzar la mirada contigo.\n\nTe sonríe. Sientes algo especial por dentro."
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",

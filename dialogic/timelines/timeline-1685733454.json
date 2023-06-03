@@ -1,6 +1,322 @@
 {
 	"events": [
+		{
+			"background": "res://resources/backgrounds/camo.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Por la tarde pasas de nuevo el rato con Roxxane en los locales de ensayo."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Al finalizar, te invita a su casa. Un bajo del barrio bohemio algo desordenado, pero con un cierto encanto."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Cuando entráis, te pide que te acomodes y se acerca a su cadena musical para poner algo tranquilo."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Imediatamente te das cuenta de algunas cosas extrañas en la habitación y concluyes lo inevitable."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Roxxane no es quien dice ser."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_010",
+			"options": [
 
+			],
+			"portrait": "Happy",
+			"question": "Oh. Tienes la cara un poco pálida, ¿estás bien?"
+		},
+		{
+			"choice": "Sí, sí, estoy bien. No me duele la cabeza ni nada. ¿Te sientas a mi lado?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "Blushing",
+			"text": "Claro."
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Verás. Estás siendo muy paciente conmigo estos días. Y definitivamente he notado que algo ha ido creciendo entre nosotros."
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "A mi no me resulta sencillo estar cerca de gente nueva... Y contigo no me noto así."
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Blushing",
+			"question": "Me preguntaba si tu sentirías algo parecido, [pc_name]..."
+		},
+		{
+			"choice": "Sí que lo siento... Y me gustaría ver a donde lleva esa sensación.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Happy",
+			"question": "Verás. Hay un secreto sobre mi... Algo que no cuento a mucha gente. Tengo miedo de como reacciones cuando lo descubras."
+		},
+		{
+			"choice": "No te preocupes. Conozco tu secreto.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"anchor_id": "anchor-1685810356",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Entiendo lo que dices, pero tengo algo que contarte.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"anchor_id": "anchor-1685810356",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"choice": "Roxxane, tengo algo que contarte.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1685810356",
+			"index": 0,
+			"name": "somethingtotell"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "¿Qué quieres decir? No será..."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Desde hace unos días he ido sospechándolo. Mis últimas indagaciones lo han confirmado.\n\nSe quien eres en realidad."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A pesar de ello, no tengo muy claro como me siento... No se ni siquiera por qué estoy aquí... Supongo que espero algún tipo de explicación. O que me digas que nada es cierto."
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Lo siento... Pero probablemente todo es cierto...\n\nSí, incluso eso. Eso sobre todo..."
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yo no quería que las cosas acabasen mal entre nosotros. Estoy dispuesta a acomodarte en mi vida, pero probablemente no se parece a la vida que querías llevar."
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ya sabes, una vida con menos..."
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "... sexo ornitorrinco."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Puedo asegurarme de que lleves una vida confortable. El imperio ornitorrinco mostrará clemencia por mis súbditos. Hacemos más pequeñas las puertas, pero si te acostumbras a ir arrastrándote no será un problema."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Puede que incluso pueda garantizar la supervivencia de alguno de tus seres queridos... No se... Hasta 5 quizás. Siempre y cuando estéis dispuestos a no intervenir."
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "¿Qué me dices?"
+		},
+		{
+			"choice": "No lo se...",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Blushing",
+			"question": "Pasaremos mucho tiempo juntos... Muy juntos..."
+		},
+		{
+			"choice": "Lo siento... No va a funcionar entre nosotros....",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Deberías haber elegido diferente... Es una pena que conozcas tanto..."
+		},
+		{
+			"change_timeline": "timeline-1685722565.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Será, hum... interesante... ¿Por qué no?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Qué demonios, nada puede salir mal.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "letsgo"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1685563048.cfg"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Tu vida inicia una nueva etapa con Roxanne...\n\nLos retos de mantener una doble vida os pasan factura, pero con el tiempo persistís.\n\nNo consigues avanzar en la carrera militar. Asciendes algunos rangos pero la humanidad eventualmente sucumbe a la conspiración ornitorrinca. No sin un grave coste.\n\nLa música de La Tierra se pierde en el olvido, salvo por los grupos que Roxxane recuerda, y que de vez en cuando te toca con su bajo.\n\n[center]Vía de amor ornitorrinco con Roxxane finalizada.[/center]"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "default-theme.cfg"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",
