@@ -20,7 +20,13 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "En el centro de la habitación, en una mesa de trabajo, hay una chica de rasgos asiaticos manejando unos viales. Ni siquiera ha mirado en tu dirección desde que has entrado, así que tú también piensas ignorarla. Es en ese momento en el que te fijas que ¡tiene un brazo mecánico!"
+			"text": "En el centro de la habitación, en una mesa de trabajo, hay una chica de rasgos asiaticos manejando unos viales. Ni siquiera ha mirado en tu dirección desde que has entrado, así que tú también piensas ignorarla."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Es en ese momento en el que te fijas que ¡tiene un brazo mecánico!"
 		},
 		{
 			"animation": "[Default]",
@@ -89,8 +95,8 @@
 			"text": "¡EY! ¿ME OYES? Soy [pc_name], vamos a ir juntos a clase."
 		},
 		{
-			"animation": "bounce.gd",
-			"animation_length": 0,
+			"animation": "wobble.gd",
+			"animation_length": 1,
 			"animation_wait": true,
 			"change_mirror_portrait": false,
 			"change_position": true,
@@ -98,7 +104,7 @@
 			"character": "character-1685734475.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
-			"portrait": "Speechless",
+			"portrait": "Default",
 			"portrait_definition": "",
 			"position": {
 				"0": false,
@@ -113,8 +119,8 @@
 		{
 			"character": "character-1685734475.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "¡MIra lo que has hecho!"
+			"portrait": "Speechless",
+			"text": "¡Mira lo que has hecho!"
 		},
 		{
 			"character": "character-1685734475.json",
@@ -391,13 +397,13 @@
 		{
 			"character": "character-1685734475.json",
 			"event_id": "dialogic_001",
-			"portrait": "Subtle smile",
+			"portrait": "Annoyed",
 			"text": "Soy Taiwanesa, estúpido primate."
 		},
 		{
 			"character": "character-1685734475.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Subtle smile",
 			"text": "Bueno, al menos parece que no seré la única a la que le cuesta hablar con gente normal."
 		},
 		{
