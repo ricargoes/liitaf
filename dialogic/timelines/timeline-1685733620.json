@@ -1,6 +1,666 @@
 {
 	"events": [
+		{
+			"background": "res://resources/backgrounds/camo.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Vas caminando con tranquilidad por lo pasillos de la academia cuando notas cómo alguién se aproxima rápidamente a ti."
+		},
+		{
+			"animation": "slide_in_left.gd",
+			"animation_length": 0.2,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡[pc_name]! Te estaba buscando."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_010",
+			"options": [
 
+			],
+			"portrait": "",
+			"question": "¿Podrías venir conmigo un momento, por favor?"
+		},
+		{
+			"choice": "Si, claro.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Es que estoy ocupado.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Speechless",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Es evidente que Wai-Ting no se esperaba esa respuesta. Por unos instantes se queda sin hablar, pero enseguida se recupera."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Por favor, hay una cosa que me gustaría enseñarte."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Qué cosa?"
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Subtle smile",
+			"text": "Es... una sorpresa."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Te gustará, te lo prometo."
+		},
+		{
+			"choice": "Venga, vamos.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "No.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Speechless",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Tú negativa le sacude bastante. Te vas dejandola derrotada en su sitio."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"background": "res://resources/backgrounds/camo.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Cuando entras en el laboratorio ves que está a oscuras. La única luz que se ve está en el centro de la habitación y pertenece a un proyector que está puesto enfrente de una pecera enorme llena de líquido."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La luz, al atravesar la pecera, se difunde en un abanico de colores y sale roja al otro lado. Es realmente bonito."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Vaya!, ¿qué es esto?"
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Thougtful",
+			"text": "Es un falso atardecer."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Wow, ¿cómo puedes falsificar un atardecer?"
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Es muy fácil de hacer, sólo tienes que hacer pasar luz blanca por una disolución de leche en agua."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Las partículas de leche generan difracción de Tyndall, que actúa similar a la difracción de Rayleigh (ya sabes, la del cielo), y van dispersando las frecuencias más altas de la luz. "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No has entendido nada."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Los colores más energéticos se quedan por el camino, creando un arcoiris en la pecera, y al final sólo queda luz roja."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Tu cabeza lo resume como: Agua + leche + luz. BAM. Falso atardecer con arcoiris de acompañamiento."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Subtle smile",
+			"question": "¿Qué te parece?"
+		},
+		{
+			"choice": "Es bonito, como tú.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Thougtful",
+			"text": "¿Qué tendrá que ver el atardecer conmigo? A veces dices cosas extrañas."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Soy inteligente, mucho, y eso es todo lo que importa. Lo suficientemente inteligente como para ser la dueña del atardecer."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Eehh si, el atardecer que has creado es muy bonito."
+		},
+		{
+			"choice": "Es bonito.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "¿En esto inviertes tu tiempo?. ¿En arcoiris y atardeceres.?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Annoyed",
+			"text": "No te preocupes, no lo volveré a hacer."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ya te puedes ir."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Subtle smile",
+			"text": "Lo es: el arcoiris, la luz cálida, la forma en que los colores se entremezclan para crear ese contraste, la física que lo explica..."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "Es todo precioso."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Lo es pero, ¿por qué lo has hecho?"
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "¿Qué quieres decir?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Para qué sirve?"
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Annoyed",
+			"text": "No tiene ninguna utilidad práctica, si es eso lo que estás preguntando."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Subtle smile",
+			"question": "Pero es bello."
+		},
+		{
+			"choice": "Vaya, te tenía por alguien terriblemente práctico.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Thougtful",
+			"text": "¿Crees que por qué me guste la ciencia y la tecnología, no soy capaz de disfrutar belleza?"
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Porque si lo soy, más que los demás me atrevería a decir."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Vosotros cogéis una flor y podeis ver lo bonita que es. Su forma, sus colores, su olor."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yo cojo una flor y también sé apreciar eso. Pero a la vez veo mucho más: me puedo imaginar las células que lo componen, los átomos y las complicadas interacciones entre todo ello. Eso también es bello."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "Vosotros veis la belleza a una escala, yo la veo en todas. Vosotros veis los colore bonitos, yo veo eso también y además veo los procesos evolutivos que han llevado a la flor a tener ese color. Eso es bello."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Por qué la flor tiene esa forma tan bonita?, ¿los insectos se sienten atraidos a ella por la forma, por el color, por el olor? Las preguntas son bellas."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yo también veo la belleza estética de la flor pero a la vez me puedo maravillar por los misterios que la rodean y excitarme por la búsqueda de respuestas. Eso es bello."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": ""
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "..."
+		},
+		{
+			"choice": "Ese discurso... estás citando a alguien, ¿verdad?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Speechless",
+			"text": "¡¡!!"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Y bien?"
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Quizás."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Jeje, estás llena de sorpresas."
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "No me esperaba este lado poético. Estás llena de sorpresas.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "sorpresas"
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "¡Lo estoy! No lo olvides."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Subtle smile",
+			"text": "Cómo lo olvidan todos los demás"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Eres una persona completamente diferente cuando estás en el laboratorio.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "La física, la química, la ingeniería son simples. Son predecibles. Una vez que las entiendes te puedes fiar de ellas. Y siempre son bellas."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Annoyed",
+			"text": "Las personas no son así, son mucho más dificiles de controlar y manipular. Siempre salen por sitios inesperados, te sorprenden y se burlan de ti."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La gente no te ha tratado bien, ¿verdad?"
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Annoyed",
+			"text": "No, la gente me tiene miedo. Confunde mi pasión con locura. Y yo no soy capaz de explicárselo."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Entiendo, yo te estoy conociendo y no me das miedo. Tú pasión me resulta.."
+		},
+		{
+			"animation": "tada.gd",
+			"animation_length": 0.2,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Wai-Ting te interrumpe abruptamente"
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Antes de venir aquí, cuando todavía vivía en Taiwan tenía amigos; o al menos gente que me conocía y aceptaba."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Qué pasó?"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Me corté el brazo."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡¿Qué?!"
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Habia desarrollado una prótesis cibernética, necesitaba probarla y además las utilidades extra que aporta me venían muy bien. Así que me amputé el brazo y me puse el brazo. "
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Fue un éxito, funcionaba a la perfección, sin un sólo bug. "
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Annoyed",
+			"text": "Pero la gente en vez de celebrarlo salieron despavoridos. Pensaban que me había vuelto loca y les iba a empezar a mutilar a ellos también."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Speechless",
+			"text": "Pero no estoy loca y no soy una psicópata. Aunque no lo veais tengo sentimientos y ermpatía. No disfruto haciendo sufrir a los demás y respeto sus decisiones."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Y ahora qué me dices, ¿sigo sin darte miedo?"
+		},
+		{
+			"choice": "Eres una persona intensa sí, pero también interesante y excitante. No me das miedo.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Subtle smile",
+			"text": "Me alegra escuchar eso."
+		},
+		{
+			"choice": "Me provocas algo de miedo si, pero también admiración. No dejas que nada te detenga.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Estás loca y no quiero que te vuelvas a acercar a mí.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Te giras y sales por la puerta sin permitir tiempo a réplica."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Subtle smile",
+			"text": "Eres una persona especial para mi, por fin alguien con quien puedo hablar sin tapujos."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Quiero que me cuentes más cosas sobre ti. Quiero descubrir que otras facetas tienes."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Subtle smile",
+			"text": "Igual podríamos hacer algo juntos esta tarde."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Definitivamente, deberíamos hacer algo juntos esta tarde."
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",
