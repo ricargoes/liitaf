@@ -1,6 +1,251 @@
 {
 	"events": [
+		{
+			"background": "res://resources/backgrounds/palm.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Paseando por una zona de la academia que desconocías, escuchas unas notas musicales muy sutiles, a veces erráticas."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Buscas el origen de la tenue música y te lleva a un pequeño patio interior con unas palmeras."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sobre el bordillo de una de las jardineras encuentras una mujer que esta tocando un bajo. Dirías que practica la estrofa de una canción porque murmulla lo que parece ser la letra."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mientras la observas, se percata de tu presencia y levanta la vista."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_010",
+			"options": [
 
+			],
+			"portrait": "",
+			"question": "Oh, hola...\n\n¿Nos conocemos?"
+		},
+		{
+			"choice": "Hola, soy [pc_name]. No conocía esta zona.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mi nombre es Roxxane, encantada. Estaba practicando un poco para un concierto que tengo en unos días."
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Esta zona de la academia es muy tranquila."
+		},
+		{
+			"choice": "No nos conocemos, pero podemos arreglarlo.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Em... Eh...\n\nHola, mi nombre es Roxxane. No hay mucho que hacer en esta zona de la academia. Probablemente preferirías estar en la cafetería."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mi nombre es [pc_name], encantado."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Estaba investigando el lugar y escuche las notas de tu bajo. ¿Eres cantante?"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No, no canto. No me gusta llamar mucho la atención...\n\nToco el bajo..."
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "¿Tú qué haces por aquí?"
+		},
+		{
+			"choice": "Soy estudiante. Mi sueño es ascender a General de Cinco Estrellas.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Oh! Pues si ese es tu sueño, quizás no deberías perder mucho el tiempo. No parece fácil."
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yo intento aprovechar los descansos entre clases para practicar con mi bajo, pero tú deberías estar estudiando si quieres alcanzar tu objetivo."
+		},
+		{
+			"choice": "He venido a conocer gente interesante y a estudiar en la academia.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pues si quieres conocer gente, has acertado. Esta academia está muy concurrida. Me ha costado un poco de trabajo encontrar este sitio..."
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pero si miras en otros lugares estoy segura de que encontrarás mucha gente interesante con la que charlar."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Roxxane no parece querer continuar hablando."
+		},
+		{
+			"choice": "Bueno, este sitio también está bien. Y tú me resultas interesante.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ya... Bueno, yo estoy ocupada... Necesito aprovechar los descansos para practicar."
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "¿Podríamos hablar en otro momento?"
+		},
+		{
+			"choice": "Sí, claro. Perdona. Ya nos vamos viendo.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hasta luego."
+		},
+		{
+			"choice": "¿Cuándo te viene bien?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Notas que Roxxane finje prisa de repente."
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Oh, se me ha hecho muy tarde!\n\nMe tengo que marchar. Encantada de conocerte."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Ha sido un placer conocerte. Te dejo practicar. ¡Nos vemos!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "Igualmente [pc_name]. Que tengas una buena mañana."
+		},
+		{
+			"event_id": "dialogic_013"
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",
