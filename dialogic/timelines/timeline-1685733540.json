@@ -136,10 +136,6 @@
 			"event_id": "dialogic_013"
 		},
 		{
-			"event_id": "dialogic_022",
-			"transition_duration": 1
-		},
-		{
 			"choice": "Antes de continuar, hay algo de lo que tenemos que hablar...",
 			"condition": "",
 			"definition": "",
@@ -220,12 +216,6 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "La humanidad y el imperio ornitorrinco tendrán que enfrentarse de todas formas, y tú y yo podemos mantenernos al margen y disfrutar de los acontecimientos tal y como sucedan."
-		},
-		{
-			"character": "character-1685734489.json",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": ""
 		},
 		{
 			"character": "character-1685734489.json",
