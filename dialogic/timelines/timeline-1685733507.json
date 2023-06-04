@@ -1,6 +1,371 @@
 {
 	"events": [
+		{
+			"background": "res://resources/backgrounds/cofee.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La cafetería parece más o menos despejada, pero aun así ves a un hombre esperando en la puerta, como si no hubiese sitio para sentarse."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
 
+			],
+			"portrait": "",
+			"question": "Hola, eres [pc_name], ¿verdad?"
+		},
+		{
+			"choice": "Sí... ¿te conozco?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "No, debes estar confundiéndome con otro.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Escucha...\n\n¿Ves a esos dos chicos en aquella mesa junto a la ventana?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Aham..."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Están en mi sitio."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No estoy familiarizado con las normas de reserva de mesa de la cafetería..."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[pc_name], en el mundo hay dos tipos de personas, las personas que siguen las reglas, y las personas que golpean a las reglas hasta que estas se ciñen a su voluntad."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "¿Tú qué clase de persona eres?"
+		},
+		{
+			"choice": "Yo sigo las reglas.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Excelente, pues tengo un trabajo para ti."
+		},
+		{
+			"choice": "Yo escribo mis propias reglas.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Perfecto, eso es lo que quería oir."
+		},
+		{
+			"choice": "¿Hay una tercera opción?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Vamos a ponerlo a prueba ahora mismo..."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Esos dos zoquetes están discutiendo por una mujer.\n\nEstoy familiarizado con los detalles. Ven conmigo y sígueme el rollo."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La curiosidad te compele a seguirle.\n\nEl salseo es el salseo."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Los chicos están discutiendo, efectivamente, por una mujer."
+		},
+		{
+			"character": "character-1685864043.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡El pelo de Flora huele a rosas!"
+		},
+		{
+			"character": "character-1685864069.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Te he dicho que no! ¡El olor es más similar al de una peonía!\n\nVes, yo conozco con mucho más detalle su aroma. Yo debería ser el elegido por Flora."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Te preguntas si alguien le habrá preguntado en algún momento a esa tal Flora que es lo que piensa..."
+		},
+		{
+			"character": "character-1685864043.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡No! ¡Yo seré el elegido!"
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A ver señores. Cálmense. Están en una academia militar.\n\nTenemos un código de conducta que debe respetarse en todo momento."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "¿Verdad que sí oficial?"
+		},
+		{
+			"choice": "Por supuesto.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "No tengo muy claro cómo el código de conducta aplicaría en este caso...",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "El código está claro. Según la normal A16, párrafo 6, sub-sección primera, las discusiones sobre el cortejo de una dama son una materia que queda totalmente fuera de los recintos oficiales."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Un cobarde, al presentarsele está información, se abstendría de continuar la absurda conversación que estábais manteniendo, pero vosotros no sois unos cobardes, ¿verdad?"
+		},
+		{
+			"character": "character-1685864069.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Verdad!"
+		},
+		{
+			"character": "character-1685864043.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No puedo hablar por nadie más en esta mesa. ¡Pero yo definitivamente no soy un cobarde!"
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Y conocéis a alguien que no sea cobarde y que a su vez no esté dispuesto a defender el honor de su dama?"
+		},
+		{
+			"character": "character-1685864043.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Cómo? Quiero decir... ¡No! ¡Yo no conozco a ningún cobarde!"
+		},
+		{
+			"character": "character-1685864069.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Pues yo si conozco a uno! ¡Y lo tengo delante!"
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Basta! Salid ahora mismo de la cafetería y discutidlo en el patio con unos buenos puñetazos. Flora no necesita un pusilánime que le huela el pelo a escondidas. ¡Flora necesita a un hombre!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Los chicos se levantan camino de lo que parece un parte de amodestación por violencia dentro de la academia."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Zachary se sienta satisfecho en su mesa y sorbe un poco de té de su copa de papel."
+		},
+		{
+			"choice": "¿Qué demonios?...",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Umh, eso ha sido... Intersante...",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La naturaleza del enamoramiento es perversa. Sin templanza estás a la merced de que otros se aprovechen de ti en esos momentos de debilidad."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "¿Te has enamorado alguna vez [pc_name]?"
+		},
+		{
+			"choice": "Sí.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "No.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Creo que ahora mismo.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hum..."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Nunca te enamores de alguien en quien no estés dispuesto a confiar ciegamente. La sumisión ciega a la emoción es mejor que el sufrimiento de vivir en una eterna lucha por la duda."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Zachary sorbe un poco más de su té.\n\nLa frase esa le ha quedado muy guapa. Y lo sabe."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Bueno. Muchas gracias por tu colaboración. Sin ti habría sido mucho más difícil.\n\nNos vamos viendo por la academia."
+		},
+		{
+			"definition": "1685713245-483",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",
