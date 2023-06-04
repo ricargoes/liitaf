@@ -25,6 +25,18 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "¿Recibiste mi mensaje de ayer? Te necesito, [pc_name], tengo miedo de enfrentarme solo a esto.\n\nPor favor, cuídate mucho. Si consigues ascender serás una de las personas que podrá ayudar a neutralizar la amenaza.\n\nPor ahora, intenta conseguir algo de información en la academia. Pregunta a alguno de tus compañeros y trata de indagar. Lo mismo no soy el primero que se encuentra con esto.\n\nPero no hables con nadie en quien no confíes plenamente.\n\nUn abrazo."
+		},
+		{
+			"definition": "1685713211-787",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
 		}
 	],
 	"metadata": {

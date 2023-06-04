@@ -9,6 +9,18 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Acompañas a Zachary al local de su compañía de teatro. ¡Resulta que es un actor excelente!\n\nLos otros actores de la obra son muy amigables contigo."
+		},
+		{
+			"definition": "1685713245-483",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
 		}
 	],
 	"metadata": {

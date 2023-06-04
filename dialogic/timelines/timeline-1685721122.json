@@ -13,6 +13,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "No recibes respuesta de Miguel esta noche..."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
 		}
 	],
 	"metadata": {

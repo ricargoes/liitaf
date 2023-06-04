@@ -11,6 +11,14 @@
 			"text": "Con mucho esfuerzo, memorizas un nuevo bloque de información que vomitarás en el examen y olvidarás una semana después."
 		},
 		{
+			"definition": "1685480190-265",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
 			"event_id": "dialogic_022",
 			"transition_duration": 1
 		}

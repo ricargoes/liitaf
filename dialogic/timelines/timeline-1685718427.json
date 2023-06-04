@@ -11,6 +11,14 @@
 			"text": "Hincas los codos y avanzas ligeramente en tu objetivo de llegar a General. Solo un poco, llegar a General no va a ser tan fácil."
 		},
 		{
+			"definition": "1685480190-265",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
 			"event_id": "dialogic_022",
 			"transition_duration": 1
 		}
