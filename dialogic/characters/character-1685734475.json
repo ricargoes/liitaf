@@ -30,6 +30,10 @@
 		{
 			"name": "Subtle smile",
 			"path": "res://resources/characters/Wai-Ting/Subtle smile.png"
+		},
+		{
+			"name": "Happy",
+			"path": "res://resources/characters/Wai-Ting/Happy.png"
 		}
 	],
 	"scale": 30,
