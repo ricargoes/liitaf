@@ -9,6 +9,18 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Pasas la tarde en el local de ensayo de Roxxane.\n\nSu banda es muy amigable y la forma en la que toca el bajo te resulta hipnótica."
+		},
+		{
+			"definition": "1685713226-146",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
 		}
 	],
 	"metadata": {

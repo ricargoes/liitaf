@@ -27,6 +27,18 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Te pincha un poco con la barba y os reís..."
+		},
+		{
+			"definition": "1685713245-483",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
 		}
 	],
 	"metadata": {
