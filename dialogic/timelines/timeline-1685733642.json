@@ -1,6 +1,91 @@
 {
 	"events": [
-
+		{
+			"background": "res://resources/backgrounds/camo.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Wai-Ting te ha citado en el laboratorio con el sol ya ha desaparecido. La academia está oscura y vacía."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Cuando te ve llegar, ni siquiera te deja entrar en la habitación y te pide que la sigas.\n\nSubís escaleras y transitáis pasillos por los que nunca habías estado."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Finalmente llegáis a la puerta metálica de la azotea y la cruzáis.\n\nSegún salís y dejáis atrás la luz eléctrica del edificio la oscuridad os cubre con un manto y no puedes ver nada."
+		},
+		{
+			"background": "res://resources/backgrounds/starred_sky.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Subtle smile",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Al cabo de unos segundo, tus ojos se acostumbran a la oscuridad y vuelves a ver gracias a la luz de las estrellas."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La academia está en mitad de ningún sitio y no hay nada de contaminación luminica. Las estrellas brillan como joyas."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Wai-Ting se ha tumbado en unas mantas que había en el suelo y te invita a acostarte a su lado. Hay también unos sandwiches preparados. Ha pensado en todo."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Te tumbas a su lado y ambos observáis las estrellas de la Vía Lactea. \"Me pregunto si habrá alguien allá arriba\" dices. Ella se gira interesada con una media sonrisa y un brillo en los ojos. Habláis animadamente sobre civilizaciones intergalácticas durante un rato."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "\"Esta vista siempre me hace sentir pequeña\", la científica subitamente ha adquirido un semblante grave, melancólico.  \"Y me hace pensar en casa\" susurra con una suave intensidad. "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Wai-Ting apoya su cabeza en tu pecho, suspira y cierra los ojos. Sientes su cálido cuerpo contra el tuyo, su respiración acompasada con tu respiración y el latido de su corazón acelerado. Tú también cierras los ojos y dejáis el tiempo pasar, en oscuridad, en silencio, en paz. "
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",
