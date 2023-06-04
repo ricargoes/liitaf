@@ -8,15 +8,15 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Haciendo acopio de voluntad, te sientas a estudiar. Te preguntas por la interesante vida social de tus compañeros pero tu objetivo actual es más importante."
+			"text": "Te prometes a ti mismo que te vas a concentrar y esta va a ser la última vez que vas a leer ese párrafo con el que siempre te distraes a mitad."
 		},
 		{
-			"definition": "1685480190-265",
+			"definition": "",
 			"event_id": "dialogic_014",
 			"operation": "+",
 			"random_upper_limit": 100,
 			"set_random": false,
-			"set_value": "1"
+			"set_value": "2"
 		},
 		{
 			"event_id": "dialogic_022",
@@ -25,7 +25,7 @@
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",
-		"file": "timeline-1685718457.json",
-		"name": "T03"
+		"file": "timeline-1685872590.json",
+		"name": "T13"
 	}
 }

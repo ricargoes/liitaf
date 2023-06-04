@@ -1,6 +1,522 @@
 {
 	"events": [
+		{
+			"background": "res://resources/backgrounds/palm.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"definition": "1685873489-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Encuentras de nuevo a Roxxane en el patio interior.\n\nTe preguntas si tendrá el sitio en alquiler..."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Esta vez no está tocando el bajo, tiene el bajo apoyado sobre ella y parece que está trabajando con una de las cuerdas."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
 
+			],
+			"portrait": "",
+			"question": "Te adentras en el patio..."
+		},
+		{
+			"choice": "¿Ya lo has roto?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Menudad brutalidad acabas de decir...\n\nLas cuerdas de un bajo no se rompen con facilidad."
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "He notado que su afinación está un poco desfasada, y estoy haciendo un ajuste."
+		},
+		{
+			"choice": "¿Necesitas ayuda? Se me dan bien los nudos.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1685873489-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Cómo? No. Muchas gracias [pc_name]. Me las puedo apañar bien sola.\n\nSolo estoy ajustando una de las cuerdas."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Ya está! ¡Cómo nuevo!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oyes como Roxxane toca las cuerdas y suena como lo recordabas.\n\nBumm ... bumm ... bo bom bom ..."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Te das cuenta de que Roxxane está completamente concentrada en el sonido del bajo."
+		},
+		{
+			"choice": "[ Hacer un ruidito para desconcentrarla ] Bumm... bo bom...",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1685873489-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oye, no haces muy bien el ruido de bajo de falsete..."
+		},
+		{
+			"choice": "[ Esperar pacientemente ]",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Parece que se está asegurando de que funcione bien. No le queda mucho."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Bueno, afinación terminada. ¿Qué te trae por aquí [pc_name]?"
+		},
+		{
+			"choice": "Estaba paseando...",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "¿Sabes? Este sitio no está para nada accesible..."
+		},
+		{
+			"choice": "Bueeeeno... estaba paseando para ver si me encontraba contigo...",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1685873489-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Eres muy directo [pc_name]... Me gusta conocer a la gente primero antes de buscarla por los pasillos de la academia..."
+		},
+		{
+			"choice": "No monopolices la introversión Roxxane. Deja algo para los demás.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Estoy dispuesta a acomodar tu petición.\n\nPero este patio es mi territorio."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Te guiña el ojo sonriendo."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Te estaba buscando.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1685873489-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "¿En que puedo ayudarte hoy?"
+		},
+		{
+			"choice": "Te gusta mucho el bajo, ¿verdad?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Creo que es el intrumento ideal para mi...\n\nEl bajo es un instrumento de apoyo. Rara vez toma el protagonismo y la orden de las notas me resulta muy relajante."
+		},
+		{
+			"choice": "Sólo me apetecía charlar un rato.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1685873489-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "¿Sabes tocar algún instrumento?"
+		},
+		{
+			"choice": "De pequeño tocaba la flauta. En el colegio...",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Lo he intentado. Otras personas se ha asegurado de que parase.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Tengo el oído musical de ladrillo.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Bueno, como con todas las cosas en la vida, la clave está en el equilibrio entre persistencia y distancia."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Equilibrio entre persistencia y distancia...\n\nEspera, ¿vas a contarme una lección de vida como si fueras un tito con sobrepeso adicto al té y a la sabiduría?"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Esa pregunta suena muy específica..."
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La persistencia es fundamental para el desarrollo de la soltura en cualquier habilidad. Los humanos tienen un sistema neurológico muy complejo que necesita simultáneamente de refuerzo y predictibilidad."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Asientes con la cabeza como si te estuviera hablando de algo que ya sabes."
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Al mismo tiempo, el sistema límbico tiene una tendencia a hiper activarse y necesita de descansos y actividades creativas."
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Entrenar el cuerpo para inhibir esa necesidad y obtener la máxima concentración es algo que requiere mucho tiempo y concesiones con las necesidades del sistema."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Tu asentimiento con la cabeza se intensifica..."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Entonces, ¿el bajo te gusta dices?"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mucho."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Podrías tocar para mi?"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Umh, ahora mismo se nos echa el tiempo encima."
+		},
+		{
+			"condition": "",
+			"definition": "1685875303-648",
+			"event_id": "dialogic_012",
+			"value": "invited"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Como te dije, toco por las tardes en los ensayos, pásate si quieres."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "!=",
+			"definition": "1685875303-648",
+			"event_id": "dialogic_012",
+			"value": "invited"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pero si no tienes nada que hacer despues de comer no me importaría que me visitaras en los locales de ensayo del barrio bohemio."
+		},
+		{
+			"definition": "1685875303-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "invited"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Estamos ensayando para un concierto en unos días.\n\nA lo mejor si muestras persistencia y distancia te doy una entrada."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Te guiña el ojo."
+		},
+		{
+			"choice": "Claro, me encantaría.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1685873489-648",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Allí nos veremos entonces."
+		},
+		{
+			"choice": "Me lo pensaré...",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Um... Vamos charlando."
+		},
+		{
+			"choice": "Ya tengo planes para la tarde. Además, la música no me gusta.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1685873489-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Es una pena... Bueno, si cambias de idea allí estaremos."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "<",
+			"definition": "1685873489-648",
+			"event_id": "dialogic_012",
+			"value": "4"
+		},
+		{
+			"definition": "1685713226-146",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",
