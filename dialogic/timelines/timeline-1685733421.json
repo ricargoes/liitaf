@@ -383,13 +383,51 @@
 			"character": "character-1685734503.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Umh, ahora mismo se nos echa el tiempo encima. Pero si no tienes nada que hacer despues de comer no me importaría que me visitaras en los locales de ensayo del barrio bohemio."
+			"text": "Umh, ahora mismo se nos echa el tiempo encima."
+		},
+		{
+			"condition": "",
+			"definition": "1685875303-648",
+			"event_id": "dialogic_012",
+			"value": "invited"
 		},
 		{
 			"character": "character-1685734503.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Estamos ensayando para un concierto en unos días.\n\nA lo mejor si muestras persistencia y distancia te invito."
+			"text": "Como te dije, toco por las tardes en los ensayos, pásate si quieres."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "!=",
+			"definition": "1685875303-648",
+			"event_id": "dialogic_012",
+			"value": "invited"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pero si no tienes nada que hacer despues de comer no me importaría que me visitaras en los locales de ensayo del barrio bohemio."
+		},
+		{
+			"definition": "1685875303-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "invited"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Estamos ensayando para un concierto en unos días.\n\nA lo mejor si muestras persistencia y distancia te doy una entrada."
 		},
 		{
 			"character": "",
