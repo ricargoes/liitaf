@@ -7,15 +7,9 @@ func _ready():
 	$Academy.hide()
 	launch_dialog('N01')
 
-func update_studies_score() -> void:
-	get_node("%Score").text = Dialogic.get_variable('pp', study_score)
-
-func _process(delta):
-	update_studies_score()
-
 func _on_Alexei_pressed():
 	$Academy.hide()
-	launch_dialog('alexei_talking_choice')
+	launch_dialog('A01')
 
 func launch_dialog(timeline_name):
 	var dialog = Dialogic.start(timeline_name)
