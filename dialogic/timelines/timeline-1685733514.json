@@ -1,6 +1,254 @@
 {
 	"events": [
+		{
+			"background": "res://resources/backgrounds/cofee.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Encuentras a Zachary en su mesa dando un breve sorbo de su té."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Gracias por la visita, [pc_name]. Esa silla está libre."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Te señala la silla frente a él. Está en mal estado, pero es sorprendentemente funcional como silla."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Reflexionaba sobre el drama como movimiento cultural clásico por antonomasia.\n\nMe vendría bien tener alguien con quien intercambiar mis ideas."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A parte de militar, soy actor en una compañía muy prestigiosa. Ven a visitarnos alguna tarde, en serio."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_010",
+			"options": [
 
+			],
+			"portrait": "",
+			"question": "¿Te gusta el teatro?"
+		},
+		{
+			"choice": "¿A quién no le gusta el teatro?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Uff... Soy mucho más de medios audiovisuales.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "¿Teatro?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Interesante respuesta..."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Para mi el teatro es la forma definitiva de vivir. Yo no creo que los papeles de teatro son algo que mostramos en un escenario.\n\nCreo que las personas practican teatro cada día."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Viven el teatro cada instante de su vida."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Otro sorbo de té..."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No puedo describirte exactamente como me siento... Pero para mi, actuar es éxtasis. Y el éxtasis está en cada breve toma de aire a través de nuestros labios."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Dime [pc_name], ¿hay algo que hagas con pasión?"
+		},
+		{
+			"choice": "Comer",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Sexo",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hum..."
+		},
+		{
+			"choice": "Estudiar",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La vida nos da muchas oportunidades para experimentar la pasión. ¿Por qué no vivir apasionadamente? ¿Por qué no actuar apasionadamente?"
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Por qué entregarnos a los tiranos de la genuinidad y la sinceridad? Cuando podemos elegir la pasión y el éxtasis."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Y otro sorbo.\n\n¿Cuánto té cabe en esa copa?"
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Creo que tendrías que probar más opciones a parte de ser tu mismo, [pc_name].\n\nQuiero conocer a los otros [pc_name]..."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "El [pc_name] institivo...\nEl [pc_name] tierno...\nEl [pc_name] sensible..."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "El [pc_name]..."
+		},
+		{
+			"choice": "... fuerte?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "... pasional?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "... falso?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Exacto.... Dios, que bien nos llevamos.\n\nEstoy deseando ver a donde lleva nuestro camino juntos."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ahora déjame con mis reflexiones, necesito aposentar lo que hemos hablado."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Te levantas y te vas, pensando en si la palabra \"aposentar\" existe o si se puede usar de esa forma..."
+		},
+		{
+			"definition": "1685713245-483",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",
