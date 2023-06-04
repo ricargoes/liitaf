@@ -1,6 +1,241 @@
 {
 	"events": [
+		{
+			"background": "res://resources/backgrounds/cofee.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Encuentras a Zachary en su mesa mirando atentamente por la ventana."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Siéntate un momento [pc_name]."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Te planteas por un momento que quizás lo mejor que podrías hacer ahora mismo sería marcharte y seguir con tu vida.\n\nPero igualmente te sientas."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_010",
+			"options": [
 
+			],
+			"portrait": "",
+			"question": "¿Sabes por qué me gusta este sitio?"
+		},
+		{
+			"choice": "¿Las vistas?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "¿Has decidido arbitrariamente que es tuyo?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Exacto."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Me gusta sentarme aquí y estudiar a la gente cuando entra y sale de la academia."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Al entrar hoy a la academia te he visto muy preocupado..."
+		},
+		{
+			"choice": "No lo recuerdo... ¿Te parecía preocupado?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Últimamente hay muchas cosas en mi cabeza.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "¿No sería que tenía prisa?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Verás, una cosa que yo encuentro muy útil cuando estoy preocupado es observar a los demás."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Me viene muy bien, porque en mi tiempo libre soy actor. Y los actores necesitamos referencias."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Recuerda que estás invitado a visitar la compañía. Tenemos un cartel con la ubicación en el tablón de anuncios. Lo hice yo mismo."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Bebe un poco de té.\n\nEstá muy orgulloso de su cartel."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A veces me planteo en como sería la vida de un Dios que puede controlar a voluntad la vida de las personas.\n\n¿Imaginas? Viendo el mundo desde arriba."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": " Y dando órdenes desde arriba según tus intereses."
+		},
+		{
+			"choice": "¿Cómo en el Age of Empires?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "¿Cómo en el Warcraft II?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "¿Cómo en el Command & Conquer: Red Alert?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Efectivamente..."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Los seres humanos no son diferentes de esos personajillos.\n\nAl igual que en los videojuegos hay palancas, los humanos tienen sus palancas."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿En los videojuegos hay palancas?"
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Creo que hay belleza en comprender lo que mueve a los demás, sus pasiones y sus miedos.\n\nPero creo que esa belleza sin autocontrol es peligrosa."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Por eso me gusta aprender muy bien como es la vida de alguien que es libre, porque en el momento de la verdad, si hay que quitar la libertad a una persona, hay que asegurarse de que al menos disfruta de una pequeña parte de lo que disfrutaría si fuera libre."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sorbe un poco de té."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Muchas gracias por tu tiempo [pc_name].\n\nMe ayudas a reflexionar. Ahora marcha, disfruta del día."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Después de eso que te dice no sabes si tú quieres marcharte o no, pero se hace tarde, así que estás tomando la decisión tú mismo.\n\nSí. Seguro, vamos."
+		},
+		{
+			"definition": "1685713245-483",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",
