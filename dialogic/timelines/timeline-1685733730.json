@@ -1,6 +1,486 @@
 {
 	"events": [
+		{
+			"background": "res://resources/backgrounds/palm.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Caminas hacia la zona de la academia donde se encuentra el patio interior."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Desde la distancia reconoces la voz de dos personas, pero están hablando en lo que parece un idioma muy extraño."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
 
+			],
+			"portrait": "",
+			"question": "Conforme te vas acercando te das cuenta de que son las voces de dos de tus compañeros de academia."
+		},
+		{
+			"choice": "[ Acercarme y saludar ]",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "[ Escuchar discretamente lo que dicen ]",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La forma en la que están hablando no te recuerda a ningún idioma... De hecho, hacen unos ruidos muy extraños como con la garganta..."
+		},
+		{
+			"definition": "1685713211-787",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ves que la bajista se aclara momentáneamente la garganta y empieza a canturrear."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Hola [pc_name]! ¿Cómo tú por esta zona? ¿Conocías ya la guarida secreta de Roxxane?"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Eh! ¡No la llames así!"
+		},
+		{
+			"condition": "",
+			"definition": "1685713226-146",
+			"event_id": "dialogic_012",
+			"value": "0"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No. No nos conocíamos. ¡Encantada [pc_name]!"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "==",
+			"definition": "1685713226-146",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Algo hemos hablado. ¿Qué tal [pc_name]?"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": ">",
+			"definition": "",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Claro que nos conocemos! Hola de nuevo [pc_name]."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Estábamos haciendo unos ejercicios de vocalización.\n\nYo los necesito para el teatro y Roxxane para su grupo. Nos echamos una mano."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sí claro, yo no me meto con lo que la gente hace con sus gargantas en su vida privada.\n\nPor un momento habría jurado que seríais unos reptilianos de esos."
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Happy",
+			"question": "Jajaja. Que tontería.\n\nEsas cosas no existen."
+		},
+		{
+			"choice": "Ya, menudos locos esos conspiranóicos.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"choice": "Bueno, no os creáis, hay quien dice que tiene pruebas.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Bueno, hoy en día con los ordenadores se puede falsear cualquier cosa.\n\nNo te creas cualquier imagen que veas. ¿Eh? El poder de la edición de imágenes digitales es muy alto."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Internet además está lleno de gente muy rara..."
+		},
+		{
+			"choice": "Supongo que tienes razón.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "No no, en serio, tengo un amigo que dice que me va a mandar pruebas por correo.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1685900611-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "disclosed"
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "..."
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Jajaja."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Jajaja..."
+		},
+		{
+			"event_id": "dialogic_023",
+			"hide_dialogbox": true,
+			"wait_seconds": 0.1,
+			"waiting_skippable": false
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "==",
+			"definition": "1685713245-483",
+			"event_id": "dialogic_012",
+			"value": "0"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Por cierto, me han dicho que en la cafetería hay una mesa que tiene tu nombre, Zachary."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": ">",
+			"definition": "1685713245-483",
+			"event_id": "dialogic_012",
+			"value": "0"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Por cierto, qué extraño que no estés en tu mesa de la cafetería, Zachary."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "¿Eso me lo dices porque preferirías estar a solas con Roxxane?\n\n¿O porque quieres venir a la cafetería conmigo a charlar un rato?"
+		},
+		{
+			"choice": "Voy a quedarme charlando con Roxxane.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1685713226-146",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Blushing",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Me marcho princesa, suerte con ese tema que me has dicho."
+		},
+		{
+			"choice": "Te acompaño Zachary.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1685713245-483",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Blushing",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Pasadlo bien!"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",

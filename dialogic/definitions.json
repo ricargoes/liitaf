@@ -74,6 +74,12 @@
 			"name": "roxxane_extra",
 			"type": 0,
 			"value": "not-invited"
+		},
+		{
+			"id": "1685900611-648",
+			"name": "informant_status",
+			"type": 0,
+			"value": ""
 		}
 	]
 }
