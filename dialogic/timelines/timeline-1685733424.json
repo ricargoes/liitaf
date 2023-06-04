@@ -1,6 +1,405 @@
 {
 	"events": [
+		{
+			"background": "res://resources/backgrounds/palm.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"definition": "1685873489-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "0"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Roxxane está en el mismo patio donde la dejaste la última vez.\n\nEl sitio del bordillo donde se sienta debe tener la marca de su culazo."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Está alternando entre tocar el bajo y apuntar en una libreta."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_010",
+			"options": [
 
+			],
+			"portrait": "",
+			"question": "Ey [pc_name], ¿qué te trae de nuevo por aquí?"
+		},
+		{
+			"choice": "Tú.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1685873489-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No se si me gusta tanta atención..."
+		},
+		{
+			"choice": "Esa palmera de ahí.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Claro..."
+		},
+		{
+			"choice": "Iba de camino a otro sitio y me he pasado a saludar.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ah. Pues hola de nuevo."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Estoy comprobando una partitura."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Te enseña brevemente la libreta.\n\nTe das cuenta de la está escrita por varias personas."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Qué es eso? Parece una especie de documento compartido por varias personas.\n\nCada una con una letra mas ilegible que la anterior..."
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Es la libreta de temas de mi grupo. La mantenemos un poco al día entre todos."
+		},
+		{
+			"condition": "",
+			"definition": "1685875303-648",
+			"event_id": "dialogic_012",
+			"value": "invited"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Como te dije, ensayamos por las tardes por si te quieres pasar."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "!=",
+			"definition": "1685875303-648",
+			"event_id": "dialogic_012",
+			"value": "invited"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Tenemos un local de ensayo en el barrio bohemio. Si te apetece pasarte estás invitado."
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Necesitamos concentración pero no nos importa que la gente nos mire, nos ayuda a prepararnos para el concierto."
+		},
+		{
+			"definition": "1685875303-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "invited"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "El estrés por el concierto que se acerca nos está afectando bastante.\n\nEstamos repartiendo un poco el trabajo y me ha tocado ajustar la armonía de un tema."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ves que en la parte de arriba está escrito el nombre del grupo con unas letras de trazo eléctrico.\n\nLo lees en voz alta."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Discípulos de Satán\n\nUm... atrevido..."
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Happy",
+			"question": "Ja ja... ¿Te gusta?"
+		},
+		{
+			"choice": "A mi la que me gusta eres tú...",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1685873489-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Calma..."
+		},
+		{
+			"choice": "Parece el nombre de un grupo de death metal",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Tocamos varios estilos, pero sí, el nombre no deja mucho a la imaginación..."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Conoces el mundo de la música indie?"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Haces un gesto con la cabeza que tú mismo no sabes decir si es un sí o un no."
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Es una actividad muy exigente a nivel de tiempo.\n\nLuego, no está remunerada. Y los intrumentos, el equipo, el alquiler de los locales valen dinero...."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Por qué la haces entonces?"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Me gusta sentirme útil... Pero no me gusta estar al frente de ningún plan.\n\nSer bajista me permite satisfacer ambas cosas."
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "[pc_name], ¿a ti te pasa que a veces la gente te presta mucho la atención?"
+		},
+		{
+			"choice": "Bueno, a ver, esta mal que lo diga yo, pero... Fíjate bien.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1685873489-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"choice": "Entiendo lo que dices, pero a mi no me molesta. Al contrario.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "A veces sí y a veces no. Mi cargo en el ejercíto me permite explorar ambas cosas.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A me me gusta que me den un espacio. La gente del grupo es muy comprensiva conmigo. Siempre tienen cuidado de que me encuentre cómoda."
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "En parte toco con ellos porque son como una familia para mi. Pero al mismo tiempo, ensayar y las actuaciones cada vez me ocupa más tiempo."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Supongo que la carrera militar acabará haciendo que deje el grupo...\n\nAun no he decidido que hacer cuando avance en la academia."
+		},
+		{
+			"choice": "Tienes que decidirlo ya.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1685873489-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"choice": "Bueno, aun es pronto para decidir.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1685873489-648",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"choice": "Date tiempo para pensarlo, pero no esperes demasiado.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sí, supongo que tienes razón..."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Muchas gracias por la charla.\n\n¡Luego nos vemos!"
+		},
+		{
+			"condition": "<",
+			"definition": "1685873489-648",
+			"event_id": "dialogic_012",
+			"value": "3"
+		},
+		{
+			"definition": "1685713226-146",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",
