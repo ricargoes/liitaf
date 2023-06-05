@@ -16,7 +16,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Caminas rápido hacia la parte del recinto donde se encuentra el patio de la palmera."
+			"text": "Caminas rápido hacia el patio trasero."
 		},
 		{
 			"character": "",
@@ -40,7 +40,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Su expresión muestra a la vez tristeza y resignación. Golpea con una cadencia muy regular una de las notas del bajo.\n\nLlenando los pasillos de un monótono y deprimente bumm.. bumm.."
+			"text": "Su expresión muestra a la vez tristeza y resignación. Golpea con una cadencia muy regular una de las notas del bajo.\n\nLlenando el ambiente de un monótono y deprimente bumm.. bumm.."
 		},
 		{
 			"animation": "[Default]",
@@ -72,7 +72,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Tu profundamente desarrollada empatía ya te había hecho sospechar que los tiros iban por ahí.\n\nVes que vuelve a mirar al patio."
+			"text": "Tu profundamente desarrollada empatía ya te había hecho sospechar que los tiros iban por ahí.\n\nVes que vuelve a mirar al exterior."
 		},
 		{
 			"character": "character-1685734503.json",
