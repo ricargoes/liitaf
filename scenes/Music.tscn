@@ -36,7 +36,7 @@ stream = ExtResource( 4 )
 volume_db = -80.0
 autoplay = true
 
-[node name="Wai-ting" type="AudioStreamPlayer" parent="."]
+[node name="Wai-Ting" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 2 )
 volume_db = -80.0
 autoplay = true

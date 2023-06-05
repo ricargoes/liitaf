@@ -167,6 +167,7 @@ func launch_dialog(timeline_name):
 func launch_topic(char_name, char_level, topic_idx):
 	var timeline_name = char_name[0] + char_level + str(topic_idx + 1)
 	topics_done[char_name].append(topic_idx)
+	Music.transition_to(char_name)
 	launch_dialog(timeline_name)
 
 
