@@ -5,6 +5,44 @@
 			"event_id": "dialogic_021"
 		},
 		{
+			"definition": "1685873489-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Caminas rápido hacia la parte del recinto donde se encuentra el patio de la palmera."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ahora está lloviendo y tienes mucha curiosidad por saber que estará haciendo Roxxane al respecto."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Te la imaginas mojada, llevándose descargas eléctricas con el bajo.\n\nTe ríes, pero luego reflexionas porque te parece cruel. Regañas a tu consciencia por ser una sosa."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La encuentras dentro del edificio de la academia, mirando apesumbrada el patio desde el marco de la puerta."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Su expresión muestra a la vez tristeza y resignación. Golpea con una cadencia muy regular una de las notas del bajo.\n\nLlenando los pasillos de un monótono y deprimente bumm.. bumm.."
+		},
+		{
 			"animation": "[Default]",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
@@ -25,13 +63,118 @@
 			"z_index": 0
 		},
 		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Este sitio me gusta mucho porque apenas pasa gente por aquí.\n\nEs posible que ya te lo haya contado, pero no estoy muy cómoda con gente cerca mía."
+		},
+		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Tienes una fructífera conversación con Roxxane. Aprendes algo más sobre su secreto y ahora estáis más cerca."
+			"text": "Tu profundamente desarrollada empatía ya te había hecho sospechar que los tiros iban por ahí.\n\nVes que vuelve a mirar al patio."
 		},
 		{
-			"definition": "1685713226-146",
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Odio la lluvia..."
+		},
+		{
+			"choice": "No te preocupes, ya pasará.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Tiene que haber más de un sitio abandonado en la academia...",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Um... ¿Tú crees?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Este centro no tiene un armario de escobas? Todos los sitios tienen armarios de escobas.\n\n¿Cómo te llevas con las escobas? ¿Mejor que con las personas?"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Jah. Ok. Me has animado un poco con esa idea."
+		},
+		{
+			"definition": "1685873489-648",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Por desgracia no puede marcharme de este sitio."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Tengo que esperar a ver si viene alguien... Si no, iría a algún sitio mejor."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Ese comentario te ha llamado la atención..."
+		},
+		{
+			"choice": "¿Quién es esa otra persona?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Digamos que tengo más de un amigo entrometido que se cruza toda la academia para venir a chincharme de vez en cuando."
+		},
+		{
+			"choice": "Eso que dices es muy raro para alguien que tiene ansiedad social",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Bueno, alguna gente necesita que esté aquí..."
+		},
+		{
+			"definition": "1685873489-648",
 			"event_id": "dialogic_014",
 			"operation": "+",
 			"random_upper_limit": 100,
@@ -45,6 +188,137 @@
 			"random_upper_limit": 100,
 			"set_random": false,
 			"set_value": "1"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pero cambiemos de tema."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "¿Qué tal van tus estudios?"
+		},
+		{
+			"choice": "No voy a engañarte, podría estar haciendo más...",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ya, yo tampoco es que vaya a sacarme un doctorado en Mando y Liderazgo a este paso..."
+		},
+		{
+			"choice": "Muy bien, creo que está todo chupado.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oh. Eso es tener mucha confianza..."
+		},
+		{
+			"choice": "¿Te gustan las personas estudiosa?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Me gustan muchas personas diferentes...\n\nSe que tus estudios son importantes para ti."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Pero ya sabes... No quiero distraerte innecesariamente..."
+		},
+		{
+			"choice": "No te preocupes, si estoy aquí contigo es porque no es un problema.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1685873489-648",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"choice": "Me gusta invertir fuerte en las mujeres atractivas.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ug..."
+		},
+		{
+			"definition": "1685873489-648",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pasas un rato con agradable con Roxxane.\n\nExcusándola constantemente por pasar un rato con ella..."
+		},
+		{
+			"condition": "<",
+			"definition": "1685873489-648",
+			"event_id": "dialogic_012",
+			"value": "3"
+		},
+		{
+			"definition": "1685713226-146",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"event_id": "dialogic_013"
 		},
 		{
 			"event_id": "dialogic_022",

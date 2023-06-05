@@ -5,6 +5,62 @@
 			"event_id": "dialogic_021"
 		},
 		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Cuando llegas a la cafetería encuentras a Zachary con los brazos cruzados, frente a la mesa, indignado."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hay una pequeña manchita de ketchup en el centro de la mesa.\n\nLa mira con desprecio mientras espera a que alguien la limpie."
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "stain"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "¿Haces algo al respecto?"
+		},
+		{
+			"choice": "[ Ignoras la mancha ]",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "[ Limpias la mancha con una servilleta ]",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1685713245-483",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
 			"animation": "[Default]",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
@@ -25,18 +81,44 @@
 			"z_index": 0
 		},
 		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Excelente, sabía que si tenía paciencia alguien tarde o temprano atendería lo de esa mancha..."
+		},
+		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Tienes una fructífera conversación con Zachary. Aprendes algo más sobre su secreto y ahora estáis más cerca."
+			"text": "Se sienta y te señala la silla destartalada."
 		},
 		{
-			"definition": "1685713245-483",
-			"event_id": "dialogic_014",
-			"operation": "+",
-			"random_upper_limit": 100,
-			"set_random": false,
-			"set_value": "1"
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Es solo una inofensiva manchita de ketchup.\n\nNo tendrías que odiarla tanto..."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Sabes el problema no es la manchita de ketchup.\n\nEl problema es la hinchazón que me produce en la piel..."
+		},
+		{
+			"choice": "¿Eres alérgico al ketchup?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mmm... ¡Claro!\n\nExiste la alergia al ketchup. Yo la tengo."
 		},
 		{
 			"definition": "1685713211-787",
@@ -45,6 +127,118 @@
 			"random_upper_limit": 100,
 			"set_random": false,
 			"set_value": "1"
+		},
+		{
+			"choice": "Te entiendo...",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Bueno... ¿no vas a hablarme hoy también sobre algo profundo ignorando completamente todas mis respuestas?"
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sí... Claro...\n\nVerás, reflexionaba sobre las emociones de los humanos..."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ay Dios... Es tu culpa. Y lo sabes..."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "¿Sabes aquel investigador que se fue a vivir a unas junglas de unos poblados indígenas y se dedicó a estudiar los gestos de sus caras?"
+		},
+		{
+			"choice": "¿Agatha Christie?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "¿John Lennon?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "¿Paul Ekman?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Resulta que la gente de la tribu nunca se había puesto en contacto con ninguna otra población humana."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Parece ser que pudo determinar un conjunto de emociones básicas de todos los humanos que se desarrollan independientes de la cultura."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "¿No te preocupa que la gente pueda leer tus emociones en tu cara?"
+		},
+		{
+			"choice": "No las entiendo yo, no creo que los demás las entiendan...",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "No creo que eso sea posible.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "¡Sí! ¡Mucho! Y me contarás como evitarlo, ¿verdad?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Es tan bonito que seas un libro abierto, [pc_name]..."
 		},
 		{
 			"event_id": "dialogic_022",
