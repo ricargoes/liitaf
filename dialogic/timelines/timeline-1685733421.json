@@ -16,7 +16,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Encuentras de nuevo a Roxxane en el patio interior.\n\nTe preguntas si tendrá el sitio en alquiler..."
+			"text": "Encuentras de nuevo a Roxxane en el patio trasero.\n\nTe preguntas si tendrá el sitio en alquiler..."
 		},
 		{
 			"character": "",
@@ -31,7 +31,7 @@
 
 			],
 			"portrait": "",
-			"question": "Te adentras en el patio..."
+			"question": "Sales al patio..."
 		},
 		{
 			"choice": "¿Ya lo has roto?",
