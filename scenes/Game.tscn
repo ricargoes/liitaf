@@ -1,7 +1,7 @@
 [gd_scene load_steps=8 format=2]
 
+[ext_resource path="res://resources/backgrounds/ACADEMY MAP.png" type="Texture" id=1]
 [ext_resource path="res://scenes/game.gd" type="Script" id=2]
-[ext_resource path="res://resources/backgrounds/track.png" type="Texture" id=4]
 [ext_resource path="res://resources/icon/alexei.png" type="Texture" id=5]
 [ext_resource path="res://resources/icon/wai-ting.png" type="Texture" id=6]
 [ext_resource path="res://resources/icon/zack.png" type="Texture" id=7]
@@ -9,60 +9,101 @@
 [ext_resource path="res://resources/icon/roxxane.png" type="Texture" id=9]
 
 [node name="Game" type="Control"]
-margin_right = 40.0
-margin_bottom = 40.0
+anchor_right = 1.0
+anchor_bottom = 1.0
 script = ExtResource( 2 )
 
 [node name="Academy" type="TextureRect" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_right = 1880.0
-margin_bottom = 1040.0
-texture = ExtResource( 4 )
+texture = ExtResource( 1 )
 
 [node name="Wai-Ting" type="TextureButton" parent="Academy"]
-margin_left = 285.0
-margin_top = 729.0
-margin_right = 385.0
-margin_bottom = 829.0
+margin_left = 436.0
+margin_top = 454.0
+margin_right = 536.0
+margin_bottom = 554.0
 rect_min_size = Vector2( 100, 100 )
 texture_normal = ExtResource( 6 )
 expand = true
 
 [node name="Alexei" type="TextureButton" parent="Academy"]
-margin_left = 277.0
-margin_top = 373.0
-margin_right = 377.0
-margin_bottom = 473.0
+margin_left = 1729.0
+margin_top = 876.0
+margin_right = 1829.0
+margin_bottom = 976.0
 rect_min_size = Vector2( 100, 100 )
 texture_normal = ExtResource( 5 )
 expand = true
 
 [node name="Sharon" type="TextureButton" parent="Academy"]
-margin_left = 893.0
-margin_top = 681.0
-margin_right = 993.0
-margin_bottom = 781.0
+margin_left = 1395.0
+margin_top = 216.0
+margin_right = 1495.0
+margin_bottom = 316.0
 rect_min_size = Vector2( 100, 100 )
 texture_normal = ExtResource( 8 )
 expand = true
 
 [node name="Zachary" type="TextureButton" parent="Academy"]
-margin_left = 1280.0
-margin_top = 624.0
-margin_right = 1380.0
-margin_bottom = 724.0
+margin_left = 270.0
+margin_top = 603.0
+margin_right = 370.0
+margin_bottom = 703.0
 rect_min_size = Vector2( 100, 100 )
 texture_normal = ExtResource( 7 )
 expand = true
 
 [node name="Roxxane" type="TextureButton" parent="Academy"]
-margin_left = 1400.0
-margin_top = 336.0
-margin_right = 1500.0
-margin_bottom = 436.0
+margin_left = 943.0
+margin_top = 608.0
+margin_right = 1043.0
+margin_bottom = 708.0
 rect_min_size = Vector2( 100, 100 )
 texture_normal = ExtResource( 9 )
 expand = true
 
+[node name="Popup" type="PopupPanel" parent="."]
+visible = true
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -150.0
+margin_top = -20.0
+margin_right = 150.0
+margin_bottom = 20.0
+rect_min_size = Vector2( 300, 0 )
+
+[node name="CenterContainer" type="CenterContainer" parent="Popup"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 4.0
+margin_top = 4.0
+margin_right = -4.0
+margin_bottom = -4.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Popup/CenterContainer"]
+margin_right = 300.0
+margin_bottom = 44.0
+rect_min_size = Vector2( 300, 0 )
+custom_constants/separation = 30
+
+[node name="PopUpDescription" type="Label" parent="Popup/CenterContainer/VBoxContainer"]
+unique_name_in_owner = true
+margin_right = 300.0
+margin_bottom = 14.0
+align = 1
+
+[node name="PopUpOptions" type="VBoxContainer" parent="Popup/CenterContainer/VBoxContainer"]
+unique_name_in_owner = true
+margin_top = 44.0
+margin_right = 300.0
+margin_bottom = 44.0
+custom_constants/separation = 20
+
+[connection signal="pressed" from="Academy/Wai-Ting" to="." method="_on_WaiTing_pressed"]
 [connection signal="pressed" from="Academy/Alexei" to="." method="_on_Alexei_pressed"]
+[connection signal="pressed" from="Academy/Sharon" to="." method="_on_Sharon_pressed"]
+[connection signal="pressed" from="Academy/Zachary" to="." method="_on_Zachary_pressed"]
+[connection signal="pressed" from="Academy/Roxxane" to="." method="_on_Roxxane_pressed"]

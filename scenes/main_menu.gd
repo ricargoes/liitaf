@@ -1,12 +1,12 @@
-extends CenterContainer
+extends Control
 
+
+func _ready():
+	$"%ScenePickerContainer".hide()
+	
 
 func _on_NewGame_pressed():
 	Dialogic.set_variable("pc_name", $"%PCName".text)
-	get_tree().change_scene("res://scenes/Game.tscn")
-
-
-func _on_Continue_pressed():
 	get_tree().change_scene("res://scenes/Game.tscn")
 
 
@@ -22,3 +22,8 @@ func _on_RunScene_pressed():
 	add_child(dialog)
 	yield(dialog, "timeline_end")
 	show()
+
+
+func _input(event):
+	if event.is_action_pressed("platypus_secret"):
+		$"%ScenePickerContainer".show()
