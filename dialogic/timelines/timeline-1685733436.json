@@ -48,7 +48,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Roxanne está en la puerta, mirando hacia el patio, cabizbaja."
+			"text": "Roxanne está en la puerta, mirando hacia el patio, cabizbaja.\n\nSu expresión te resulta similar a la del día de la lluvia."
 		},
 		{
 			"character": "character-1685734503.json",
@@ -67,6 +67,12 @@
 			"value": ""
 		},
 		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No todas las cosas \"pasan\"... O cambian para bien, [pc_name]."
+		},
+		{
 			"choice": "La idea de las escobas sigue sobre la mesa...",
 			"condition": "",
 			"definition": "",
@@ -77,7 +83,7 @@
 			"character": "character-1685734503.json",
 			"event_id": "dialogic_001",
 			"portrait": "Happy",
-			"text": "Ja ja ja ..."
+			"text": "Ja ja ja ... ¡Tú idea de las escobas!"
 		},
 		{
 			"definition": "1685875303-648",
@@ -113,12 +119,18 @@
 		},
 		{
 			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hoy estoy un poco intranquila...\n\nLos líderes de La Tierra no están preparados para un conflicto intergaláctico..."
+		},
+		{
+			"character": "character-1685734503.json",
 			"event_id": "dialogic_010",
 			"options": [
 
 			],
 			"portrait": "",
-			"question": "Los líderes de La Tierra no están preparados para un conflicto intergaláctico...\n\nNo pueden planear unas reparaciones fuera del horario de estudio."
+			"question": "Ni siquiera pueden planear unas sencillas reparaciones fuera del horario de estudio habitual..."
 		},
 		{
 			"choice": "Pero... si tú no vienes al patio a estudiar...",
@@ -126,6 +138,12 @@
 			"definition": "",
 			"event_id": "dialogic_011",
 			"value": ""
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ese no era mi punto..."
 		},
 		{
 			"choice": "¿Conflicto intergaláctico?",
@@ -186,6 +204,18 @@
 			"random_upper_limit": 100,
 			"set_random": false,
 			"set_value": "1"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Tienes que mejorar tus estudios, [pc_name]. Nunca sabrás si en el futuro serán imprescindibles, pero es mucho mejor tenerlos."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Eso le ha sonado un poco a madre..."
 		},
 		{
 			"event_id": "dialogic_013"
