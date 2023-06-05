@@ -1,6 +1,79 @@
 {
 	"events": [
-
+		{
+			"background": "res://resources/backgrounds/camo.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La casa de Wai-Ting está en un barrio tranquilo, al caer la noche te acercas  y llamas a la puerta. Sientes que tu corazón te va a salir por la boca, las manos te sudan y vuelves a comprobar por vez mil que tu pelo sigue en el estado en el que estaba hace tres minutos."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Por dentro, es un pequeño estudio en el que sólo hay una habitación y el baño. La decoración es espartana excepto por unos pocos detalles que le dan mucha personalidad a la casa: unas flores en un jarrón, un juego de images creando una estructura exótica, un poster de unos extraños animales con picos de pato y pelo."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Wai-Ting te dice que es un lugar pequeño pero que es su refugio, y que le encanta tenerte en él."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Das un paseo por la habitación y te paras en enfrente de la cama que esta directamente posada en el suelo. Te giras para comentar algo y te encuentras con Wai-Ting abalanzandose sobre ti. Te besa, te empuja, os caéis en la cama y ya eres incapaz de pensar en nada."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Unas horas más tarde estás mirando al techo con la chica durmiendo a tu lado, desnuda. Ha sido extraño, muy extraño. Muy diferente a lo que tú te esperabas pero también extremadamente excitante. Tal como ella dijo, no lo olvidarás nunca."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Wai-Ting es una chica muy rara, pero mentirias si dijeses que no te tiene cautivado. No, es más que eso, la quieres, la necesitas, estás completamente adicto a ella. La miras y la acaricias la espalda con ternura. Quizá podáis construir una vida juntos."
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1685563048.cfg"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Happy",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Tu vida inicia una nueva etapa con Wai-Ting...\n\nEs una persona extraña pero te resulta muy sencillo aceptar y adaptarte a sus excentricidades, ella es cariñosa y  posesiba. Pero por qué te quiere, de hecho siempre parace tener miedo de que te vaya a pasar algo de repente.\n\nNo consigues avanzar en la carrera militar. Asciendéis algunos rangos pero Wai-Ting considera que no merece la pena el esfuerzo y lo abandona. Hasta ese momento tú no te habías dado cuenta de que piensas igual que ella pero lo haces y también te retiras de la vida militar.  Al poco tiempo, la humanidad recibe su primer contacto con un imperio extraterrestre y es diezmada en una campaña corta pero devastadora.\n\nOs movéis a una zona poco habitada pero muy bella donde podéis llevar una vida tranquila. Te parece una suerte increible que hayáis podido encontrar este sitio increible, ignorado por la guerra y donde nadie os molesta... nunca.\n\n[center]Vía de amor ciego con Wai-Ting finalizada.[/center]"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",

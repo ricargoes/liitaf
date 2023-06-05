@@ -1,6 +1,315 @@
 {
 	"events": [
+		{
+			"background": "res://resources/backgrounds/camo.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La casa de Wai-Ting está en un barrio tranquilo, al caer la noche te acercas  y llamas a la puerta. Te sudan las manos y te las metes en el bolsillo del abrigo donde tienes escondido un cuchillo. Esperas no tener que necesitarlo pero i lo que sospechas es cierto, esta noche va a ser muy extraña."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Wai-Ting te abre sonriente. Por dentro, es un pequeño estudio en el que sólo hay una habitación y el baño. La decoración es espartana excepto por unos pocos detalles, uno capta tu atención: un poster de unos ornitorrincos jugando en un estanque."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Wai-Ting te dice que es un lugar pequeño pero que es su refugio, y que le encanta tenerte en él."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Suspiras, te vuelves hacia ella y le dices que tenéis que hablar. Ella pone una cara triste, asiente y se sienta en la cama, te señala para que te sientes con ella. Es la confirmación que te faltaba, Wai-Ting no es quien ella dice ser."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Subtle smile",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
 
+			],
+			"portrait": "",
+			"question": "¿De que quieres hablar?"
+		},
+		{
+			"choice": "De nuestro futuro",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Me gustaría tener un futuro contigo pero... tengo algo que contarte."
+		},
+		{
+			"choice": "De nuestros sentimientos",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Te quiero, estoy enamorada de ti. ¿Qué hay por tu parte?"
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Eres muy importante para mi y creo que yo también me estoy enamorando. Pero creo que hay cosas que me estás ocultando."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ella te mira con tristeza en los ojos pero en un momento cambian, parece que ha tomado una decisión."
+		},
+		{
+			"choice": "¿Eres un ornitorrinco disfrazado?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Si."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "ornitorrinco"
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Soy un ornitorrinco, nunca se me dio bien ocultarlo."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Provengo del espacio."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Y estoy al servicio de Su Majestad, tengo que infiltrarme es vuestras estructuras de poder para allanar el camino al Imperio. Pero..."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "Subtle smile",
+			"text": "Ya no quiero hacerlo. Sólo quiero estar contigo."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Esta no es mi apariencia real. Esto es un disfraz (que yo misma diseñé, por cierto) pero lo que hay dentro, la Wai-Ting que tu conoces es real. Mis sentimientos son reales."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sospechabas todo esto pero aún así el shock se apodera de tu cuerpo. No eres capaz de moverte ni decir nada mientras ella va apilando las revelaciones."
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Permiteme revelarte mi verdadera forma. Quiero que la veas antes de hacerte la pregunta que lo determinará todo."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Se lleva las manos detrás de su cuello y empiezas a oír crujidos húmedos, al momento siguiente el trozo de carne que tú conocías como Wai-Ting cae al suelo como si fuese un simpre vestido."
+		},
+		{
+			"animation": "tada.gd",
+			"animation_length": 0.5,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Annoyed",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "TADAAAA. Se que esto es un shock para ti, pero me alegro de que por fin me veas con mi verdadera foma. Dime lo que piensas."
+		},
+		{
+			"choice": "No me importa la forma que tengas. ¡Te quiero!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "love platypus ending"
+		},
+		{
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oooh, [pc_name] que alivio. Te quiero."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Se acerca a ti y trata de besarte con su pico. Tratas de devolverle el beso como buenamente puedes."
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1685563048.cfg"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1685734475.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Happy",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Empiezas una nueva vida con tu amor ornitorrinco.\n\nAhora que la verdad ha sido revelada, ella ya no hace esfuerzos para ocultarlo y tú enseguida lo aceptas y te adaptas. Los momentos íntimos son extraños pero inesperadamente satisfactorios y placenteros.\n\nAbandonáis la academia militar y os vais a vivir a un sitio tranquilo en la naturaleza.\n\nLa invasión del imperio ornitorrinco llega y pasa. Wai-Ting es condecorada como un heroe y se le es permitido quedarse con su \"mascota\" humana.\n\nElla siempre te trata con respeto y cariño, aunque de vez en cuando hace experimentos contigo, probando brebajes y extraños dispositivos. Pero no te importa, los experimentos son excitantes y placenteros.\n\nAlgunas veces te sorprendes deseando que llegue el siguiente.\n\n[center]Vía de amor ornitorrinco con Wai-Ting finalizada.[/center]"
+		},
+		{
+			"choice": "Eres... bella",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "¡Eres un monstruo, me das nauseas!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "Rejection ending"
+		},
+		{
+			"change_timeline": "timeline-1685722565.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "¡Nunca traicionaré a mi especie!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "¡¡¡AAAAAAAAAAAAAAAAAAAHHHHH!!!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Estas en shock, el mundo se ha vuelto loco y tu mente ha empezado a deshacerse. Ves que ella trata de acercarse para consolarte pero tu reculas con terror y asco en la cara."
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",
