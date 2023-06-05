@@ -1,22 +1,28 @@
 extends Control
 
 
-var day = 0
+var day = DayOf.Introductions
+var day_stage = -1
 
 var study_score = 0
 var platypus_score = 0
 
 var informant_status = "alive"
 
-var char_scores = {
-	"Alexei": {"level": 0, "score": 0},
-	"Roxxane": {"level": 0, "score": 0},
-	"Sharon": {"level": 0, "score": 0},
-	"Zachary": {"level": 0, "score": 0},
-	"Wai-Ting": {"level": 0, "score": 0},
-}
+enum Period { Break1, Break2, Break3, Break4, Evening, Night}
+enum DayOf { Introductions, Trivia, Feelings, Love }
+enum WeAre { Strangers, Acquaintances, Friends, Lovers }
 
-var character_topics = {
+const hate_relationship_id = "hate"
+const love_relationship_id = "love"
+const unclear_relationship_id = ""
+
+const FRIENDSHIP_THRESHOLD = 4
+const LOVE_THRESHOLD = 9
+const PLATYPUS_AWARENESS_THRESHOLD = 6
+const GREATNESS_BY_STUDY_THRESHOLD = 14
+
+const character_topics = {
 	"Alexei": {
 		"0": ["Intruducción"],
 		"1": ["Novatos", "Mancuerna"],
@@ -49,41 +55,124 @@ var character_topics = {
 	},
 }
 
-var LEVEL_2_SCORE = 5
-var LEVEL_3_SCORE = 10
+var char_scores = {
+	"Alexei": {"level": 0, "score": 0},
+	"Roxxane": {"level": 0, "score": 0},
+	"Sharon": {"level": 0, "score": 0},
+	"Zachary": {"level": 0, "score": 0},
+	"Wai-Ting": {"level": 0, "score": 0},
+}
+
+var topics_done = {
+	"Alexei": [],
+	"Roxxane": [],
+	"Sharon": [],
+	"Zachary": [],
+	"Wai-Ting": [],
+}
 
 func _ready():
-	$Academy.hide()
+	randomize()
+	hide()
 	launch_dialog('N01')
 
 
 func update_scores():
-	char_scores["Alexei"]["score"] = Dialogic.get_variable("ap")
-	char_scores["Roxxane"]["score"] = Dialogic.get_variable("rp")
-	char_scores["Sharon"]["score"] = Dialogic.get_variable("sp")
-	char_scores["Zachary"]["score"] = Dialogic.get_variable("zp")
-	char_scores["Wai-Ting"]["score"] = Dialogic.get_variable("wp")
+	char_scores["Alexei"]["score"] = int(Dialogic.get_variable("ap"))
+	char_scores["Roxxane"]["score"] = int(Dialogic.get_variable("rp"))
+	char_scores["Sharon"]["score"] = int(Dialogic.get_variable("sp"))
+	char_scores["Zachary"]["score"] = int(Dialogic.get_variable("zp"))
+	char_scores["Wai-Ting"]["score"] = int(Dialogic.get_variable("wp"))
 	for char_name in char_scores.keys():
-		if day > 0:
-			char_scores[char_name]["level"] = 1
-		if day > 1 and char_scores[char_name]["score"] > LEVEL_2_SCORE:
-			char_scores[char_name]["level"] = 2
-		if day > 0 and char_scores[char_name]["score"] > LEVEL_3_SCORE:
-			char_scores[char_name]["level"] = 3
+		if day > DayOf.Introductions:
+			char_scores[char_name]["level"] = WeAre.Acquaintances
+		if day > DayOf.Trivia and char_scores[char_name]["score"] > FRIENDSHIP_THRESHOLD:
+			char_scores[char_name]["level"] = WeAre.Friends
+		if day > DayOf.Feelings and char_scores[char_name]["score"] > LOVE_THRESHOLD:
+			char_scores[char_name]["level"] = WeAre.Lovers
 		
-	study_score = Dialogic.get_variable("pp")
-	platypus_score = Dialogic.get_variable("cp")
+	study_score = int(Dialogic.get_variable("pp"))
+	platypus_score = int(Dialogic.get_variable("cp"))
 	informant_status = Dialogic.get_variable("informant_status")
+	day_stage += 1
+	if day_stage > Period.Night:
+		day += 1
+		day_stage = Period.Break1
+		topics_done = {
+			"Alexei": [],
+			"Roxxane": [],
+			"Sharon": [],
+			"Zachary": [],
+			"Wai-Ting": [],
+		}
+	print("Scene end. New period -> Day: " + str(day) + ", Period: " + str(day_stage))
+
+
+func prepare_academy():
+	$Popup.hide()
+	$"%Characters".hide()
+	$"%Study".hide()
+	$"%Party".hide()
+	$"%GroupRZ".hide()
+	$"%GroupASW".hide()
+	$"%Extracurricular".hide()
+	if day == DayOf.Trivia and day_stage == Period.Break3:
+		print("Meetings in groups")
+		$"%GroupRZ".show()
+		$"%GroupASW".show()
+	elif day <= DayOf.Love and day_stage < Period.Evening:
+		print("Standard meetings during breaks")
+		$"%Characters".show()
+		$"%Study".show()
+	elif day > DayOf.Introductions and day_stage == Period.Evening:
+		print("Extracurriculars")
+		$"%Extracurricular".show()
+		if day == DayOf.Introductions:
+			print("  - First day party")
+			$"%Party".show()
+			$"%Study".show()
+		elif day == DayOf.Love:
+			print("  - Ending")
+			launch_ending_selector()
+		else:
+			print("  - Evening plans")
+			launch_extracurricular_selector()
+	elif day < DayOf.Love and day_stage == Period.Night:
+		print("Informat mail")
+		var timeline_name = ""
+		if informant_status == "alive":
+			timeline_name = "I1" + str(day + 1)
+		else:
+			timeline_name = "I01"
+		launch_dialog(timeline_name)
+	elif day == DayOf.Love and day_stage > Period.Evening:
+		print("Goodbye dialog")
+		launch_dialog("N02")
+	elif day > DayOf.Love:
+		print("Return to main menu")
+		get_tree().change_scene("res://scenes/MainMenu.tscn")
 
 
 func launch_dialog(timeline_name):
 	$Popup.hide()
-	$Academy.hide()
+	$"%Extracurricular".hide()
+	hide()
+	print("Launching timeline: " + timeline_name)
 	var dialog = Dialogic.start(timeline_name)
-	dialog.connect("dialogic_signal", self, "_on_dialogic_event")
+	dialog.connect("timeline_end", self, "_on_timeline_end")
 	add_child(dialog)
-	yield(dialog, "timeline_end")
-	$Academy.show()
+
+
+func launch_topic(char_name, char_level, topic_idx):
+	var timeline_name = char_name[0] + char_level + str(topic_idx + 1)
+	topics_done[char_name].append(topic_idx)
+	launch_dialog(timeline_name)
+
+
+func _on_timeline_end(_timeline_name):
+	update_scores()
+	show()
+	prepare_academy()
 
 
 func _input(event):
@@ -92,38 +181,123 @@ func _input(event):
 
 
 func _on_WaiTing_pressed():
-	launch_selection_popup("Wai-Ting")
+	launch_topic_selection_popup("Wai-Ting")
 
 
 func _on_Sharon_pressed():
-	launch_selection_popup("Sharon")
+	launch_topic_selection_popup("Sharon")
 
 
 func _on_Zachary_pressed():
-	launch_selection_popup("Zachary")
+	launch_topic_selection_popup("Zachary")
 	
 
 func _on_Alexei_pressed():
-	launch_selection_popup("Alexei")
+	launch_topic_selection_popup("Alexei")
 
 
 func _on_Roxxane_pressed():
-	launch_selection_popup('Roxxane')
+	launch_topic_selection_popup('Roxxane')
 
-func launch_selection_popup(char_name):
+
+func _on_Study_pressed():
+	var rand_n = randi() % 3
+	var study_timeline_name = ""
+	if day_stage < 4:
+		study_timeline_name = "T0" + str(rand_n + 1)
+	else:
+		study_timeline_name = "T1" + str(rand_n + 1)
+	
+	launch_dialog(study_timeline_name)
+
+
+func launch_topic_selection_popup(char_name):
 	for item in $"%PopUpOptions".get_children():
 		item.queue_free()
 	
-	var char_level = str(char_scores[char_name]["level"])
-	$"%PopUpDescription".text = "¿De qué te gustaría hablar con " + char_name + "?"
-	var char_topics = character_topics[char_name][char_level]
-	for topic_idx in range(char_topics.size()):
-		var button = Button.new()
-		button.name = str(topic_idx)
-		button.text = char_topics[topic_idx]
-		var timeline_name = char_name[0] + char_level + str(topic_idx + 1)
-		print(timeline_name)
-		button.connect("pressed", self, "launch_dialog", [timeline_name])
-		$"%PopUpOptions".add_child(button)
+	if Dialogic.get_variable(char_name + "_relationship") == hate_relationship_id:
+		$"%PopUpDescription".text = char_name + " no quiere volver a hablar contigo nunca."
+	else:
+		var char_level = str(char_scores[char_name]["level"])
+		$"%PopUpDescription".text = "¿De qué te gustaría hablar con " + char_name + "?"
+		var char_topics = character_topics[char_name][char_level]
+		for topic_idx in range(char_topics.size()):
+			if topics_done[char_name].has(topic_idx):
+				continue
+			var button = Button.new()
+			button.text = char_topics[topic_idx]
+			button.connect("pressed", self, "launch_topic", [char_name, char_level, topic_idx])
+			$"%PopUpOptions".add_child(button)
 	$Popup.popup_centered()
+
+
+func launch_extracurricular_selector():
+	for item in $"%ExtracurricularOptions".get_children():
+		item.queue_free()
 	
+	for char_name in char_scores.keys:
+		if Dialogic.get_variable(char_name + "") != "":
+			var button = Button.new()
+			button.text = "Pasa tiempo con " + char_name
+			var extracurricular_topic_bit = ""
+			if day == DayOf.Trivia:
+				extracurricular_topic_bit = "1"
+			elif day == DayOf.Feelings:
+				extracurricular_topic_bit = "2"
+			var timeline_name = char_name[0] + "8" + extracurricular_topic_bit
+			button.connect("pressed", self, "launch_dialog", [timeline_name])
+			$"%ExtracurricularOptions".add_child(button)
+	
+	$"%Extracurricular".show()
+
+
+func launch_ending_selector():
+	for item in $"%ExtracurricularOptions".get_children():
+		item.queue_free()
+	
+	var timeline_conspiracy_bit = ""
+	
+	var lovers = []
+	for char_name in char_scores.keys():
+		if Dialogic.get_variable(char_name + "_relationship") == love_relationship_id:
+			timeline_conspiracy_bit = char_name[0] + "9"
+			lovers.append(char_name)
+	
+	if platypus_score >= PLATYPUS_AWARENESS_THRESHOLD:
+		timeline_conspiracy_bit = "1"
+	else:
+		timeline_conspiracy_bit = "2"
+	
+	if not lovers.empty():
+		for char_name in lovers.keys:
+			if Dialogic.get_variable(char_name + "") != "":
+				var button = Button.new()
+				button.text = "Declararte a " + char_name
+				var timeline_name = char_name[0] + "9" + timeline_conspiracy_bit
+				button.connect("pressed", self, "launch_dialog", [timeline_name])
+				$"%ExtracurricularOptions".add_child(button)
+	elif study_score >= GREATNESS_BY_STUDY_THRESHOLD:
+		var button = Button.new()
+		button.text = "Ascender a grandeza"
+		var timeline_name = "E2" + timeline_conspiracy_bit
+		button.connect("pressed", self, "launch_dialog", [timeline_name])
+		$"%ExtracurricularOptions".add_child(button)
+	else:
+		var button = Button.new()
+		button.text = "Vivir una vida tranquila."
+		var timeline_name = "E1" + timeline_conspiracy_bit
+		button.connect("pressed", self, "launch_dialog", [timeline_name])
+		$"%ExtracurricularOptions".add_child(button)
+	
+	$"%Extracurricular".show()
+
+func _on_Party_pressed():
+	launch_dialog("P01")
+
+
+func _on_GroupRZ_pressed():
+	launch_dialog("X01")
+
+
+func _on_GroupASW_pressed():
+	launch_dialog("X02")
