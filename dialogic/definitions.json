@@ -40,12 +40,6 @@
 			"value": "0"
 		},
 		{
-			"id": "1685638387-146",
-			"name": "talking_themes_done",
-			"type": 0,
-			"value": ""
-		},
-		{
 			"id": "1685716044-648",
 			"name": "pc_name",
 			"type": 0,
@@ -70,16 +64,16 @@
 			"value": "0"
 		},
 		{
-			"id": "1685638374-366",
-			"name": "day",
-			"type": 0,
-			"value": "0"
-		},
-		{
 			"id": "1685900611-648",
 			"name": "informant_status",
 			"type": 0,
 			"value": "alive"
+		},
+		{
+			"id": "1685638387-146",
+			"name": "talking_themes_done",
+			"type": 0,
+			"value": ""
 		}
 	]
 }

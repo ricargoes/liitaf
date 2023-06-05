@@ -1,0 +1,31 @@
+{
+	"events": [
+		{
+			"background": "res://resources/backgrounds/ACADEMY MAP.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1685563048.cfg"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[center]Acabas de ser testigo a uno de los 15 finales que te presenta el juego.\n\nQuizá quieras darle otra vuelta y conocer un poco más en profundidad a los personajes. Ya sabes, desentrañar sus misterios. Recuerda que estudiar no lo es todo en la vida.. a no ser que quieras llegar a General de 5 Estrellas, en ese caso no deberías siquiera plantearte hacer otra cosa.\n\nBueno, le vayas a dar otro intento o no, esperamos que te lo hayas pasado tan bien jugando como nosotros haciéndolo. \n\n\n¡Muchas gracias por jugar a nuestro juego![/center]"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 3
+		},
+		{
+			"change_scene": "res://scenes/MainMenu.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.5",
+		"file": "timeline-1685992936.json",
+		"name": "N02"
+	}
+}
