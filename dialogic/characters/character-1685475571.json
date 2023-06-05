@@ -38,6 +38,10 @@
 		{
 			"name": "Billy Duck",
 			"path": "res://resources/characters/Alexei/Billy Duck.png"
+		},
+		{
+			"name": "Serious",
+			"path": "res://resources/characters/Alexei/Serious.png"
 		}
 	],
 	"scale": 30,
