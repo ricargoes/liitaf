@@ -5,6 +5,48 @@
 			"event_id": "dialogic_021"
 		},
 		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Conforme te acercas a la cafetería ves que en la mesa de Zachary está sentado un estudiante, recibiendo algún tipo de consejo trascendental de él."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Su aspecto te recuerda a uno de los estudiantes de la primera vez que os conocísteis.\n\n¡Qué tiempos! Parece que fuera ayer..."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Zachary inmediatamente lo despacha mientras te acercas.\n\nOs cruzáis de camino."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Nos conocemos?"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Te mira un poco patidifuso..."
+		},
+		{
+			"character": "character-1685864043.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No, pero debe haber otro estudiante muy parecido a mí, porque me lo dice mucha gente..."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Se aleja.\n\nParece tener un propósito muy claro en la vida justo ahora."
+		},
+		{
 			"animation": "[Default]",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
@@ -25,10 +67,114 @@
 			"z_index": 0
 		},
 		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Estoy muy cansado hoy..."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Espera! Si estás realmente interesado puedo ayudarte con ello..."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No creo que puedas ayudarme a eliminar mi cansancio..."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yo diría que lo que necesitas es un poquito de ejercicio."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Ejercicio! ¡No digas tonterías!  "
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Sí! ¡sí! ¡acompáñame!"
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "En fin... Por una ocasión seguiré tus instrucciones..."
+		},
+		{
+			"background": "res://resources/backgrounds/track.png",
+			"event_id": "dialogic_021"
+		},
+		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Tienes una fructífera conversación con Zachary. Aprendes algo más sobre su secreto y ahora estáis más cerca."
+			"text": "Os desplazáis a la pista de atletismo...\n\nNotas la expresión de profunda desidia en la cara de Zachary y te preguntas si ha sido una buena idea..."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Por otro lado, si está corriendo tendrá que hablar menos porque tendrá que respirar..."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Daís unas cuantas vueltas a la pista y no se calla en ningún momento.\n\nTe ha estado hablando de un montón de cosas raras, como siempre."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Happy",
+			"question": "Ey. ¡No está mal! ¡Ya me siento mucho mejor!\n\n¿Por qué estás sudando tanto?"
+		},
+		{
+			"choice": "¿Por qué no sudas tú? Le hemos dado tres vueltas a una pista olímpica...",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Estás de coña? Supongo que tienes un mal metabolismo..."
+		},
+		{
+			"definition": "1685713211-787",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"choice": "[ No respondes. Mejor recuperar el aliento. ]",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hoy me ha salido rentable escucharte... ¡Pero no te acostumbres!"
 		},
 		{
 			"definition": "1685713245-483",
@@ -39,12 +185,10 @@
 			"set_value": "1"
 		},
 		{
-			"definition": "1685713211-787",
-			"event_id": "dialogic_014",
-			"operation": "+",
-			"random_upper_limit": 100,
-			"set_random": false,
-			"set_value": "1"
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Algo te dice que esto no volverá a ocurrir en tu vida..."
 		},
 		{
 			"event_id": "dialogic_022",
