@@ -84,6 +84,10 @@ config/name="Love is in the air (forces)"
 run/main_scene="res://scenes/MainMenu.tscn"
 config/icon="res://resources/icon/roxxane.png"
 
+[autoload]
+
+Music="*res://scenes/Music.tscn"
+
 [display]
 
 window/size/width=1920

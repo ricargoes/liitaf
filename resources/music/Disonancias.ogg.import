@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Disonancias.ogg-cf7f8e66f445e02ffe505e8f25fab708.oggstr"
+
+[deps]
+
+source_file="res://resources/music/Disonancias.ogg"
+dest_files=[ "res://.import/Disonancias.ogg-cf7f8e66f445e02ffe505e8f25fab708.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -93,6 +93,7 @@ func update_scores():
 		
 	study_score = int(Dialogic.get_variable("pp"))
 	platypus_score = int(Dialogic.get_variable("cp"))
+	Music.distorsion_level(platypus_score)
 	informant_status = Dialogic.get_variable("informant_status")
 	day_stage += 1
 	if day_stage > Period.Night:

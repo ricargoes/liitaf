@@ -1,0 +1,46 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://resources/music/Alexei.ogg" type="AudioStream" id=1]
+[ext_resource path="res://resources/music/Weiting.ogg" type="AudioStream" id=2]
+[ext_resource path="res://resources/music/Main.ogg" type="AudioStream" id=3]
+[ext_resource path="res://resources/music/Zachary.ogg" type="AudioStream" id=4]
+[ext_resource path="res://resources/music/Disonancias.ogg" type="AudioStream" id=5]
+[ext_resource path="res://resources/music/Sharon.ogg" type="AudioStream" id=6]
+[ext_resource path="res://resources/music/Roxanne.ogg" type="AudioStream" id=7]
+[ext_resource path="res://scenes/music.gd" type="Script" id=8]
+
+[node name="Music" type="Node"]
+script = ExtResource( 8 )
+
+[node name="Base" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )
+autoplay = true
+
+[node name="Alexei" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 1 )
+volume_db = -80.0
+autoplay = true
+
+[node name="Roxxane" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 7 )
+volume_db = -80.0
+autoplay = true
+
+[node name="Sharon" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 6 )
+volume_db = -80.0
+autoplay = true
+
+[node name="Zachary" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 4 )
+volume_db = -80.0
+autoplay = true
+
+[node name="Wai-ting" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 2 )
+volume_db = -80.0
+autoplay = true
+
+[node name="Distorsion" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 5 )
+autoplay = true

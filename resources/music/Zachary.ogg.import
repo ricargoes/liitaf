@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Zachary.ogg-4b4ed54b7c03973d48507703414b2516.oggstr"
+
+[deps]
+
+source_file="res://resources/music/Zachary.ogg"
+dest_files=[ "res://.import/Zachary.ogg-4b4ed54b7c03973d48507703414b2516.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

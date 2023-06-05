@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Roxanne.ogg-4fa04b9f08403e8970da42c978ff49c5.oggstr"
+
+[deps]
+
+source_file="res://resources/music/Roxanne.ogg"
+dest_files=[ "res://.import/Roxanne.ogg-4fa04b9f08403e8970da42c978ff49c5.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
