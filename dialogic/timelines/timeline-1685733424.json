@@ -75,7 +75,7 @@
 			"text": "No se si me gusta tanta atención..."
 		},
 		{
-			"choice": "Esa palmera de ahí.",
+			"choice": "Ese pino de ahí.",
 			"condition": "",
 			"definition": "",
 			"event_id": "dialogic_011",
