@@ -5,6 +5,12 @@
 			"event_id": "dialogic_021"
 		},
 		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Encuentras a Zachary sentado en su mesa.\n\nParece contento..."
+		},
+		{
 			"animation": "[Default]",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
@@ -25,10 +31,65 @@
 			"z_index": 0
 		},
 		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hola."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Siéntate."
+		},
+		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Tienes una fructífera conversación con Zachary. Aprendes algo más sobre su secreto y ahora estáis mucho más cerca."
+			"text": "Te sientas a regañadientes.\n\nTe estás arrepintiendo ya... Pero has venido andando hasta la cafetería y no vas a hacer el viaje en balde."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Hoy vamos a hablar de la sumisión? "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Parece que no entiende el concepto de preliminares."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Dime [pc_name]. ¿Estás dispuesto a seguir órdenes?"
+		},
+		{
+			"choice": "Lo estoy, por una causa noble.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1685713245-483",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"choice": "Lo estoy, por alguien interesante...",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
 		},
 		{
 			"definition": "1685713245-483",
@@ -39,12 +100,164 @@
 			"set_value": "2"
 		},
 		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Me gusta tener claro a que personas puedo controlar y a cuáles no."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿No crees que podrías establecer relaciones con otras personas en base a cosas como... no se... la reciprocidad?"
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Fantasías!\n\nHay mucha gente como yo. Y el mundo es un lugar peligroso en sí mismo. El equilibrio natural es el sometimiento."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La clave está en que algunos, los inmunes a ese sometimiento, se enfrenten entre ellos, y los supervivientes lideren.\n\nCon el menor número de víctimas posibles entre los sometidos."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Desde hace cuánto te preocupa el control?"
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " ¿Desde hace cuánto? Desde siempre..."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Digamos que nunca se me dio la opción de que no me preocupase. Y con el paso de los años, alguien especial encontró la manera de que mi deseo de control se pusiese al servicio de un bien mayor."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Alguien especial?"
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Sí, alguien de la nobleza."
+		},
+		{
+			"choice": "Espera, ¿conoces a un noble? ¿De que nobleza hablamos?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pues un noble, ¡hay muchos nobles!"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Realmente no hay tantos ya..."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Bueno, es una historia muy larga..."
+		},
+		{
 			"definition": "1685713211-787",
 			"event_id": "dialogic_014",
 			"operation": "+",
 			"random_upper_limit": 100,
 			"set_random": false,
 			"set_value": "1"
+		},
+		{
+			"choice": "Aham... Continua por favor...",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Volviendo al tema... ¿tú qué piensas sobre el control?"
+		},
+		{
+			"choice": "Yo creo en el control.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Yo creo en el poder.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Yo creo en la virtud.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hum...\n\nNo se puede aprender a hacer lo que yo hago... Digamos que no estás equipado para ello."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pero sí puedo enseñarte a defenderte de otra gente como yo. Puede que te sea útil en el futuro..."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Nunca se sabe cómo acontecerán las cosas.\n\nSi vamos a estar cerca, necesito que seas mentalmente inquebrantable."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Se pone a mirar al horizonte.\n\nTe quedas en plan WTF."
 		},
 		{
 			"event_id": "dialogic_022",

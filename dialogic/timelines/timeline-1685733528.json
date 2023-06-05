@@ -5,6 +5,18 @@
 			"event_id": "dialogic_021"
 		},
 		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Cuando llegas, encuentras a Zachary en la puerta de la cafetería. Mirando hacia las ventanas.\n\nHa ocurrido lo impensable... Su mesa está reservada por unos oficiales."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Dirías que lo lógico sería un lamento, una lágrima por las mejillas incluso... Pero no, obviamente eso no va a pasar...\n\nProbablemente está pensando en matar al culpable."
+		},
+		{
 			"animation": "[Default]",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
@@ -25,10 +37,215 @@
 			"z_index": 0
 		},
 		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Oye que tiene esa mesa de especial?"
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ya te lo he dicho... Puedo estudiar a la gente desde ahí."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ya, sí... Recuerdo esa conversación..."
+		},
+		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Tienes una fructífera conversación con Zachary. Aprendes algo más sobre su secreto y ahora estáis mucho más cerca."
+			"text": "La recuerdas."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pero hay una mesa justo al lado."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Señalas una mesa situada a 2 metros como mucho..."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sí, pero en esa mesa hay la cantidad justa de sombra que me viene bien."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Y mi piel es muy sensible..."
+		},
+		{
+			"choice": "¿Porque en la conversación eres de repente la señora de 70 años?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Ponte un poquito de crema solar.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Además, ¿qué te pasa en la piel a ti?"
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mi piel es especial."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La piel de todo el mundo es especial..."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "No idiota. Mi piel es especial especial."
+		},
+		{
+			"choice": "Te creeeo... [ Mirarle la piel por si acaso ]",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ahora que te fijas, parece que ha estado un rato sentado en una de las otras mesas y uno de sus brazos está tan enrojecido que está intentando ocultarlo."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pero si te fijas bien ves una textura un poco rara."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No es nada, no te preocupes..."
+		},
+		{
+			"definition": "1685713211-787",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"choice": "Te creeeo... [ Pasar de él ]",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Estoy muy enfadado con quién haya reservado mi mesa..."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hombre, es la mesa más reventada de todas. Y una de las sillas está en las últimas..."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pero es mi mesa. "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sigues pensando que no te suena ninguna manera oficial de determinar la propiedad de las mesas de la cafetería..."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ves ese es el problema. La gente no me respeta.\n\nAlgún ingrato, probablemente molesto conmigo, y sin razón, está detrás de todo esto."
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": " Y ese alguien tiene que pagarlo caro. No quiero que le ocurra nada de drástico... Solo quiero que nunca olvide quien soy y que nunca olvide aquello de lo que soy capaz..."
+		},
+		{
+			"choice": "[ Ofrecerle un masaje ]",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ahhh... Mucho mejor así..."
+		},
+		{
+			"definition": "1685713245-483",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"choice": "[ Ofrecerle ayuda para localizar al culpable ]",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ven conmigo tengo un plan..."
 		},
 		{
 			"definition": "1685713245-483",
@@ -39,12 +256,7 @@
 			"set_value": "2"
 		},
 		{
-			"definition": "1685713211-787",
-			"event_id": "dialogic_014",
-			"operation": "+",
-			"random_upper_limit": 100,
-			"set_random": false,
-			"set_value": "1"
+			"event_id": "dialogic_013"
 		},
 		{
 			"event_id": "dialogic_022",
