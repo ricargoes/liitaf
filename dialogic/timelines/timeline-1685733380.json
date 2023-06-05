@@ -1,6 +1,397 @@
 {
 	"events": [
+		{
+			"background": "res://resources/backgrounds/track.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
 
+			],
+			"portrait": "",
+			"question": "Decides volver por la pista de atletismo. Y tal y como te dijo, vuelves a encontrarte allí con Alexei, calentando y preparado para correr."
+		},
+		{
+			"choice": "Hola, Alexei.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei se pone de pie de un salto y te mira fijamente. Acto seguido se pone a lucir músculos."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "showing off",
+			"text": " ¡Mira qué bíceps tengo! ¿A que es asombroso?"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei se pone firme con otro salto."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Sabes que lo estás haciendo bien cuando cada cosa que haces, por pequeña que sea, te hace pensar “¡eres increíble, Alexei!” ¿Tú qué opinas?"
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1685965428",
+			"index": 0,
+			"name": "Opino que apenas te conozco."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Opino que apenas te conozco."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Y por suerte para ti eso está a punto de cambiar! Pero lo primero es lo primero. Últimamente no hago más que ver novatos como tú y siempre me hago la misma pregunta: ¿tendrán los bemoles…?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Los bemoles para qué?"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Para pilotar un caza Lockheed C-5 Galaxy! ¡Los bemoles para abatir al enemigo, por supuesto! ¡Tomar decisiones difíciles en el campo de batalla!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei se pone a contar con los dedos de las manos."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hum… Creo que ya está todo… ¡No! ¡ESPERA!"
+		},
+		{
+			"animation": "tada.gd",
+			"animation_length": 1,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "showing off",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "En definitiva: ¡bemoles para ser General de Cinco Estrellas!"
+		},
+		{
+			"choice": "¡Puedes apostar que sí!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "¡Muy bien, recluta! En ese caso, te recuerdo que tenemos un asunto pendiente tú y yo. Así que ¡a la línea de salida! ¡Resistencia! ¡Fuerza! ¡Espíritu!"
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "Una persona es mucho más que correr rápido sin cansarse."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Sabes? Una persona es mucho más que correr rápido sin cansarse."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei parece cortocircuitar ante esta afirmación que tu boca ha escupido tan alocadamente."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "upset",
+			"text": "Para el carro, “Eisenhower”… ¿Qué quieres decir con eso? ¿Me estás diciendo que correr sin cansarse no es importante?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No, a ver. Quiero decir que hay… más cosas."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "¿Cómo saber acertarle a una mosca a más de diez kilómetros de distancia entre ceja y ceja con un proyectil de 9mm?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Eh? Diría que eso no es posible."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Aniquilar tú solo con tus propias manos a todo un escuadrón enemigo utilizando la oscuridad en tu favor? La oscuridad o la jungla, una de dos. O las dos cosas a la vez, claro. Porque en la jungla también…"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "angry",
+			"text": "...oscuridece."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oscurece."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "blushing",
+			"text": "¡Ja! No me fío de las personas que lo arregláis todo con palabrería barata. ¡Demuestra lo que vales! Si quieres que te trate como a mi igual debes… debes… ¡debes dar cien vueltas a la pista de atletismo! ¡Sin cansarte!"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Eso es literalmente imposible!"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Imposible? ¡Permite que me carcajee! ¡Ja, ja, ja, ja, ja…!"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ya vale."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡No! ¡Ja, ja, ja, ja, ja, ja! Ahora sí."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Esa risa significa que es posible. ¡Yo mismo lo he hecho! Lo recuerdo como si hubiera sido ayer, pero, en realidad, fue hace mucho, mucho, mucho tiempo."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿No vas a dar más detalles?"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡No, porque le das tanto a la sinhueso que ahora tengo que irme! Pero recuerda: ¡estaré esperándote aquí para nuestra pequeña carrera…! Y si no te presentas… Bueno, ya sabes lo que pasará si no te presentas, ¿no?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Que mañana todo el mundo sabrá lo pusilánime que soy."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Eso es! ¡Pus… nimali… pus… pusnimálime! ¡Nos vemos, recluta!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei se marcha, y tú también."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"choice": "Buf, qué pereza todo lo que hay que hacer, ¿no? ¡Mejor me vuelvo a casa!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Ja! En cuanto te vi supe que no tenías madera para esto. ¡Tengo un ojo increíble para estas cosas!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Efectivamente, Alexei tiene un ojo. No sabes si es increíble o no, pero desde luego lo que te ha quedado claro y cristalino es el hecho de que tiene un solo ojo."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hablando de ojos, ¿qué te pasó?"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "angry",
+			"text": "¿Qué es esto? ¿Un interrogatorio? ¡Ni siquiera has demostrado ser una persona digna de hablar conmigo todavía! Antes tenemos que echar una carrera… ¡A la línea de salida!"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Hola, Superman.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei se pone de pie de un salto y te mira fijamente. Acto seguido se pone a lucir músculos."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "showing off",
+			"text": "¡No es la primera vez que me llaman Superman, la verdad sea dicha!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Alexei se pone firme de un salto."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Lo cierto es que nunca he conocido a nadie que se merezca el apodo más que yo. Bueno, quizás el propio Superman, pero como no existe..."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Por la expresión de Alexei dirías que ahora mismo está tratando de dilucidar si Superman existe o no. Tras unos segundos parece dar con una respuesta que le agrada."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Superman no existe."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "showing off",
+			"text": "¡Pero Alexei está frente a tus ojos ahora mismo, ¿no es increíble?!"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Supongo…"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "abes que lo estás haciendo bien cuando cada cosa que haces, por pequeña que sea, te hace pensar “¡eres increíble, Alexei!” ¿Tú qué opinas?"
+		},
+		{
+			"anchor_id": "anchor-1685965428",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",

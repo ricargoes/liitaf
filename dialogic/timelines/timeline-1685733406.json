@@ -1,6 +1,71 @@
 {
 	"events": [
-
+		{
+			"background": "res://resources/backgrounds/track.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei vuelve a insistirte en que la carrera es necesaria para demostrar tus auténticas capacidades. El tiempo acompaña, espléndido. Ha llegado el día. Hoy no te libras."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "showing off",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Os ponéis en la línea de salida y, cuando termina la cuenta atrás, Alexei parece deslizarse a toda velocidad por la pista de atletismo. Antes de que consigas terminar tu primera vuelta, él ya te ha adelantado un par de veces. "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Es increíblemente rápido pese a correr de la forma más extraña que has visto en tu vida. De hecho dirías que parece un pingüino."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Al terminar, Alexei te está esperando, y tal y como imaginabas, se jacta de su resistencia de hierro, pero también te felicita por la tuya."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "“Sabía que perderías, pero es que el rival era Alexei”, te dice."
+		},
+		{
+			"definition": "1685713217-366",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",

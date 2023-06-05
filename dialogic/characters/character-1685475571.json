@@ -30,6 +30,14 @@
 		{
 			"name": "showing off",
 			"path": "res://resources/characters/Alexei/showing off.png"
+		},
+		{
+			"name": "Sad",
+			"path": "res://resources/characters/Alexei/Sad.png"
+		},
+		{
+			"name": "Billy Duck",
+			"path": "res://resources/characters/Alexei/Billy Duck.png"
 		}
 	],
 	"scale": 30,

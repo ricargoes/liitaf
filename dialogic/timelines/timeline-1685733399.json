@@ -1,6 +1,697 @@
 {
 	"events": [
+		{
+			"background": "res://resources/backgrounds/track.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "En cuanto pones un pie en la pista de atletismo, ves que Alexei te está esperando allí con una sonrisa de oreja a oreja. Tiene los brazos cruzados tras la espalda y se acerca hacia ti dubitativo. Carraspea para aclararse la garganta y finalmente habla."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "blushing",
+			"text": "Alexei: Hola, [pc_name]."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pese a ser el más sencillo de los saludos, un gallo terrible distorsiona la por otra parte siempre viril voz de Alexei, haciendo que suene como un prepúber chillón, y no puedes evitar que una risita se te escape."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hola, Alex."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Te das cuenta de que está verdaderamente nervioso."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Antes de terminar siquiera la frase te encuentras con un ramo de rosas delante de la cara, tan cerca que algunos pétalos se te meten por las fosas nasales. La verdad es que su fragancia es muy agradable."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
 
+			],
+			"portrait": "",
+			"question": "Antes de terminar siquiera la frase te encuentras con un ramo de rosas delante de la cara, tan cerca que algunos pétalos se te meten por las fosas nasales. La verdad es que su fragancia es muy agradable."
+		},
+		{
+			"choice": "¡Agh, rosas, mi punto débil! ¡Me derrito!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Ah! ¡Lo siento! ¿Tienes algún tipo de medicación para ello?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Relájate, era una broma."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Con estas cosas no se bromea! Dios, de todas formas sabía que era una pésima idea… ¡Regalar ramos de flores es tan… siglo XX!"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Estamos en el siglo XX."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Ja! ¿Y cuánto crees tú que va a durar eso? ¡Trae ese ramo! Devolveré esas rosas una a una al lugar de donde nunca debieron salir..."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "angry",
+			"text": "… los rosales."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡No! Me gustan."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "blushing",
+			"text": "¿En serio?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Son preciosas, Alexei! Gracias."
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "¡Son preciosas, Alexei! Gracias.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "Son preciosas."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "blushing",
+			"text": "Ejem, bueno, me las encontré por ahí tiradas, así que no le des mucha importancia."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Me estás dando un ramo de rosas que te has encontrado tirado por ahí?"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Eh? ¡Ah, no, no, no! Quise decir que lo he comprado en la floristería de camino hacia aquí."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Vaya, es todo un detalle."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Espera, espera, ¿he dicho que las compré yo? En realidad se lo encargué a… er… ese tipo de allí."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei señala a un recluta que está corriendo lo suficientemente lejos como para no darse cuenta de que acaba de ser involucrado de refilón en un asunto que ni le va ni le viene."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Son unas rosas muy bonitas. Las pondré en una maceta y las regaré a diario. ¡Creo que iré a agradecérselo!"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Vale, vale, de acuerdo! Lo confieso: lo he hecho yo todo. ¡Solo! Pero me daba vergüenza entrar en una floristería, así que me he pasado un buen rato recogiendo rosas."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Alguna vez te han dicho que en cierto modo eres encantador?"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "blushing",
+			"text": "¿Soy encantador?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pero sólo a veces."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei suspira aliviado. Parece que le has quitado un peso de encima."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "¿Sabes la de espinas que tienen los tallos? Me he pinchado un montón de veces. Pero apenas me ha dolido, así que no te preocupes. "
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "¡A decir verdad no me ha dolido nada de nada! ¡Mira! ¡Trae! Que me voy a pinchar con una para que veas lo poco que me duelen esas cosas."
+		},
+		{
+			"choice": "Yo también me estoy pinchando ahora mismo, se las podías haber quitado, por lo menos.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei te quita el ramo de las manos inmediatamente."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Se las quito ahora mismo, no te preocupes!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No tarda mucho en pincharse con una espina."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "upset",
+			"text": "¡Auuu! Quiero decir: a uuun tiiiipo que conocí una vez le… esto… le parecía que las rosas… eran… ¿rojas?"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Acaba de camuflar un quejido de dolor no muy hábilmente."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Déjalo, Alexei. Conmigo puedes ser tú mismo."
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "(Le dejas que haga el idiota, es divertido.)",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei te quita el ramo de las manos y cierra su puño alrededor de los tallos espinosos con fuerza."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "upset",
+			"text": "¿Vee-he-he-heeees? ¿Esto? ¡Esto nada, hombre! ¿A quién le duele esto?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡No estás apretando mucho!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Un brillo de pánico centellea en el ojo de Alexei durante una milésima de segundo."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Cómo que no? Mira, mira qué de espinas que por supuesto no me afectan en absoluto:"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Te enseña la palma de la mano. Tiene algunas espinas clavadas por aquí y por allá."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "showing off",
+			"text": "Au… Auuu… ¡Auuuuu!"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Qué haces?"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Mi espíritu animal es el lobo! Es fuerte, resistente y valeroso."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Le miras arqueando una ceja."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A veces aúllo a la luna llena, te lo prometo."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Déjalo, Alexei. Conmigo puedes ser tú mismo."
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "Déjalo, Alexei. Conmigo puedes ser tú mismo.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "tu mismo"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "blushing",
+			"text": "¿Yo mismo?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sí. Creo que… me gusta."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei se ruboriza durante unos segundos, pero rápidamente recobra la compostura y saca su mancuerna."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "showing off",
+			"text": "¡Mira! Esta pesa ochenta kilos de verdad… Hmpf…"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Esta vez claramente pesa más. Las venas de los brazos se hinchan a medida que levanta la mancuerna, al igual que las de sus sienes. Pero no crees que pese tanto."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Anda ya, trae acá!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Le quitas la mancuerna de la mano a Alexei y caes de bruces por el peso. Definitivamente no mentía."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "upset",
+			"text": "¿Qué haces? ¿Estás bien? ¡Pero que pesa un quintal!"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡No hace falta que lo jures!"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Para levantar tanto peso hay que ser una auténtica bestia, ¡como Alexei!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei recoge la mancuerna."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "showing off",
+			"text": "¡Mira esto!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Lanza la mancuerna al aire con total confianza, pero cuando la recoge de nuevo la mancuerna se desliza entre sus dedos, con tan mala suerte que le cae sobre un pie."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "upset",
+			"text": "¡¡AAEEEIEIEEEAAAAAAOOOAOAOAH…!! ¡Qué sueño así de repente, JODER! ¡Me cago en la puta, qué sueño!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Acabas de presenciar cómo ha camuflado un alarido de dolor como un bostezo. Realmente se le da bien aparentar."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Estás bien? Déjame echar un vistazo."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "¡Estoy bien, estoy bien! He sobrevivido a cosas bastante peores; puedo sobrevivir a ochenta kilos de nada cayendo a plomo sobre una de mis patas."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Patas?"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿He dicho patas? Quise decir pies, perdóname; en realidad duele un poquito."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Creo que deberíamos ir a la enfermería a que le echen un ojo. "
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡A la enfermería no! ¡No te preocupes! Esto se pasa con un poquito de reposo, además exageré, no es para tanto."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Una lágrima de lo que presupones dolor se escurre por la mejilla de su ojo bueno."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Realmente creo q-"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "No te da tiempo a terminar la frase cuando Alexei te besa sin mediar palabra."
+		},
+		{
+			"choice": "Te dejas llevar.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Cierras los ojos y te dejas llevar. Para lo bien que besa, nunca le has escuchado presumir al respecto. ¿Debería? "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Al cabo de unos segundos, vuestros labios se despegan, unidos únicamente por un pequeño hilillo de saliva que brilla bajo el sol."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "blushing",
+			"text": "Lo siento. A lo mejor no debería haber hecho eso, pero es que tenía la sensación de que no te ibas a callar y..."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Besas a Alexei para que se calle él."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Volvéis a fundiros en un beso que hace que el tiempo se detenga a vuestro alrededor. Definitivamente el cielo es hoy más azul que nunca."
+		},
+		{
+			"definition": "1685713217-366",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1000"
+		},
+		{
+			"choice": "Le apartas de un empujón.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "upset",
+			"text": "¡Lo siento! A lo mejor no debería haberlo hecho, pero es que tenía la sensación de que no te ibas a callar y…"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No, lo siento yo, de verdad. Estoy es muy extraño. Demasiado rápido. Creo que debería irme."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Lo… lo entiendo. Espero no haberte molestado."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No te preocupes. Hablamos."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Te marchas, dejando a Alexei allí plantado con el ánimo por los suelos, más o menos a la misma altura que su pie hinchado, sin dejar de pensar si acabas de cometer un error o no."
+		},
+		{
+			"definition": "1685713217-366",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Por favor, hagamos como que esto nunca ha pasado, ¿vale?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei retira rápidamente de tu cara y lo lanza lo más lejos posible. Escucháis un grito en la lejanía."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "upset",
+			"text": "¿De qué hablas?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mira, creo que deberíamos dejar de hablar."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ah, ¿estamos hablando?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Adiós, \tAlexei."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pero volverás por aquí, ¿no? ¡Te prometo que no volverá a pasar eso que no acaba de pasar!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Te marchas dejando a Alexei con el ánimo por los suelos."
+		},
+		{
+			"definition": "1685713217-366",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "-1"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"definition": "1685713211-787",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",

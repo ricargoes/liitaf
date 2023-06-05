@@ -1,6 +1,27 @@
 {
 	"events": [
-
+		{
+			"background": "res://resources/backgrounds/track.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pasas la tarde en la pista de atletismo con Alexei. Sigue empeñado en que echéis una carrera para demostrar tu resistencia. Por suerte para ti, empieza a llover y finalmente consigues convencerle de seguir charlando en la cafetería."
+		},
+		{
+			"definition": "1685713217-366",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",

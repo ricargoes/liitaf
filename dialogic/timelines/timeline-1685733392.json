@@ -1,6 +1,530 @@
 {
 	"events": [
+		{
+			"background": "res://resources/backgrounds/track.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La pista de atletismo está completamente vacía a excepción de Alexei, al que te encuentras sentado en el suelo mirando fijamente al cielo."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Hay algo interesante ahí arriba?"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hoy notas algo diferente en Alexei. Parece como si su mente estuviera en otro lugar. Tarda un buen rato en reparar en tu presencia."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_010",
+			"options": [
 
+			],
+			"portrait": "",
+			"question": "Dobroye utro, recluta."
+		},
+		{
+			"choice": "¿Eh?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "¡Sabía que eras ruso! Al menos Alexei me sonaba muy a ruso.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "¡Eso mismo digo yo, “dabru utra”!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Parece tan ensimismado que no presta demasiada atención a lo que dices. Al cabo de un rato te mira fijamente, clavando su ojo azul en tu entrecejo, o quizás en uno de tus ojos. No sabrías decirlo."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "Dime,¿alguna vez echas de menos tu hogar?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mi hogar es la academia."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yo… quiero que lo sea. Amo este sitio, pero hay días en que no puedo evitar sentirme como un pez fuera del agua."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Es el problema de ser demasiado perfecto, ¿no?"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hm… Sé que puede sonarte raro esto que te estoy contando, ¿verdad? Bueno… Pues agárrate, que vienen curvas: realmente no soy perfecto. "
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No me mires así, por favor. Ya sé que es chocante descubrir que las aparentemente irrompibles máscaras de porcelana pueden acabar convertidas en añicos."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pero la porcelana no es… err… ¿Sabes? Creo que te sigo."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Suspira profundamente y vuelve a mirar hacia el cielo azul."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Vengo todos los días a esta pista de atletismo y corro, y corro, y a veces tengo la sensación de que no debería parar nunca, porque mientras corra no tendré que enfrentarme a la realidad. Es como si correr me hiciese sentir más… humano. ¿Tiene eso algún sentido para ti?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Vale, retiro lo dicho: definitivamente creo que no te sigo."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "El hombre del parche se pone en pie y hace un gesto en dirección a la pista de atletismo."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Te importa que demos un paseo? Andando, claro. Al fin y al cabo, las personas son mucho más que correr rápido sin cansarse. George Wahington."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei te guiña su único ojo."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Eh! ¡Eso lo dije yo!"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Ah, sí? Nah, yo estoy seguro de habérselo escuchado a George Washington."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Eh?"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Sabes cómo perdí el ojo?"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Se señala el parche durante unos segundos mientras espera tu respuesta."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Este."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ya."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Sabes lo que pasó?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No. Pero no te negaré que tengo curiosidad."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Fue una de esas situaciones en las que desearía haber podido correr hasta perder el conocimiento en lugar de enfrentarme a la realidad. Verás… yo lideraba un escuadrón. "
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Eran los hombres más valientes que jamás hayan surcado los cielos. Cualquiera de ellos habría dado su vida por mí o por la de sus compañeros… y no pasa un día sin que me atormente que así fuera. Mi aeronave trasladaba una carga de suma importancia."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei camina despacio, sin dejar de mirar al cielo."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "De alguna manera la información debió filtrarse, y fuimos asaltados por un enjambre enemigo. En ese momento lo que debía ser una ruta segura rápidamente se convirtió en un infierno de llamas azules. La prioridad era evitar que el cargamento cayese en manos enemigas a toda costa… "
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "angry",
+			"text": "¿Sabes? A esos cabrones de monóculos dorados que se sientan en sus sillas de sedoso terciopelo rojo y que nos dirigen desde la seguridad de sus torreones de cristal no les importa sacrificar tantas vidas como sean necesarias para cumplir con el objetivo prioritario. Mis hombres hicieron todo lo posible…"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Los puños de Alexei se cierran, tensos. Tan tensos de que te da la impresión de que van a implosionar en cualquier momento."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Abatieron a centenares de naves enemigas, pero no pudieron evitar que la que yo pilotaba fuese alcanzada. Solo gracias a mi pericia como piloto conseguí huir y aterrizar forzosamente en tierra firme. "
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "Pero, ¿a qué precio? Mi simple supervivencia costó la vida a todos aquellos hombres valerosos y también…"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Se señala el ojo."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "No sabes muy bien si Alexei está exagerando, como de costumbre, con todo ese asunto de los “centenares de naves” enemigas, pero parece realmente compungido con cada palabra que sale de su boca."
+		},
+		{
+			"choice": "Lo siento mucho, Alexei. ",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No te equivoques. No quiero que sientas lástima por mi. Quiero que entiendas por qué sigo aquí, pese a todo. Por qué dedico mi vida, mi alma y mi espíritu a la USSF. Es el mismo motivo definitivo por el que lo hace todo soldado que se precie. "
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A veces tendremos que cargar con las consecuencias de los actos de otros. Rehusar las órdenes de un superior puede significar poner en peligro la estabilidad del bien común en lugar de las vidas de unos pocos. "
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No puedo decir que apruebe las decisiones que se tomaron aquel día… pero es mi deber esforzarme cada día, ¡cada día!, por hacerlo. Al fin y al cabo..."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei extiende los brazos hacia el cielo."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Miras al cielo. Hoy es especialmente azul. No sabrías decir si siempre es así de azul o es simplemente el momento."
+		},
+		{
+			"choice": "Cuando seamos Generales de Cinco Estrellas, sabremos tomar mejores decisiones.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei sonríe y vuelve a clavar su ojo azul en tu entrecejo. Sí, definitivamente te mira al entrecejo, no hay discusión alguna."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "¿Sabes qué? ¡Así se habla, - - -! Quizá nuestro destino sea cambiar las cosas desde dentro. ¡Aunque el camino sea oscuro y tormentudo!"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Tormentoso."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Juraría que tormentudo es correcto, ¿eh? Vamos, yo lo he usado muchísimas veces."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Claro…"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Se despereza, acompañando el gesto de un rugido que parece tener la función de desfogue puntual."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Ah, qué bien sienta sacarse un peso de encima! Bueno, ¿echamos esa carrera?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La verdad es que tengo que irme, Alexei. Debería estudiar."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Claro, sí, hincar los codos! A lo mejor un cerebrito con las ideas claras sí que puede cambiar las cosas. ¡De acuerdo! Aquí estaré. Y, [pc_name]… "
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "blushing",
+			"text": "Gracias."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No hay nada que agradecer, Alexei."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Te marchas, y cuando miras hacia atrás ves a Alexei corriendo. Se te escapa una risita bobalicona. ¿Cómo puede correr alguien tan rápido y al mismo tiempo de una forma tan torpe?"
+		},
+		{
+			"definition": "1685713217-366",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"choice": "Estás como una puta cabra, chico.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Qué tipo de cumplido es ese? Creo que no lo identifico."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Porque no es un cumplido..."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei parece tener problemas para procesar esta información."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "angry",
+			"text": "Espera un segundo… ¿Eso significa que no me crees?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Me resulta difícil de creer que te haya pasado algo que podría haber escrito John Rambo en su diario."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿John Rambo? ¿En serio? Ese tío es un mindundi comparado conmigo. Además, ¿sabes qué? Creo que no me apetece seguir hablando ahora mismo. Adiós, recluta."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei se marcha, y tú también."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Buena historia, ¿de qué peli es?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei parece confuso ante tu respuesta."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Peli? ¿Qué quieres decir con eso?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Colega, toda esa mierda me ha sonado a idea de guionista en horas bajas."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Cómo de bajas?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Bastante bajas."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "angry",
+			"text": "¿Bastante baj…? Recluta, el día que vivas algo lejanamente similar a lo que te he contado, créeme: te tragarás tus palabras."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡De acuerdo, Capitán Kirk!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei te da la espalda y se marcha. Tú también."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"definition": "1685713211-787",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",

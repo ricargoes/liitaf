@@ -1,6 +1,253 @@
 {
 	"events": [
+		{
+			"background": "res://resources/backgrounds/camo.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei te invita a pasar la noche en su casa y, cómo no, aceptas. Cuando llegas allí te resulta chocante que casi todo tenga similaridades con lo que dirías que es… una base de operaciones."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei… ¿Qué es todo esto?"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Qué va a ser? Ja, ja, ja. Pues mi apartamento."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pasáis la noche divirtiéndoos. Alexei es abstemio así que la única persona que sucumbe a los delirios del alcohol eres tú. Durante la noche, la llamada de la naturaleza te despierta, y te levantas para ir al baño."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 1,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Te das cuenta de que Alexei no está en la cama pero no le das mucha importancia. Cuando sales del baño crees escuchar unos extraños sonidos provenientes del salón… y te acercas para ver qué pasa."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Alex?"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Mierda!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Cuando te giras para mirarle descubres que no está en la estancia. Entonces escuchas una voz a tus pies. Cuando miras, ves el cascarón vacío de Alexei en el suelo. "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A su lado hay un ornitorrinco con un parche que va ataviado con una chaqueta de piloto y un casco rojo. La criatura te mira fijamente con un brillo de ilusión en el pequeño ojo negro."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Billy Duck",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Vaya, me has pillado… No pensaba contártelo, pero… ¡me moría de ganas de contártelo!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Vale. Alexei es un ornitorrinco del espacio. ¡Tu amigo Miguel estaba en lo cierto en lo referente a la conspiración! Además, eso explica la forma tan rara de correr de Alexei. "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Y desde luego también explica lo de todas esas veces que desvariaba hablando de haber estado involucrado en batallas espaciales."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Así que por eso corres tan raro!"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Corro raro?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Corres un huevo de raro!"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Y por qué nadie me ha dicho nunca nada?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Yo te lo he dicho varias veces, pero siempre cambias de tema."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Bueno, eso no importa ahora! Lo importante es que… desde que te he conocido estoy una pequeña encrucijada. Creo que he desarrollado ciertos sentimientos tremendamente humanos por ti."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Como reconocido héroe del Imperio, tengo que cumplir con mi misión aquí, pero te prometo que, si te quedas conmigo, no te pasará nada."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Por un lado machacarías la cabeza del ornitorrinco hasta reducirla a una pulpa sangrante, pero por otro… "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Es bien cierto que te consideras una persona a la que nunca le ha importado el aspecto físico. Y la, en el fondo, tierna personalidad de Alexei, te ha cautivado. Tanto que ha llegado a enamorarte."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No lo sé… Creo que necesito tiempo para pensar."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡La única condición es que decidas ahora mismo…! Por favor, quédate conmigo… No sé si podría seguir adelante sin ti y sin tu forma de recordarme constantemente que corro raro… Ja, ja, ja…"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "El ornitorrinco te mira con ojos soñadores. ¿Será posible que te hayas enamorado perdidamente de él?"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
 
+			],
+			"portrait": "",
+			"question": "“¡Qué raro corres, Alexei, ¿has ido a mirártelo a ver si es algún tipo de raquitismo degenerativo?”, “Oye, Alexei, cada día corres más raro, empiezo a preocuparme.” Ah… Cuántos recuerdos."
+		},
+		{
+			"choice": "Rehúsas su petición.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1685722565.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"choice": "Te quedas con Alexei.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1685563048.cfg"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "En ocasiones, el corazón y el cerebro disputan un combate de boxeo cuyo vencedor suele ganar por K.O. en el primer asalto.\n\nEn este caso, la victoria de tu corazón ha sido impepinable. Alexei y tú comenzáis una nueva vida bajo el yugo del Imperio Ornitorrinco.\n\nNo hay día que pase en el que no pienses que en realidad es un triunfo haber terminado siendo la pareja de hecho de un condecorado héroe del espacio."
+		},
+		{
+			"event_id": "dialogic_013"
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",

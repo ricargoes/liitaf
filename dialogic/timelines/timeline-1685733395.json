@@ -1,6 +1,484 @@
 {
 	"events": [
+		{
+			"background": "res://resources/backgrounds/track.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Cuando vuelves por la pista de atletismo te encuentras con que hay más reclutas que de costumbre. Algunos están disputando un partido de fútbol animadamente, mientras que otros hacen ejercicio y corren alrededor de la pista que rodea la cancha. "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No te cuesta mucho divisar a Alexei sentado sobre la hierba, observando la disputa amistosa tranquilamente."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hey, Alex."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Se gira hacia ti con una expresión de sorpresa."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Alex?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Bueno, hay confianza, ¿no?"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_010",
+			"options": [
 
+			],
+			"portrait": "",
+			"question": " Supongo que sí. ¿Quieres sentarte a ver el partido conmigo?"
+		},
+		{
+			"choice": "Te sientas.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Te puedes creer que ninguno de los equipos ha metido un solo gol hasta ahora? Y no es porque los porteros sean una maravilla, la verdad. Mira ese delantero. Su patada tiene potencia, ¡pero el tío no da ni una!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "En ese momento el balón, como un asteroide imparable, te pasa por encima. ¡Posiblemente te habría decapitado si te hubieras quedado de pie!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei se levanta de un salto, evidentemente furioso."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "angry",
+			"text": "¡Un poco más de cuidado, hombre! ¡La portería está ahí! ¿Sabes lo que es una portería, no? ¡La cosa esa que tiene una red tensada con palos! ¡Tres palos!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei cuenta con los dedos de una mano, casi parece que vaya a salir humo de sus orejas."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Efectivamente, tres palos!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Se gira hacia ti, resoplando."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Menudo zoquete! Si tiene la misma puntería con un fusil estamos apañados. ¿Estás bien?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sí, no te preocupes."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "El tipo que en una línea alternativa te ha asesinado de un balonazo pasa a vuestra vera para recoger la pelota, no sin antes disculparse reiteradamente."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "¡No pasa nada! Pero podría haber pasado. ¡Más cuidado! Oye, [pc_name], a lo mejor deberíamos irnos a otro sitio para evitar más pelotazos, ¿te parece?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Me parece."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei te tiende su mano. Cuando la estrechas, te pone en pie con un suave tirón, y luego te lleva a una distancia prudente de la cancha de fútbol."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No sé en qué estaba pensando al quedarnos allí. Pero en fin, ya estamos aquí, y, como dijo Marco Tulio Cicerón, “de hombres es equivocarse; de locos persistir en el error.”"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Cicerón? Espera, me suena que sí que lo dijo Cicerón."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Claro, lo escribió en las galletas."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿En las galletas?"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Al menos yo lo leí en una galleta. Imagino que escribiría cosas en muchas."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sí. Imagino."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "blushing",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Os quedáis sentados viendo el partido. En cierto momento, el brazo de Alexei, tenso, tanteando el terreno, se posa sobre tus hombros."
+		},
+		{
+			"choice": "Lo dejas.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Posas tu mano sobre la de Alexei y seguís viendo el partido, acurrucados en la hierba. En un momento dado miras al cielo y te sorprende lo azul que es. "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Siempre ha sido así o es que te das cuenta ahora?"
+		},
+		{
+			"definition": "1685713217-366",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"choice": "Lo apartas.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "upset",
+			"text": "¿Eh? Ah, oh, err, disculpa, no me di cuenta. Es que… Es que se me cansaba el brazo y bueno, no me di cuenta."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No pasa nada."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Seguís viendo el partido, sentados en la hierba de la pista de atletismo."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Te quedas de pie.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Claro, así se verán mejor las jugadas. Pero no te creas que merece mucho la pena… ¿Te puedes creer que ninguno de los equipos ha metido un solo gol hasta ahora? "
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Y no es porque los porteros sean una maravilla, la verdad. Mira ese delantero. Su patada tiene potencia, ¡pero el tío no da ni una!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Y en ese preciso instante, como si las palabras de Alexei lo hubiesen conjurado, se hace la oscuridad. Sientes cómo tu nariz se hunde con un sonoro ‘crac’. "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Rápidamente la oscuridad imperante se plaga de diminutas estrellas que bailotean animadamente al son de tu ritmo cardíaco. Te llevas las manos a la cara, y cuando abres los ojos descubres que estás sangrando abundantemente."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei está delante de ti, visiblemente preocupado."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "¡[pc_name]! ¿Estás bien? ¿Quién ha sido? ¡Le abriré un consejo de guerra!"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No basa nada, Alegsei… No de preogubes, ha sido un agcidente…"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "El recluta que acaba de romperte la nariz se disculpa reiteradamente. Alexei le asegura que esto constará en su expediente, y pide a gritos un botiquín."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "angry",
+			"text": "¡Por amor de dios! El día que ese tío coja un fusil nos va a matar a todos."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alegsei, no basa nada. La gulpa es nuestra bor esdar aguí sendados."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "¡Tenemos que hacer algo con esa nariz, y cuanto antes! Espera, tengo experiencia con esto, ¿vale? No te muevas. A la de 3, 2, 1… Cuenta conmigo, ¿de acuerdo?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alegsei, sólo es la bariz, no es gomo si be hubieran begado un diro en el becho."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei hace una pinza con sus dedos alrededor del puente de tu nariz rota."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "3,..."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Greo gue brefiero gue me lo biren en la enferberí-"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[center]¡CRAC![/center]"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡¡AH!!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La punzada de dolor es intensa, pero algo te dice que el hombre del parche acaba de recolocar tu nariz."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "¡Ya está! ¿Estás mejor? ¿Cuántos dedos ves en mi mano? Por favor, di cinco. ¡Cinco dedos! ¡Tengo cinco dedos! ¡Recluta! ¿Me oyes?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Calla! ¡No has hecho la cuenta atrás, mamón!"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pero lo de la cuenta atrás nunca se hace, sólo sirve para que las víctimas de algún accidente se pongan nerviosas, ¿o es que nunca te ha pasado algo así?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "En fin, no pasa nada, ya está."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Aún tenemos que hacer algo con toda esa sangre. No te preocupes, aquí traen el botiquín."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mientras Alexei te arregla la cara, los reclutas retoman el partido."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Creo que lo mejor será que nos vayamos a verlo desde otro sitio."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La verdad es que no sé si tengo ganas de seguir viendo el partido."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "Sad",
+			"text": "... Lo entiendo. ¿Entonces? ¿Estás bien de verdad?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Creo que voy a irme a descansar un rato… Gracias por preocuparte, Alex."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Vale… Si vuelves, por aquí estaré, ¿de acuerdo?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oído cocina, jefe."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Una sonrisa triste se dibuja en el rostro de Alexei y tú te marchas, con la cabeza aún dándote vueltas."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"definition": "1685713217-366",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",

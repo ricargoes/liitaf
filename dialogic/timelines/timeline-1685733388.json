@@ -1,6 +1,445 @@
 {
 	"events": [
+		{
+			"background": "res://resources/backgrounds/track.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No has hecho más que poner un pie dentro de la cancha de atletismo cuando Alexei se planta delante de ti de un salto, dándote un susto de tres pares de narices."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "¡- - -! ¡Carrera! ¡Ahora!"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei, la madre que te trajo, ¡no vuelvas a hacer eso!"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Hacer qué?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Asustarme!"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ah, ya entiendo… Te he asustado, ¿no?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Sí!"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Entonces a correr! ¡A la línea de salida, va!"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No veo la relación entre darme un susto de muerte y ponerme a correr, la verdad."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "showing off",
+			"text": "¡Mira esto! Dios mío, estos brazacos no son ni medio normales, ¿no te parece? ¡Yo estoy listo para empezar a correr ya mismo!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Con un movimiento veloz consigues quitarle la mancuerna a Alexei, y tal y como temías, es bastante más liviana de lo que él suele presumir. Unos 40 kilos más liviana, aproximadamente."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Mi mancuerna! ¡Devuélvemela!"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Lo sabía, joder! ¡Esto no pesa 80 kilos!"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "upset",
+			"text": "Errr… ¡Oooh…! ¡Vaya, parece que eres increíblemente fuerte tú también! ¡No me lo esperaba para nada! ¡Menuda sorpresa! Qué callado te lo tenías, ¿eh?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei, esto no pesa ochenta kilos ni de puta broma."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei se pone a susurrar."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Baja la voz! ¿No crees que es más probable que tú tengas súper fuerza, como yo?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡¿...No?!"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Vale, vale, vale, vale! ¡Está bien, puede que… puede que exagerase un pelín! ¿Crees que me merezco semejante tortura por eso?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Qué tortura? ¡¿Qué dices?!"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Por favor, por favor, por favor, no le cuentes esto a nadie, ¿vale? ¡Es la única forma que tengo de ganarme el respeto de los novatos!"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Mentir sobre tus capacidades?"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Ah, ah, ah! No es mentir: es camuflar la realidad tan solo un poquito. ¡Me consideran un ejemplo a seguir! Míralos."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei hace un gesto en dirección a unos cuantos novatos que están desgañitándose mientras levantan pesas o dan vueltas corriendo a la pista de atletismo."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Todos quieren ser como Alexei! Pero entre tú y yo, ¡Alexei sólo hay uno!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei te quita la mancuerna y se pone a lucir musculitos de nuevo."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "showing off",
+			"text": "¡Y es increíble!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
 
+			],
+			"portrait": "",
+			"question": "Algunos novatos se paran para ver la exhibición de fuerza bruta de Alexei, y acto seguido se ponen a trabajar sus bíceps con más ímpetu."
+		},
+		{
+			"choice": "Bueno, funcionar parece que funciona...",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Default",
+			"question": "Ya te lo he dicho: es una táctica infalible. Yo no me canso y ellos están cada día un poco más cerca de sus metas: ¡ser como yo!"
+		},
+		{
+			"choice": "Visto así...",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "¡Me alegro de que lo entiendas! Y ahora, como dijo Albert Einstein, “corramos un tupido velo” y no hablemos nunca más de esto, ¿de acuerdo?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Einst-... En fin, tengo que marcharme. Nos vemos, “Superman”."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "showing off",
+			"text": "¡Superman! ¡Superman! ¡Fuerza! ¡Espíritu! ¡Resistencia! ¡Valor! ¡Fuerza de espíritu resistente al valor! No, espera… Igual tengo que reformular eso."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Te marchas y dejas a Alexei “entrenando”."
+		},
+		{
+			"choice": "¿Mentirosos?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "¿En serio? ¿Después de todo lo que te he explicado todavía piensas que soy un mentiroso?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Bueno, es como se suele llamar a la gente que miente: mentirosos."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mira, si no quieres entender que la gente no está dispuesta a seguir a un líder débil, creo que no tenemos mucho más de qué hablar ahora mismo. Si me disculpas, voy a seguir entrenando."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Está bien, “Superman”. No te canses mucho."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "showing off",
+			"text": "¡Ya lo creo que no! ¡Jaja! ¡Jajajaja!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Te marchas y dejas a Alexei “entrenando”, levantando la mancuerna de 80 kg falsa y prácticamente haciendo acrobacias con ella."
+		},
+		{
+			"choice": "No sé si esto que haces es lo correcto, Alexei. Los novatos tienen derecho a tener debilidades y lidiar con ellas.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No sé qué clase de educación has recibido tú, pero de donde yo vengo la flaqueza es sinónimo de fracaso. ¡Tus subalternos no harán nada que tú no puedas hacer!"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "El problema es que… ¡tú no puedes hacerlo tampoco!"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Eh? ¿Cómo que no? ¡Mira!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei levanta la mancuerna falsa una y otra vez e incluso se da el gusto de lanzarla al aire y volver a cogerla."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "showing off",
+			"text": "¡Coser y cantar! ¿Ves?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Al menos podrías fingir que te cuesta un poco…"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Por qué tendría que fingir que me cuesta hacer algo tan sencillo?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No me mires así… ¡Parece como si te hubieras enfadado!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei, estás creando unos estándares de perfección y grandeza imposibles a los reclutas. Cuando fracasen el golpe será mucho más duro."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "¡El fracaso no es una opción!"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No, ¡pero siempre es una posibilidad! Y hay que estar preparados para afrontarla."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "¡Eh, eh, eh! ¡Para el carro, err… “Aristóteles”!"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Aristóteles?"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei se queda pensativo durante unos segundos."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": " Pero… si el fracaso es una posibilidad… Eso significa que yo, durante toda mi vida, ¿he aspirado también a unos estándares de grandeza inalcanzables?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Es… posible."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Entonces, ¿eso dirías que está estrechamente relacionado con lo frustrado que me siento a veces? Sobre todo cuando… bueno… (susurra) fracaso."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Definitivamente sí."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei parece aturdido."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Creo que necesito pensar un rato. Nos vemos, [pc_name]."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Nos vemos, Alexei."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Te marchas y dejas a Alexei pensando en sus cosas mientras el resto de reclutas entrenan duramente."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",

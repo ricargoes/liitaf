@@ -1,6 +1,412 @@
 {
 	"events": [
+		{
+			"background": "res://resources/backgrounds/track.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La pista de atletismo tiene bastante actividad ahora mismo. A medida que te acercas puedes escuchar la inconfundible voz de Alexei, que está dando órdenes a un grupo de reclutas más jóvenes. "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
 
+			],
+			"portrait": "",
+			"question": "Cuando estás a unos metros, repara en tu presencia, y con unas torpes zancadas se planta delante de ti. Te preguntas cómo es posible que alguien que se mueve de una forma tan torpe se pase el día dando vueltas a la pista de atletismo."
+		},
+		{
+			"choice": "Ho-",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "Al-",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "¿Qu-",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Recluta! ¿Vienes por la carrera que tenemos pendiente, verdad? ¡Muy bien, pues a calentar!"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "showing off",
+			"question": "kilómetros sin cansarse! Y créeme, pasa más de lo que te imaginas. ¿Quieres una mancuerna? ¿Has visto lo que pesa esta? ¡80 kilos! "
+		},
+		{
+			"choice": "¿Me la dejas?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "upset",
+			"text": "Ju, ju, ju… ¿Para qué la quieres? ¿Para que se te caiga sobre un pie? Te hacía con más cerebelo; ¿acaso quieres ir a la enfermería de cabeza en tu segundo día aquí? ¡No, ni hablar! Es mi deber proteger a los reclutas, incluso de sí mismos… "
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Considérame el faro que iluminará tu dificultoso y oscuro camino hacia la victoria! Por otra parte, si yo fuera tan enclenque como tú empezaría por unas mancuernas menos pesadas… Mira, ahí atrás las hay de doce kilos, ¿te parecen bien?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pero yo quiero la que estás usando tú."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Y nada me gustaría más que complacerte, pero no puedo! ¡Simple y llanamente: no puedo…! La mancuerna de un hombre es personal e intransferible. Es como si me dijeras que te preste mi cosa para hacer pipí."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei se ríe de su propia broma."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "blushing",
+			"text": "Jaja."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hagamos un trato: si me la dejas echamos esa carrerita de marras…"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "¡Ah! Ya veo por dónde vas, ¡y la treta no te va a funcionar! ¿Creías que no iba a darme cuenta, verdad? Tú lo que quieres es…"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "angry",
+			"text": "…que te preste mi mancuerna a toda costa."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "showing off",
+			"text": "¡Pero ya te he dicho que no y que no! ¡Y San Seacabó!"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Está bieeen, quédate con tu mancuerna."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Pues claro que me la voy a quedar! ¡Es mía! Si supieras la cantidad de cosas que hemos vivido juntos mi mancuerna de ochenta kilos y yo… ¡Darían para una película! Incluso para una novela visual."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Una novela visual?"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Yo ya me entiendo! Y bien: ¿echamos ya esa dichosa carrera?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Vale, pero antes, ¿me cuentas lo del parche?"
+		},
+		{
+			"choice": "80 kilos… ¡Increíble, Alexei! Pero porque no se lo cree nadie.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Verdad? ¡Realmente increíble!"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Digo que no me creo que estés levantando 80 kilos con una mano sin el más mínimo esfuerzo."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Ju… ¿Sabes? Un sabio una vez dijo: “vemos la paja en el ojo ajeno, pero no vemos la viga en el nuestro”… Creo que fue el tal Confucio, o alguno de esos, ¿y sabes? creo que se aplica perfectamente a tu actitud."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Si te refieres a que no puedo levantar 80 kilos sin el más mínimo esfuerzo estás en lo cierto: no puedo."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Ja! Lo sabía. “Cree el ladrón que todos son de su condición”. Gandhi."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei se queda pensativo."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Gandhi era el de las patillas, ¿no? Sí, el de las patillas-bigote, hombre, que fumaba en pipa… Bueno, da igual. Lo que digo es que si la envidia tiñera…"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hablando de vigas en ojos ajenos y eso, ¿qué te pasó?"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "angry",
+			"question": "¡Qué insistencia con el ojo! ¡Lo perdí! ¿Ya? ¿Suficiente? ¿O quieres más detalles?"
+		},
+		{
+			"choice": "Más detalles.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "angry",
+			"text": "¡Era una pregunta de mentira! Ahora mismo no me apetece darte más detalles. Mira, tengo que marcharme a hacer unas cosas, pero seguramente me pase toda la tarde entrenando por aquí. "
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Así que prepárate, porque cuando nos volvamos a ver disputaremos de una vez esa dichosa carrera. Au voltaire!"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Au revoir."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei se marcha, y tú también."
+		},
+		{
+			"choice": "Menos detalles.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Parece que tu respuesta ha roto algo dentro del cerebro de Alexei."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "upset",
+			"text": "¿Menos detalles? ¿Eh?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sí, menos detalles."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Creo que… no entiendo."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Menos detalles, no creo que necesite mucha explicación!"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿...Pero cómo puedo restarle información a la frase “perdí un ojo”? ¡He sido lo más parco posible que se puede ser al respecto!"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Ánimo, tú puedes!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Tus palabras de ánimo parecen surtir efecto, y Alexei traga aire para la gran traca final."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "¡Está bien! Allá vamos."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…"
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Perdí."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Perdiste."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Percibes como los hombros de Alexei se destensan y ahora parece un hombre diminuto, como si se hubiera deshinchado."
+		},
+		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sí… Pero… Eso es algo de lo que de verdad prefiero no hablar ahora mismo. Si me disculpas, tengo que irme. Volveré a entrenar esta tarde… si te apetece disputar esa carrera o lo que sea, por aquí estaré."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Vaya… Bueno, nos vemos."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Alexei se marcha, decaído, y tú también, pensando en qué demonios acaba de pasar."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",
