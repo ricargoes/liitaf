@@ -5,6 +5,26 @@
 			"event_id": "dialogic_021"
 		},
 		{
+			"definition": "1685873489-648",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "4"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Cuando llegas al patio te das cuenta de que hay unos obreros dentro.\n\nEstán arreglando las jardineras."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Jurarías que las jardineras están bien, así que el problema real debe ser la corrupción..."
+		},
+		{
 			"animation": "[Default]",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
@@ -28,15 +48,115 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Tienes una fructífera conversación con Roxxane. Aprendes algo más sobre su secreto y ahora estáis mucho más cerca."
+			"text": "Roxanne está en la puerta, mirando hacia el patio, cabizbaja."
 		},
 		{
-			"definition": "1685713226-146",
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Odio las obras..."
+		},
+		{
+			"choice": "No te preocupes, ya pasará.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "La idea de las escobas sigue sobre la mesa...",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Ja ja ja ..."
+		},
+		{
+			"definition": "1685875303-648",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Los líderes de La Tierra no están preparados para un conflicto intergaláctico...\n\nNo pueden planear unas reparaciones fuera del horario de estudio."
+		},
+		{
+			"choice": "Pero... si tú no vienes al patio a estudiar...",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "¿Conflicto intergaláctico?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Sí claro... em... ya sabes...\n\nEsto es una academia de las Fuerzas Espaciales."
+		},
+		{
+			"choice": "Parecías bastante segura...",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1685873489-648",
 			"event_id": "dialogic_014",
 			"operation": "+",
 			"random_upper_limit": 100,
 			"set_random": false,
-			"set_value": "2"
+			"set_value": "1"
 		},
 		{
 			"definition": "1685713211-787",
@@ -45,6 +165,216 @@
 			"random_upper_limit": 100,
 			"set_random": false,
 			"set_value": "1"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Bueno, dejemos el tema..."
+		},
+		{
+			"choice": "Es verdad, a veces se me olvida...",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"definition": "1685873489-648",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Roxen parece inquieta..."
+		},
+		{
+			"choice": "[ Ofrecerle un abrazo ]",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Quieres que te dé un abrazo? Doy buenos abrazos..."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No hay un solo hecho en tu cerebro que de soporte a eso que acabas de decir.\n\nTe lo has inventado, tal cual. Muy mal [pc_name]..."
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Vale"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ves como le cuesta un poco pero se acaba dejando. Apoya su cabeza tiernamente sobre tu pecho.\n\nParece que está como escuchando tu corazón."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Suspira con satisfacción."
+		},
+		{
+			"definition": "1685873489-648",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
+			"choice": "[ Abrazarla ]",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Te acercas por su espalda y la abrazas.\n\nSe asusta un poco primero, pero luego se calma."
+		},
+		{
+			"definition": "1685873489-648",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"choice": "[ Darle un empujón ]",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Aprovechas un momento que se distrae y la empujas.\n\nSe cae al suelo... Se levanta... Y no entiende lo que pasa por un momento..."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "De hecho, yo tampoco lo entiendo...\n\nNo vayas pulsando opciones en los diálogos sin ton ni son. Lee atentamente. Es un simulador de citas, no un RPG de bulto."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Gracias por estos ratos que pasas conmigo.\n\nHablar contigo me da mucha calma."
+		},
+		{
+			"choice": "Puedo charlar y calmarte siempre que quieras...",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Muchas gracias!"
+		},
+		{
+			"definition": "1685873489-648",
+			"event_id": "dialogic_014",
+			"operation": "-",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"choice": "Quizás tú podrías ayudarme a mí a \"calmarme\" también...",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mejor cálmate tú por tu cuenta..."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685734503.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Voy a sentarme a componer un rato.\n\n¡Hasta luego!"
+		},
+		{
+			"condition": "<",
+			"definition": "1685873489-648",
+			"event_id": "dialogic_012",
+			"value": "3"
+		},
+		{
+			"definition": "1685713226-146",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"condition": "<",
+			"definition": "1685873489-648",
+			"event_id": "dialogic_012",
+			"value": "1"
+		},
+		{
+			"definition": "1685713226-146",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"event_id": "dialogic_013"
 		},
 		{
 			"event_id": "dialogic_022",
