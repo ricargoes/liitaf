@@ -264,7 +264,7 @@
 			"character": "character-1685734489.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
-			"portrait": "Default",
+			"portrait": "Platypus Zack",
 			"portrait_definition": "",
 			"position": {
 				"0": false,
@@ -306,6 +306,27 @@
 			"id": "anchor-1685812512",
 			"index": 0,
 			"name": "sexisgonnabeweird"
+		},
+		{
+			"animation": "[No Animation]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1685734489.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Platypus Zack",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
 		},
 		{
 			"event_id": "dialogic_024",

@@ -34,6 +34,10 @@
 		{
 			"name": "Happy",
 			"path": "res://resources/characters/Wai-Ting/Happy.png"
+		},
+		{
+			"name": "Wai Ting Platypus",
+			"path": "res://resources/characters/Wai-Ting/Wai Ting Platypus.png"
 		}
 	],
 	"scale": 30,

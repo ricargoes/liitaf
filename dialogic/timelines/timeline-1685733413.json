@@ -1,6 +1,25 @@
 {
 	"events": [
-
+		{
+			"background": "res://resources/backgrounds/track.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pasas la tarde en la pista de atletismo con Alexei, luego él te invita a casa con una sonrisa traviesa a casa."
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1685563048.cfg"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Tras una noche de sexo desenfrenado en el piso de Alexei te despiertas, y allí está, a tu lado. Con una de sus fuertes manos posada sobre tu pecho, meciéndose al son de tu respiración. Nunca habías sentido un amor tan intenso.\n\nSigues estudiando en la academia, pero no consigues ascender a General de Cinco Estrellas.\n\nAl poco tiempo, la humanidad sucumbe a una invasión alienígena. Alexei consigue protegerte y ocultarte en un lugar seguro. Te convence de que no participes en la respuesta armada y desaparece durante varias horas al día para hacerlo él mismo, pero regresa contigo cada noche.\n\nPasa el tiempo y Alexei siempre se mantiene joven y esbelto, mientras tú envejeces. La única espina clavada en lo respectivo a vuestra relación siempre será que nunca conseguiste descubrir la respuesta a la mayor pregunta de todos los tiempos:\n\n¿Por qué coño corre tan raro?\n\n[center]Vía de amor ciego con Alexei finalizada.[/center]"
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",

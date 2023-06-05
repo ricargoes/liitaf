@@ -243,7 +243,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "En ocasiones, el corazón y el cerebro disputan un combate de boxeo cuyo vencedor suele ganar por K.O. en el primer asalto.\n\nEn este caso, la victoria de tu corazón ha sido impepinable. Alexei y tú comenzáis una nueva vida bajo el yugo del Imperio Ornitorrinco.\n\nNo hay día que pase en el que no pienses que en realidad es un triunfo haber terminado siendo la pareja de hecho de un condecorado héroe del espacio."
+			"text": "Tu vida inicia una nueva etapa con Alexei...\n\nEn ocasiones, el corazón y el cerebro disputan un combate de boxeo cuyo vencedor suele ganar por K.O. en el primer asalto.\n\nEn este caso, la victoria de tu corazón ha sido impepinable. Alexei y tú comenzáis una nueva vida bajo el yugo del Imperio Ornitorrinco.\n\nNo hay día que pase en el que no pienses que en realidad es un triunfo haber terminado siendo la pareja de hecho de un condecorado héroe del espacio.\n\n[center]Vía de amor ornitorrinco con Alexei finalizada.[/center]"
 		},
 		{
 			"event_id": "dialogic_013"

@@ -8,7 +8,13 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "La casa de Wai-Ting está en un barrio tranquilo, al caer la noche te acercas  y llamas a la puerta. Te sudan las manos y te las metes en el bolsillo del abrigo donde tienes escondido un cuchillo. Esperas no tener que necesitarlo pero i lo que sospechas es cierto, esta noche va a ser muy extraña."
+			"text": "La casa de Wai-Ting está en un barrio tranquilo, al caer la noche te acercas  y llamas a la puerta. Te sudan las manos y te las metes en el bolsillo del abrigo donde tienes escondido un cuchillo. "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Esperas no tener que necesitarlo pero i lo que sospechas es cierto, esta noche va a ser muy extraña."
 		},
 		{
 			"character": "",
@@ -145,7 +151,7 @@
 			"character": "character-1685734475.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Esta no es mi apariencia real. Esto es un disfraz (que yo misma diseñé, por cierto) pero lo que hay dentro, la Wai-Ting que tu conoces es real. Mis sentimientos son reales."
+			"text": "Esta no es mi apariencia real. Esto es un disfraz (que yo misma diseñé, por cierto) pero lo que hay dentro, la Wai-Ting que tu conoces, es real. Mis sentimientos son reales."
 		},
 		{
 			"character": "",
@@ -174,7 +180,7 @@
 			"character": "character-1685734475.json",
 			"event_id": "dialogic_002",
 			"mirror_portrait": false,
-			"portrait": "Annoyed",
+			"portrait": "Wai Ting Platypus",
 			"portrait_definition": "",
 			"position": {
 				"0": false,
@@ -187,7 +193,7 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1685734475.json",
 			"event_id": "dialogic_010",
 			"options": [
 

@@ -26,6 +26,10 @@
 		{
 			"name": "Happy",
 			"path": "res://resources/characters/Zachary/Happy.png"
+		},
+		{
+			"name": "Platypus Zack",
+			"path": "res://resources/characters/Zachary/Platypus Zack.png"
 		}
 	],
 	"scale": 30,

@@ -26,6 +26,10 @@
 		{
 			"name": "Angry",
 			"path": "res://resources/characters/Roxxane/Angry.png"
+		},
+		{
+			"name": "Roxxane platypus",
+			"path": "res://resources/characters/Roxxane/Roxxane platypus.png"
 		}
 	],
 	"scale": 30,
