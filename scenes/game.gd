@@ -198,7 +198,7 @@ func _input(event):
 	if event.is_action_pressed("quit"):
 		OS.window_fullscreen = !OS.window_fullscreen
 
-	if event.is_action_pressed("debug"):
+	if event.is_action_pressed("debug") and OS.has_feature("debug"):
 		if $"%DebugPanel".visible:
 			$"%DebugPanel".hide()
 		else:
