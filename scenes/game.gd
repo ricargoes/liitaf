@@ -117,6 +117,8 @@ func prepare_academy():
 	$"%GroupRZ".hide()
 	$"%GroupASW".hide()
 	$"%Extracurricular".hide()
+	$"%LabelTime".text = str(day_stage + 1) + " de 4."
+	$"%LabelDay".text = str(day + 1) + " de 4."
 	if day_stage < Period.Evening:
 		if day == DayOf.Trivia and day_stage == Period.Break3:
 			print("Meetings in groups")

@@ -429,6 +429,49 @@ margin_bottom = 45.0
 size_flags_horizontal = 3
 align = 1
 
+[node name="CenterContainer" type="CenterContainer" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer"]
+margin_right = 117.0
+margin_bottom = 94.0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="CenterContainer/VBoxContainer"]
+margin_right = 117.0
+margin_bottom = 45.0
+
+[node name="Label" type="Label" parent="CenterContainer/VBoxContainer/HBoxContainer"]
+margin_right = 105.0
+margin_bottom = 45.0
+custom_colors/font_color = Color( 0.14902, 0.121569, 0.109804, 1 )
+text = "Recreo:"
+
+[node name="LabelTime" type="Label" parent="CenterContainer/VBoxContainer/HBoxContainer"]
+unique_name_in_owner = true
+margin_left = 109.0
+margin_right = 117.0
+margin_bottom = 45.0
+custom_colors/font_color = Color( 0.301961, 0.247059, 0.223529, 1 )
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="CenterContainer/VBoxContainer"]
+margin_top = 49.0
+margin_right = 117.0
+margin_bottom = 94.0
+
+[node name="Label" type="Label" parent="CenterContainer/VBoxContainer/HBoxContainer2"]
+margin_right = 59.0
+margin_bottom = 45.0
+custom_colors/font_color = Color( 0.14902, 0.121569, 0.109804, 1 )
+text = "Día:"
+
+[node name="LabelDay" type="Label" parent="CenterContainer/VBoxContainer/HBoxContainer2"]
+unique_name_in_owner = true
+margin_left = 63.0
+margin_right = 71.0
+margin_bottom = 45.0
+custom_colors/font_color = Color( 0.301961, 0.247059, 0.223529, 1 )
+
 [connection signal="pressed" from="Academy/Characters/Wai-Ting" to="." method="_on_WaiTing_pressed"]
 [connection signal="pressed" from="Academy/Characters/Alexei" to="." method="_on_Alexei_pressed"]
 [connection signal="pressed" from="Academy/Characters/Sharon" to="." method="_on_Sharon_pressed"]
