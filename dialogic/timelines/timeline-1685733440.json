@@ -1,7 +1,7 @@
 {
 	"events": [
 		{
-			"background": "res://resources/backgrounds/palm.png",
+			"background": "res://resources/backgrounds/fondo patio.png",
 			"event_id": "dialogic_021"
 		},
 		{

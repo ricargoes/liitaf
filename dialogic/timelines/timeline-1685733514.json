@@ -1,7 +1,7 @@
 {
 	"events": [
 		{
-			"background": "res://resources/backgrounds/cofee.png",
+			"background": "res://resources/backgrounds/Cafe fondo.png",
 			"event_id": "dialogic_021"
 		},
 		{
