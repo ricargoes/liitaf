@@ -1,7 +1,7 @@
 {
 	"events": [
 		{
-			"background": "res://resources/backgrounds/cofee.png",
+			"background": "res://resources/backgrounds/Cafe fondo.png",
 			"event_id": "dialogic_021"
 		},
 		{
@@ -190,7 +190,7 @@
 			"operation": "+",
 			"random_upper_limit": 100,
 			"set_random": false,
-			"set_value": "1"
+			"set_value": "2"
 		},
 		{
 			"choice": "Aham... Continua por favor...",
@@ -258,6 +258,14 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Se pone a mirar al horizonte.\n\nTe quedas en plan WTF."
+		},
+		{
+			"definition": "1685996407-146",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "love"
 		},
 		{
 			"event_id": "dialogic_022",

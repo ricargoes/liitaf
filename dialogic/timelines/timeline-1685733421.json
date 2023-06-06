@@ -1,7 +1,7 @@
 {
 	"events": [
 		{
-			"background": "res://resources/backgrounds/palm.png",
+			"background": "res://resources/backgrounds/fondo patio.png",
 			"event_id": "dialogic_021"
 		},
 		{
@@ -512,6 +512,14 @@
 		},
 		{
 			"event_id": "dialogic_013"
+		},
+		{
+			"definition": "1686058379-787",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "yes"
 		},
 		{
 			"event_id": "dialogic_022",

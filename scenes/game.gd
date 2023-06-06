@@ -230,7 +230,7 @@ func _on_Study_pressed():
 func study():
 	var rand_n = randi() % 3
 	var study_timeline_name = ""
-	if day_stage < 4:
+	if day_stage < Period.Evening:
 		study_timeline_name = "T0" + str(rand_n + 1)
 	else:
 		study_timeline_name = "T1" + str(rand_n + 1)
@@ -350,5 +350,4 @@ func _on_Debug_text_changed(new_text, line_edit_name):
 	if line_edit_name == "LESP": Dialogic.set_variable("sp", new_text)
 	if line_edit_name == "LEZP": Dialogic.set_variable("zp", new_text)
 	if line_edit_name == "LEWP": Dialogic.set_variable("wp", new_text)
-
-	#prepare_academy() ?
+	if line_edit_name == "LEIN": Dialogic.set_variable("informant_status", new_text)

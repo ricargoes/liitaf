@@ -1,7 +1,7 @@
 {
 	"events": [
 		{
-			"background": "res://resources/backgrounds/palm.png",
+			"background": "res://resources/backgrounds/fondo patio.png",
 			"event_id": "dialogic_021"
 		},
 		{
@@ -282,7 +282,7 @@
 			"operation": "+",
 			"random_upper_limit": 100,
 			"set_random": false,
-			"set_value": "1"
+			"set_value": "2"
 		},
 		{
 			"choice": "No podríamos hacer nada al respecto, no...",
@@ -391,6 +391,14 @@
 		},
 		{
 			"event_id": "dialogic_013"
+		},
+		{
+			"definition": "1685996358-787",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "love"
 		},
 		{
 			"event_id": "dialogic_022",

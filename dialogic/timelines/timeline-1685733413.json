@@ -1,7 +1,7 @@
 {
 	"events": [
 		{
-			"background": "res://resources/backgrounds/track.png",
+			"background": "res://resources/backgrounds/camo.png",
 			"event_id": "dialogic_021"
 		},
 		{
