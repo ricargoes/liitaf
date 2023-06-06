@@ -11,7 +11,7 @@ func _on_NewGame_pressed():
 
 
 func _on_Quit_pressed():
-	get_tree().quit()
+	OS.window_fullscreen = !OS.window_fullscreen
 
 
 func _on_RunScene_pressed():

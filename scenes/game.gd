@@ -196,7 +196,7 @@ func _on_timeline_end(_timeline_name):
 
 func _input(event):
 	if event.is_action_pressed("quit"):
-		get_tree().quit()
+		OS.window_fullscreen = !OS.window_fullscreen
 
 	if event.is_action_pressed("debug"):
 		if $"%DebugPanel".visible:
