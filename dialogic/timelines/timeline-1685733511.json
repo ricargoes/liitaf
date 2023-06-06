@@ -233,6 +233,14 @@
 			"set_value": "1"
 		},
 		{
+			"definition": "1686058402-146",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "yes"
+		},
+		{
 			"event_id": "dialogic_022",
 			"transition_duration": 1
 		}
