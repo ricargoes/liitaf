@@ -24,7 +24,7 @@ const GREATNESS_BY_STUDY_THRESHOLD = 14
 
 const character_topics = {
 	"Alexei": {
-		"0": ["Intruducción"],
+		"0": ["Presentarse"],
 		"1": ["Novatos", "Mancuerna"],
 		"2": ["Estándares", "Fracaso"],
 		"3": ["Fútbol", "Rosas"]
@@ -36,10 +36,10 @@ const character_topics = {
 		"3": ["Reformas", "Conflicto"]
 	},
 	"Sharon": {
-		"0": ["Intruducción"],
+		"0": ["Presentarse"],
 		"1": ["Obligaciones", "Tatuajes"],
 		"2": ["Bromas", "Vietnam"],
-		"3": ["Declaración", "Paseo"]
+		"3": ["Café", "Paseo"]
 	},
 	"Zachary": {
 		"0": ["Presentarse"],
