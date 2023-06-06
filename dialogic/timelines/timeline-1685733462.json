@@ -1,6 +1,393 @@
 {
 	"events": [
+		{
+			"background": "res://resources/backgrounds/fondo hangar.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Decides darte un paseo por la zona del hangar donde descansan las aeronaves cuando no surcan los cielos a los mandos de los valerosos pilotos de la academia."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Allí te encuentras a una mujer cuya indumentaria, que es el uniforme de la academia, se encuentra completamente embadurnada de aceite."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
 
+			],
+			"portrait": "",
+			"question": "Parece estar revisando los motores de un águila de acero."
+		},
+		{
+			"choice": "¡Buenos días!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La mujer te mira, sorprendida. Parece que no esperaba tener visita. Se gira hacia ti con cara de pocos amigos."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Angry",
+			"question": "¿Qué pasa?"
+		},
+		{
+			"choice": "Nada, estaba dando un paseo.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Nada, estaba dando un paseo."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La mujer te mira de arriba a abajo. Te sientes como si te estuvieran escaneando."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Me alegra saberlo. ¿Por qué no sigues paseando? Hay gente que pasea y gente que trabaja. Yo trabajo."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La mujer se da la vuelta y sigue con lo suyo. Te quedas con dos palmos de narices."
+		},
+		{
+			"choice": "Sólo saludaba, por favor, no me pegues.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sólo saludaba, por favor, no me pegues."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Una mueca retorcida que parece una sonrisa se dibuja brevemente en el rostro de la mujer."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Default",
+			"question": "Tranqui, hoy no tengo planeado matar a nadie. ¿Primer día aquí?"
+		},
+		{
+			"choice": "Sí. Bueno, es largo de explicar.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Bueno, mi tiempo es tan valioso como el tuyo. Supongo que nos veremos a menudo, así que hasta luego."
+		},
+		{
+			"choice": "Sí, pero por las pintas que llevas, tú parece que lleves un mes metida en los motores de ese bicho.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sí, pero por las pintas que llevas, tú parece que lleves un mes metida en los motores de ese bicho."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Quizá haya sido una ilusión óptica, pero durante una milésima de segundo crees haberla visto sonreír de nuevo."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Sí, ¿verdad? (Señala hacia los motores de la aeronave.) Es que ese es mi nido."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La mujer te ofrece su mano."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Default",
+			"question": "Me llamo Sharon. ¿Tú?"
+		},
+		{
+			"choice": "Estrechas su mano y te presentas. “Soy [pc_name]”",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Soy [pc_name]."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sharon te estrecha la mano con fuerza. El tacto de su mano es duro y áspero y también sudoroso."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Encantada, [pc_name]. Tengo que terminar con esto. Supongo que nos veremos en un rato."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sharon se da la vuelta y sigue con lo suyo. Caes en la cuenta de que pronto van a comenzar las clases y te marchas."
+		},
+		{
+			"choice": "Su mano posiblemente esté pringosa de aceite, ¡agh!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Su mano posiblemente esté pringosa de aceite, ¡agh!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sharon no puede evitar fijarse en tu silencio acompañado de un gesto de disgusto."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "Vale: te sugiero que te apartes de mi vista perdiendo el culo."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Sharon se da la vuelta y sigue con lo suyo. Te vas."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"choice": "Te presentas sin estrechar su mano. “Soy [pc_name]”",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sharon no puede evitar fijarse en que acabas de evadir su apretón de manos de una forma muy poco elegante."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "\"Encantada\", [pc_name]. Bueno, nos vemos."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Se da la vuelta y sigue con lo suyo. Crees escuchar la palabra “imbécil” al menos un par de veces. Te marchas."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "No. ",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La mujer arquea las cejas."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Ah, ok. Pues ya nos vemos, si eso."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Se da la vuelta y sigue a lo suyo, dejándote en el sitio. Te marchas."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "¿La de ser cortés te la sabes?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La mujer te mira con desdén. Resopla, murmura algo para sí misma (crees escuchar la palabra “idiota”) y sigue con lo suyo. Te quedas con dos palmos de narices."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "¿Qué haces?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La mujer te mira con desdén."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Vaguear, ¿no te jode?"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Se da la vuelta murmurando para sí, crees escuchar la palabra “gilipollas”. Te quedas con dos palmos de narices."
+		},
+		{
+			"choice": "Espero que no pienses pasearte por la academia con esas pintas.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Espero que no pienses presentarte en el aula con esas pintas."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La mujer te mira con cara de no creerse lo que acaba de salir por tu boca, así, de buenas a primeras."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "Tengo muda limpia, pero creo que lo de que tú seas gilipollas no tiene mucho arreglo."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Se da la vuelta, murmurando para sí, y sigue con lo suyo. Te marchas."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"definition": "1685713237-918",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",

@@ -1,6 +1,576 @@
 {
 	"events": [
+		{
+			"background": "res://resources/backgrounds/fondo hangar.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A medida que te acercas al hangar puedes escuchar con más claridad una serie de golpetazos rítmicos. "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
 
+			],
+			"portrait": "",
+			"question": "Cuando llegas allí ves las piernas de Sharon sobresalir del interior del compartimiento del motor de una de las aeronaves."
+		},
+		{
+			"choice": "Darle un pequeño e inocente susto.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Te aproximas sigilosamente (aunque realmente no sería necesario dado que el ruido ambiente camuflaría tus pasos), tragas aire y gritas."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡¡BU!!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sharon continúa en el interior del compartimiento haciendo lo que quiera que esté haciendo, y al cabo de unos segundos sale, llena de aceite de los pies a la cabeza."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Decías algo?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Er… Sí, decía que… ¡¡BU!!"
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Eso es un intento de asustarme?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Sí?"
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Un poco inconsciente por tu parte, ¿no?"
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Imagínate que se lo haces a alguien impresionable y que en ese momento está trabajando. Con maquinaria sensible."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "El susto podría hacerle machacarse un dedo, o en el peor de los casos perder una mano. "
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Y peor aún: tu gracieta podría costarle miles de dolares a la academia si consigues que alguien se cargue alguna pieza valiosa."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Tienes razón, no sé en qué estaba pensando."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ah, ¿habitualmente piensas?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Diría que sí."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "¡Bien hecho! Te recomiendo hacerlo un poquito más."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sharon se limpia el aceite de la frente con un paño húmedo y bebe un trago de agua fresca."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Qué, ¿currando?"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "Saludarla como una persona normal.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Te acercas lo suficiente como para que te oiga si hablas sin levantar demasiado la voz."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Qué, ¿currando?"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La mujer saca la cabeza de entre la maquinaria y se planta en el suelo de un salto."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "she is working"
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "No, practicando baile de salón, ¿no oyes la música?"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hace un gesto con la mano en derredor. El traqueteo de los carritos llenos de chatarra que van de un lado a otro y el sonido de los golpes de los mecánicos del hangar es más que evidente."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Por qué arreglan las cosas a golpes? Cosas de mecánica avanzada, supones."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ah, sí, \tsuena muy bien. Me gusta especialmente la parte de los golpes sin ton ni son."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Ah, eso. Hay piezas a las que les cuesta salir y necesitan un pequeño empujoncito. Bueno, ¿y tú qué? Porque currando ya veo que no."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Nada, me apetecía charlar un rato contigo."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Ya ves que estoy bastante ajetreada, pero puedo dedicarte cinco minutitos."
+		},
+		{
+			"choice": "¿Por qué estás en el ejército?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Porque me gusta. ¿Tú?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Eh! He preguntado yo primero."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Y te he contestado. Me gusta esto. ¿Qué tiene de malo esa respuesta?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Bueno, podrías explayarte un poco más, ¿no?"
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No creo que sea necesario."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sharon finge mirar un reloj invisible en su muñeca."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Se agota el minuto que dije que te dedicaría. Rápido."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Eh, no seas cabrona! ¡Dijiste cinco!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sharon te mira con cara de pocos amigos, pero no tarda en empezar a reír escandalosamente."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Laughing",
+			"question": "Lo siento, no me estoy riendo de ti, de verdad. Es que… deberías ver la cara que pones cuando te frustras."
+		},
+		{
+			"choice": "No me frustro.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Pues parece que estás haciendo un esfuerzo enorme porque parezca que sí. En fin, voy a seguir con esto, ¡hablamos!"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Está bien…"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sharon vuelve a meterse en las fauces del águila para quitarle las caries, y tú te marchas."
+		},
+		{
+			"choice": "¿Por qué eres así de mala?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sharon se frota las manos con una sonrisa malévola."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Huuuy, pues puedo ser bastante peor. En fin, se acabó el minuto de oro. Voy a seguir con esto. ¡Nos vemos!"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Nos vemos! (susurrando) Cabrona…"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Te marchas y dejas a Sharon trabajando en lo suyo."
+		},
+		{
+			"choice": "¿Alguna vez te han dicho que tu risa es molesta?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "¿Sabes? Para venir a hablar conmigo voluntariamente no pareces disfrutar mucho de mi compañía."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Porque me lo pones puto difícil!"
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Lo que tú digas. En fin, voy a seguir con lo mío. Hasta luego."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sharon vuelve a currar y tú te marchas."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "¡Cinco minutos! Tendré que exprimirlos al máximo, una audiencia con Su Señoría no se tiene todos los días.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "¡Hey! “Su señoría”. ¡Me gusta ese tratamiento, la verdad! Aunque creo que preferiría “Su Excelentísima Señoría”."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Haces una reverencia"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Podría pues Su Excelentísima Señoría saciar el interés de esta pobre alma sujeta a sus designios?"
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pff, qué gilipollas. Qué pasa, ¿hoy has desayunado payaso?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Eh! ¡Eso explica los dedos que había en el tarro de mermelada!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "El rostro de Sharon se ensombrece repentinamente y sus ojos se clavan directamente en tu alma."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "¿Alguna vez has sopesado practicar canibalismo como última opción para sobrevivir en una situación de vida o muerte?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Err… ¿Q-"
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Supongo que en un caso así serías la primera persona en caer. No tienes pinta de tener las agallas para sobrevivir."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Esto, er… Yo… Un momento, ¿a ti te ha pasado eso? ¡¿Cuándo?!"
+		},
+		{
+			"animation": "bounce.gd",
+			"animation_length": 0.6,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Laughing",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La máscara de seriedad impostada de Sharon se cae y entonces comienza a carcajearse estruendosamente, tan alto que incluso algunos mecánicos giran la cabeza en vuestra dirección."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Uno incluso grita de dolor, seguramente la distracción haya conseguido que se machaque un dedo con el martillo."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ay, coño, qué fácil es tomarte el pelo. Deberías haber visto la cara que has puesto, ojalá hubiera podido sacar una foto."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Pues que sepas que practico canibalismo a diario!"
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": " En ese caso me encargaré de denunciarlo a las autoridades en cuanto termine de arreglar este estropicio. ¡Nos vemos, Dahmer!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Bueno, está bien. Nos vemos, Su Excelentísima Señoría."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Qué bien suena eso, joder."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sharon vuelve a lo suyo y tú te marchas, sin dejar de pensar en si recurrirías al canibalismo en una situación de vida o muerte."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"definition": "",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"definition": "1686058389-366",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "yes"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",

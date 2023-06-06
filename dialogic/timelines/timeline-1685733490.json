@@ -1,6 +1,25 @@
 {
 	"events": [
-
+		{
+			"background": "res://resources/backgrounds/camo.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Te pasas por el hangar para ver cómo un piloto prueba una de las aeronaves que ha reparado Sharon."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Al cabo de un rato, el pájaro aterriza sin ningún tipo de problema. Sharon sonríe, satisfecha. Es muy buena en lo suyo."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",

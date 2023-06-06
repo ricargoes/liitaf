@@ -1,6 +1,57 @@
 {
 	"events": [
-
+		{
+			"background": "res://resources/backgrounds/camo.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sharon te invita a pasar la noche con ella. Fotos de ella de niña con una mujer que intuyes que es su madre están repartidas por todo el vestíbulo, y algunas de un hombre de color joven que debe ser su padre."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Un montón de estanterías llenas de maquetas de diferentes tipo de aeronaves adornan la sala de estar, alguna está a medio terminar. Tras un rato de charla, unas cervezas y algo más, acabáis en la cama. Finalmente, caéis en los brazos de Morfeo."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A la mañana siguiente, despiertas y ella está dormida, con sus piernas entrelazadas alrededor de una de las tuyas, y su pelo rizado rozándote la barbilla. Nunca habías sentido un amor tan intenso."
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1685563048.cfg"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Happy",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Tu vida inicia una nueva etapa con Sharon...\n\nSigues estudiando en la academia, pero no consigues ascender a General de Cinco Estrellas.\n\nAl poco tiempo, la humanidad sucumbe a una invasión alienígena. Sharon consigue convencerte de huir lejos, y así es como conseguís haceros con una aeronave con la que aterrizáis en una isla desierta del Pacífico en la que termináis pasando el resto de vuestras vidas.\n\nCon el paso del tiempo te das cuenta de que Sharon se mantiene juvenil y lozana mientras tú envejeces… Pero ella siempre está ahí para cuidar de ti. Y siempre lo estará. Hasta el final.\n\n[center]Vía de amor ciego con Sharon finalizada.[/center]"
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",

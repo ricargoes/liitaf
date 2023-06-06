@@ -1,6 +1,472 @@
 {
 	"events": [
+		{
+			"background": "res://resources/backgrounds/fondo hangar.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "El hangar está prácticamente vacío pero, como casi siempre, Sharon está allí. Parece que está esperándote. Cuando te acercas se pone a andar en tu dirección."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Flirting",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_010",
+			"options": [
 
+			],
+			"portrait": "(Don't change)",
+			"question": "Hola, Manos de mantequilla."
+		},
+		{
+			"choice": "Hola, Capullito de Alhelí.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "bounce.gd",
+			"animation_length": 0.3,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Laughing",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Ja, ja, ja!"
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "Vuelve a llamarme eso y te parto las piernas."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Las necesito para caminar."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Si las palabras “Capullito de alhelí” vuelven a salir de tus labios, no poder caminar será el menor de tus problemas, créeme."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Vale, perdón."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Flirting",
+			"text": "Estaba pensando en dar una vuelta. ¿Te apetece?"
+		},
+		{
+			"choice": "Hola, Bosquecillo de Tiramisú.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sharon pone cara de incredulidad mezclada con dificultad para aguantarse la risa."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "¿Qué coño es eso de “Bosquecillo de Tiramisú”?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Un mote cariñoso, ¿no?"
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ja, ja. Espero no volver a escucharlo nunca jamás en la vida."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "O la próxima vez que lo escuche será la última."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Vale, perdón."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Flirting",
+			"text": "Bueno, ¿te apetece dar un paseo o algo?"
+		},
+		{
+			"choice": "Hola, Mami Águila.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Shanon te sonríe efusivamente y se acerca unos pasos más a ti."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Me gusta Mami Águila. ¿Te apetece hacer algo hoy? Pasear, no sé. A veces me viene bien desconectar un poquito de la grasa y del aceite."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "Flirting",
+			"text": "Por favor, tú delante."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Empezáis a pasear por la zona circundante al hangar. Hace un día espléndido. Un grupo de aves en formación de V planea sobre vosotros."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Allá van los patos."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Cómo sabes que son patos?"
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Te recuerdo que soy experta en pájaros."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Es verdad, jaja."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sip."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Pero cómo sabes que son patos?"
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Errr… Por la formación en V. Y porque hay un estanque no muy lejos de aquí que suele estar lleno de patos. Podríamos ir algún día… si te apetece."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pero bueno: los patos. Imagino que estarán migrando al sur. Debe ser la época. "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Por cierto, últimamente pasamos mucho tiempo juntos. Me gustas. Dime,, ¿alguna vez has pensado en... nosotros?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pues la verdad es que sí."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "De repente parece un poco ansiosa."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "¿Y bien?"
+		},
+		{
+			"choice": "Creo que quiero estar contigo.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La mirada de Sharon se ilumina como si dentro de su cabeza hubiera una pequeña civilización de seres diminutos que están celebrando una fiesta con fuegos artificiales por todo lo alto. "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sí, acabo de decir la frase anterior. Soy el narrador. Me lo puedo permitir."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Estar contigo me hará llevadero soportar a todos los mamones que pululan por aquí."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Puedo decir lo mismo de ti…"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sharon mira fijamente a la bandada de patos."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Creo que ahora mismo tengo una bandada de esas en el estómago."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No acabas de decir eso."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sharon te besa apasionadamente mientras rodea tu cintura con sus brazos llenos de grasa y aceite de motor."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "El beso dura lo suficiente como para que la bandada de patos ya haya desaparecido en el horizonte cuando abres los ojos."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Supongo que esto me da permiso para llamarte cosas como “Capullito de alhelí” o “Bosquecillo de Tiramisú”."
+		},
+		{
+			"animation": "bounce.gd",
+			"animation_length": 0.5,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Laughing",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"animation": "shake_x.gd",
+			"animation_length": 0.3,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Angry",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ni de puta coña."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Tomas su mano y comenzáis a caminar hacia el horizonte, con el sol de frente. Sientes que a partir de ahora las cosas sólo pueden ir a mejor."
+		},
+		{
+			"definition": "1685996385-366",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "love"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"choice": "Me gusta tu compañía, pero creo que no quiero ir más allá.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sharon traga saliva y parece entristecerse durante unos segundos, pero finalmente logra mantener la compostura."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Está bien."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Y tú estás bien?"
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sí, no te preocupes. Supongo que seguirás viniendo a molestarme al hangar de vez en cuando, ¿no?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Dalo por hecho."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Entonces todo está bien."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Seguís paseando juntos, hablando de mil y una cosas. Algo te dice que, pese a no corresponder a los sentimientos de Sharon de la forma en que ella querría, este es el comienzo de una hermosa amistad."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"definition": "1685713237-918",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",

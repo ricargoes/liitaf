@@ -1,6 +1,31 @@
 {
 	"events": [
-
+		{
+			"background": "res://resources/backgrounds/camo.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Decides pasarte un rato por el hangar para ver a Sharon. Cuando llegas, te la encuentras discutiendo con otro mecánico. A Sharon sólo le falta pegarle una patada en el culo para zanjar la discusión."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Cuando te ve, su cara se ilumina momentáneamente, y camina hacia ti dando grandes zancadas. Te pregunta si te parece bien echarle un cable con uno de los águilas, y respondes que sí."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Te pasas el resto de la tarde cambiando aceite de motor, y cuando vuelves a casa, tu ropa está hecha unos zorros."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",

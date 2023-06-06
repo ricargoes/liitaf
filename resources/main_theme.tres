@@ -1,6 +1,9 @@
-[gd_resource type="Theme" load_steps=8 format=2]
+[gd_resource type="Theme" load_steps=11 format=2]
 
 [ext_resource path="res://addons/dialogic/Example Assets/Fonts/NameFont.tres" type="DynamicFont" id=1]
+[ext_resource path="res://resources/styleboxflat_hover.tres" type="StyleBox" id=2]
+[ext_resource path="res://resources/styleboxflat_normal.tres" type="StyleBox" id=3]
+[ext_resource path="res://resources/styleboxflat_button_normal.tres" type="StyleBox" id=4]
 
 [sub_resource type="StyleBoxEmpty" id=9]
 content_margin_left = 4.0
@@ -60,6 +63,7 @@ border_width_bottom = 1
 border_color = Color( 0.154, 0.168, 0.203, 1 )
 
 [resource]
+default_font = ExtResource( 1 )
 Button/colors/font_color = Color( 1, 1, 1, 1 )
 Button/colors/font_color_disabled = Color( 0.9, 0.9, 0.9, 0.2 )
 Button/colors/font_color_focus = Color( 0.94, 0.94, 0.94, 1 )
@@ -67,6 +71,9 @@ Button/colors/font_color_hover = Color( 0.94, 0.94, 0.94, 1 )
 Button/colors/font_color_pressed = Color( 1, 1, 1, 1 )
 Button/constants/hseparation = 2
 Button/fonts/font = ExtResource( 1 )
+Button/styles/focus = ExtResource( 4 )
+Button/styles/hover = ExtResource( 2 )
+Button/styles/normal = ExtResource( 4 )
 Label/colors/font_color = Color( 0.805, 0.81, 0.8225, 1 )
 Label/colors/font_color_shadow = Color( 0, 0, 0, 0 )
 Label/constants/line_spacing = 3
@@ -88,3 +95,10 @@ LineEdit/icons/clear = SubResource( 11 )
 LineEdit/styles/focus = SubResource( 12 )
 LineEdit/styles/normal = SubResource( 13 )
 LineEdit/styles/read_only = SubResource( 14 )
+Panel/styles/panel = ExtResource( 3 )
+PopupPanel/styles/panel = ExtResource( 3 )
+TooltipLabel/colors/font_color = Color( 0, 0, 0, 1 )
+TooltipLabel/colors/font_color_shadow = Color( 0.0156863, 0, 0, 0.87451 )
+TooltipLabel/constants/shadow_offset_x = 1
+TooltipLabel/constants/shadow_offset_y = 1
+TooltipLabel/fonts/font = ExtResource( 1 )

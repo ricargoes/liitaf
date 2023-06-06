@@ -1,6 +1,275 @@
 {
 	"events": [
+		{
+			"background": "res://resources/backgrounds/camo.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sharon te invita a pasar la noche con ella. Fotos de ella de niña con una mujer que intuyes que es su madre están repartidas por todo el vestíbulo, y algunas de un hombre de color joven que debe ser su padre."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Flirting",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Un montón de estanterías llenas de maquetas de diferentes tipo de aeronaves adornan la sala de estar, alguna está a medio terminar. Tras un rato de charla, unas cervezas y algo más, acabáis en la cama. Finalmente, caéis en los brazos de Morfeo."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Te despiertas en mitad de la noche, y descubres que Sharon no está en la cama contigo. La luz se cuela bajo la puerta del baño, así que deduces que ha respondido a la llamada de la naturaleza… Igual que tú. Tu vejiga no aguanta ni un minuto más."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "A medida que te acercas crees escuchar unos sonidos extraños… un lenguaje que no parece humano. Temiéndote lo peor, abres la puerta de una patada. Lo que te encuentras en el baño consigue que tu esfínter se afloje y pronto notas el calor húmedo recorriéndote las piernas."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Me cago en la puta! ¡Miguel tenía razón! ¡Ornitorrincos del espacio!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La piel de Sharon, ahora un cascarón vacío, está colgada del perchero del baño, junto a los albornoces. "
+		},
+		{
+			"animation": "tada.gd",
+			"animation_length": 0.3,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Platypus",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Y, sentado en el retrete, puedes ver a un ornitorrinco vestido de forma extraña que sostiene un igualmente extraño aparato entre las manos. La criatura te mira con los pequeños ojos negros como platos."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡[pc_name]! ¡No puede ser! ¡Te eché lorazepam para dormir a un elefante en la cerveza!"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿En qué cerveza?"
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No sé, ¿la sexta o así?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿La que no llegué a beberme?"
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mierda. ¡Sabía que no tendría que haberme emborrachado yo también! Pero me lo paso tan bien contigo..."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Coges \tlo primero que pilles a mano para defenderte."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Miras a tu alrededor y el objeto contundente más cercano es la mopa para secar el suelo. Inmediatamente la coges, y como si fuera un bate, amenazas con ella a la criatura."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡¿Qué le has hecho a Sharon?!"
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Por favor, baja la mopa… Te prometo que no voy a hacerte nada… Yo… No quería que te enterases así."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡La has matado!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡No!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La piel colgante y sin vida de tu amante parece decir lo contrario. El ornitorrinco la mira y luego te mira a ti."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Bueno, sí. ¡Pero si la hubiera conocido personalmente, no lo habría hecho! Era una ornitorrinco distinta cuando llegué a este planeta. ¡Estoy aquí con una misión…! "
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pero no sé si podré cumplirla. Al menos no toda. Con el tiempo… he aprendido a amar la condición humana. "
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Qué quieres decir?"
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Verás… Lo cierto es que después de tanto tiempo utilizando su cuerpo y sus recuerdos… Yo… Yo misma soy Sharon."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Eres un ornitorrinco!"
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Por favor! Escúchame. Yo, ¡yo! soy Sharon. La persona con la que has estado durante todo este tiempo, a la que has ido conociendo poco a poco… y de la que te has enamorado. "
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Absolutamente todo de lo que hemos hablado es real para mí. Y lo que siento por ti… también."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La cabeza te da mil vueltas. ¿Es esto una pesadilla?"
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hace tiempo encontré la forma de volver a mi cuerpo humano siempre que lo desee. Podemos seguir estando juntos, te prometo que no te pasará nada. Baja la mopa y te lo explicaré todo detenidamente."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
 
+			],
+			"portrait": "",
+			"question": "Hay algo en su voz que te tranquiliza… Realmente suena como la Sharon a la que conoces. Dios mío, ¿te has enamorado de un ornitorrinco del espacio…?"
+		},
+		{
+			"choice": "Bajas la mopa.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La ornitorrinco vuelve a introducirse en el cuerpo humano de Sharon y logra tranquilizarte. Pasa un rato explicándote cuál es su misión en la tierra, y lo inevitable de la invasión. "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Te cuenta que conocerte a ti fue el último incentivo que necesitaba para abandonar al Imperio. Y así es como, finalmente, lo aceptas."
+		},
+		{
+			"event_id": "dialogic_024",
+			"set_theme": "theme-1685563048.cfg"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Tu vida inicia una nueva etapa con Sharon...\n\nTe has enamorado de una ornitorrinco del espacio.\n\nY así es como partís a un lugar lejano… dos almas fugitivas, huyendo del Imperio hasta que llegue vuestra hora.\n\n[center]Vía de amor ornitorrinco con Sharon finalizada.[/center]"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
+			"choice": "Atacas a “Sharon”. ",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1685722565.json",
+			"event_id": "dialogic_020"
+		},
+		{
+			"event_id": "dialogic_013"
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",

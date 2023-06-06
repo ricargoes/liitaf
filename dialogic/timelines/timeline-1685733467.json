@@ -1,6 +1,524 @@
 {
 	"events": [
+		{
+			"background": "res://resources/backgrounds/fondo hangar.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Es una mañana espléndida para darse un paseo por las instalaciones de la academia. Te acercas al hangar y vuelves a encontrarte a Sharon allí, llave inglesa en ristre."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
 
+			],
+			"portrait": "",
+			"question": "Cuando te ve acercarte se gira en tu dirección y bebe un buen trago de una botella de agua fresca."
+		},
+		{
+			"choice": "Buenos días.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sharon te mira fijamente y bebe otro sorbo de agua."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Qué, ¿vagueando de buena mañana otra vez?"
+		},
+		{
+			"choice": "Pasaba a saludar. ",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ok. Me doy por saludada."
+		},
+		{
+			"choice": "Aunque no te lo creas también tengo obligaciones.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sharon te mira de arriba a abajo."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Por ejemplo?"
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "what i do"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Estoy dejándome la piel estudiando para llegar a ser General de Cinco Estrellas."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Bueno, todos estamos aquí para eso, ¿no?"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Señala hacia las aeronaves."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Me gusta cuidar de las águilas, tenerlas a punto. De chavala empecé con esto como un hobby y a día de hoy aquí me tienes."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Engrasando las entrañas de las majestuosas aves de combate de las Fuerzas Aéreas. Helicópteros, cazas… a día de hoy no se me resiste ningún tipo de pájaro."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Si no, seguramente también estaría paseando y saludando a todo el mundo, como tú. Pero bueno... "
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "En cuantas más áreas esté una preparada, más posibilidades de ascender a General de Cinco Estrellas. El conocimiento extra siempre es un plus."
+		},
+		{
+			"choice": "El conocimiento extra siempre es un plus, claro.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Y por eso lidio a diario con águilas y halcones, y aparentemente ahora también con loros."
+		},
+		{
+			"choice": "(Pobre imitación de un loro)",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"animation": "bounce.gd",
+			"animation_length": 0.4,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Laughing",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Si todo se te da igual de bien que eso, estamos jodidos. Bueno, tengo que ir a cambiarme. Nos vemos, [pc_name]."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sharon se marcha, y tú también. Tienes cosas que hacer."
+		},
+		{
+			"choice": "¿Eh?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "¿Eh?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Eh? ¿Qué está pasando?"
+		},
+		{
+			"animation": "bounce.gd",
+			"animation_length": 0.4,
+			"animation_wait": true,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Laughing",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Dios, eres demasiado naíf, ¿te lo han dicho alguna vez? En fin. Nos vemos, tengo que irme."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sharon se marcha y tú también."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Me da un poco de vergüenza ajena el rollo ese de llamar “pájaros” a los aviones, la verdad.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": " Y a mí me da vergüenza ajena tu cara y no me verás quejándome."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Eh, eso es quejarse!"
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "¿Ah, sí? Pues te jodes. Tengo que ir a ponerme muda limpia. Hasta luego."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sharon se marcha, y tú también. Hay cosas que hacer."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Hey, Mami Águila. Qué, ¿cuidando de los aguiluchos?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sharon esboza una pequeña sonrisa y se dirige hacia a ti mientras se limpia restos de aceite de las manos con un paño."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Happy",
+			"question": "Claro. ¿Quién iba a hacerlo si no? ¿Tú?"
+		},
+		{
+			"choice": "No sé, cualquiera de los mecánicos cualificados que hay por aquí.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Ja. Mira, si alguna vez vas a pilotar uno de estos, asegúrate de que antes haya pasado por mis manos, ¿vale?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Oído cocina, jefa."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Así me gusta. Bueno, ¿y tú qué te cuentas?"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "¿Yo? No, yo surco los cielos a lomos de las águilas, no les cambio los pañales.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Angry",
+			"question": "¿Y ese tonito? Prueba a surcar los cielos en un águila cagada, y si sobrevives luego me cuentas cuánto tardaste en darle un dulce besito al suelo."
+		},
+		{
+			"choice": "Tienes pinta de ser buena en lo tuyo, así que tendré que fiarme.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Por lo menos parece que tienes buen ojo. En fin. ¿Y tú qué tal lo llevas?"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "Está bien, doña Perfecta.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "La última persona que me habló con ese tonito todavía tiene las costillas como si tuviese un xilófono dentro del cuerpo, así que cuidado, colega. "
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Qué, ¿has venido sólo a tocar la moral o a contarme algo con un mínimo interés?"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "He venido siguiendo un rastro de olor nauseabundo y ahora ya sé lo que es: ¿cuánto llevas sin ducharte?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Si las miradas matasen, hay un 100% de probabilidades de que ahora mismo fueses un cadáver irreconocible a los pies de Sharon."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "¿Y tú cuánto llevas sin ir al dentista? Porque podemos arreglarlo ahora mismo, ¿sí?"
+		},
+		{
+			"choice": "¡No me das miedo!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Oh, ho, ho, ho, créeme: si estuviese intentando darte miedo lo sabrías. ¿Sabes cuánta profundidad puede alcanzar una llave inglesa en el interior de un ano humano?"
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Que quede entre tú y yo: es una pregunta que me viene a la mente cada vez que me cruzo con algunos imbéciles."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Igual sí que me das un poco de miedo."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Y eso que no me has visto realmente enfadada. Estás de suerte. Bueno, qué te pica, ¿vienes sólo a molestar o querías contarme algo?"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "¡Tranquila, sólo bromeaba!",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Angry",
+			"text": "¿No crees que te estás tomando demasiadas confianzas con alguien a quien apenas conoces? "
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Podría, no sé, tener graves problemas de control de la ira y ahora mismo estarías sufriéndolos. ¿No lo has pensado? "
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pero tienes suerte de que mi cabeza sea tan templada como el acero de esta llave inglesa. Y bien, ¿qué coño quieres? ¿Molestar o contarme algo?"
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"definition": "1685713237-918",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"definition": "1686058389-366",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "yes"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",

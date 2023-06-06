@@ -1,6 +1,558 @@
 {
 	"events": [
+		{
+			"background": "res://resources/backgrounds/fondo hangar.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Paseas hacia el hangar pensando en el largo camino que te queda por delante para convertirte en General de Cinco Estrellas y cuando llegas allí te percatas de algo inaudito."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Sharon no está trabajando! Está sentada a la sombra de una de las aeronaves, abanicándose con un pedazo de una caja de cartón."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Aquí, pasando el rato, ¿tú?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Viéndote pasar el rato."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Y te diviertes?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sí. ¿Te importa que me siente contigo?"
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hmmm… Vale. Pero no te acoples demasiado."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Te sientas al lado de Sharon y os quedáis en silencio durante un rato."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hace buen día."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sí."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "El ajetreo en el hangar va en aumento, con los mecánicos yendo constantemente de un lado para otro. Tras otro buen rato de silencio Sharon vuelve a hablar."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
 
+			],
+			"portrait": "",
+			"question": "¿Conoces la historia de La Colina de la Hamburguesa?"
+		},
+		{
+			"choice": "¿La Colina de la Hamburguesa?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿De verdad eres militar? En fin. Sitúate: Vietnam. Mayo del año 1969. El Valle de A Shau."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Las tropas estadounidenses recibieron la orden de tomar una colina con un valor estratégico prácticamente nulo. ¿Por qué?"
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1686085217",
+			"index": 0,
+			"name": "vietnam"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Bueno, no se puede decir que Vietnam, en general, fuese una contienda plagada de ideas brillantes."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Una sonrisa triste aparece en el rostro de Sharon. Dirías que es la primera vez que ves que puede expresar semejante sentimiento."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ya lo creo que no. La batalla duró diez días, y cuando terminó, la colina era un cementerio. Lo peor de todo es que gran parte de las bajas fueron gracias a la “pericia” de nuestros pilotos. ¿Te lo puedes creer?"
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "Angry",
+			"question": "¡Un helicóptero ametralló y bombardeó accidentalmente a las tropas aliadas! Los hicieron picadillo, joder. Pero la toma de la colina siguió adelante. Es inexplicable. Toda esa puta guerra fue un error criminal."
+		},
+		{
+			"choice": "Pero al final consiguieron tomar la colina.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sharon sonríe, triste."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Sí, y tengo entendido que el concepto de “victoria pírrica” nació en torno a ese gran triunfo militar."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Hmmm… En realidad el concepto de victoria pírrica se remonta a-"
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Por favor, no."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Vale, no procede."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No."
+		},
+		{
+			"anchor_id": "anchor-1634488067",
+			"event_id": "dialogic_016"
+		},
+		{
+			"choice": "Desde luego que lo fue.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_015",
+			"id": "anchor-1634488067",
+			"index": 0,
+			"name": "tattoo again"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No puedes evitar fijarte de nuevo en el tatuaje del pecho de Sharon. 15 de Mayo de 1969…"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Puedo… preguntarte por tu tatuaje?"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Parece que Sharon está a punto de echarse a llorar, pero logra mantener la compostura."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mi padre murió ese día. 15 de Mayo de 1969. Dentro de poco se cumplirán 30 años. Era un hombre bueno. Se alistó porque era un pobre iluso soñador que creía en su país. "
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "El único consuelo que nos quedó a mi madre y a mi, que por aquel entonces era poco más que una cría de teta, es que mi padre batalló voluntariamente."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No se puede decir lo mismo de muchos otros hombres de color que sirvieron de carne de cañón en Vietnam."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Lo siento, Sharon."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pudimos recuperar su cuerpo prácticamente intacto. Sí, parece mentira, ¿verdad?"
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "De entre los que murieron, mi padre fue uno de los pocos afortunados que no fue acribillado ni por los vietnamitas ni por el helicóptero artillado aliado."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Nunca supimos qué se lo llevó. Posiblemente un infarto."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sharon carraspea sonoramente y echa un buen trago de agua."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Con esto que te acabo de contar, imagino que te estarás preguntando qué coño hago aquí, en una puta academia militar."
+		},
+		{
+			"choice": "Cada persona carga con su propio equipaje. Yo no juzgo a nadie.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"choice": "La verdad es que sí.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La naturaleza del ser humano es belicosa, por lo general. La historia de nuestro país aún más. Las guerras se suceden una tras otra."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mi madre siempre habló de mi padre como si hubiese sido un héroe. Lo cierto es que con el tiempo he aprendido a asumir que no lo fue."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No hay nada heroico en morir por nada. Pero era un buen hombre, y me basta con recordarle de esa forma. ¿Quizá estar aquí sea una forma de honrar su memoria? No lo sé, la verdad."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Lo que está claro es que los conflictos bélicos seguirán ahí siempre, y necesitamos a buenas personas al mando para evitar más Vietnams. Más Colinas de la Hamburguesa."
+		},
+		{
+			"choice": "Estoy de acuerdo. La única forma de cambiar este sistema es desde sus cimientos.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sharon esboza una sonrisa triste y apoya su mano en tu hombro."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sabes… Creo que esta institución necesita más gente como tú."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Se pone en pie de un salto."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Gracias por escucharme. Sienta bien desahogarse un poco. Ahora tengo que seguir con esto. Nos vemos, [pc_name]."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Estoy para lo que necesites, \tSharon."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Gracias."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sharon se aleja caminando con paso firme y decidido hacia una de las aeronaves en la otra punta del hangar."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Te levantas pesadamente y te marchas, pensando en cuántos conflictos bélicos generados por la codicia podrías evitar en el futuro."
+		},
+		{
+			"choice": "¿Te consideras buena persona?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Siempre me esfuerzo por hacer lo correcto. Pero puede que para otras personas mis decisiones no sean las adecuadas. ¿A ti te parezco buena persona?"
+		},
+		{
+			"choice": "Sí.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sharon sonríe brevemente."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Gracias."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "De hecho, creo que esta institución necesita más gente como tú."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sharon se pone en pie de un salto."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Y como tú. Gracias por escucharme, [pc_name]. Ahora tengo que ocuparme de un águila. Nos vemos."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sharon se marcha y tú te quedas dándole vueltas a este pequeño asuntillo sin importancia.\n[center]¿Eres buena persona?[/center]"
+		},
+		{
+			"choice": "No.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "El rostro de Shanon se endurece cuando le das tu más sincera respuesta."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Supongo que todos tenemos nuestras fallas."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sharon se pone en pie de un salto."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Tú sí pareces buena persona. Por favor, déjame sola un rato."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sharon se marcha a lo suyo, y tú también."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"choice": "Claro. ¿Cómo no conocer una de las muuuchas victorias de EE.UU en la guerra de Vietnam?",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Es triste que nuestro historial de hazañas bélicas cuente con tantos fracasos, ¿verdad? Tanto estratégicos como… morales. Suena raro decirlo, pero afortunadamente suelen ser lo más recordado."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Afortunadamente?"
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sí. De los errores se aprende. Especialmente del sangrante caso de Vietnam. No sólo fue una derrota estratégica. También lo fue moral. Habrá viejos blancos decrépitos que sigan defendiendo a día de hoy la legitimidad de aquél conflicto."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Ya ni sienten la ceniza de los habanos quemándoles la polla a través del agujero que les ha hecho en el pantalón  Pero por suerte no les queda mucho tiempo en este planeta."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Wow."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Tú qué piensas exactamente del despropósito en La Colina de la Hamburguesa?"
+		},
+		{
+			"anchor_id": "anchor-1686085217",
+			"event_id": "dialogic_016"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"definition": "1685713237-918",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",

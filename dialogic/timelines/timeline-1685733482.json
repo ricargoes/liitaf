@@ -1,6 +1,335 @@
 {
 	"events": [
+		{
+			"background": "res://resources/backgrounds/fondo hangar.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Cuando llegas al hangar no ves a Sharon por ninguna parte. Te apoyas en el morro de un caza, preguntándote dónde demonios puede haberse metido, y entonces la ves, acercándose a paso ligero. Lleva las manos ocupadas."
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sabía que ibas a estar aquí, por eso he traído dos. ¿Quieres un café?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Vaya, gracias."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sharon, sonriente, te tiende un vaso de plástico de la cafetería de la academia."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "Cuidado, que quema."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "En ese caso soplaré y soplaré."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Coges el café y, el que avisa no es traidor, te quemas la mano. Se te escapa un pequeño quejido que no pasa inadvertido para Sharon."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Ya te he dicho que quema!"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¡Sí, sí, ya lo sé! ¿Qué iba a hacer? ¿No cogerlo? ¡Au!"
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "¡Pero pósalo!"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Vas a posar el café con tan mala pata que se resbala de tus torpes dedos, desparramándose por el suelo del hangar."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Mierda."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Happy",
+			"text": "No pasa nada. Precisamente estaba pensando cuál podría ser tu mote. Creo que “Manos de mantequilla” te va que ni anillo al dedo."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Me parece justo."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sharon sopla suavemente sobre su café y luego bebe un sorbo."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Este ya está templadito. ¿Quieres?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿No eres escrupulosa?"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sharon se echa un vistazo a sí misma. Como siempre, cubierta de lamparones de aceite y grasa."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Te parezco escrupulosa?"
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "No."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sharon te tiende su café. Al cogerlo, vuestros dedos se rozan. Finalmente bebes un trago. No te da tiempo a tragar cuando Sharon habla."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_010",
+			"options": [
 
+			],
+			"portrait": "Flirting",
+			"question": "Creo que me gustas un poco."
+		},
+		{
+			"choice": "Escupes el café.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Escupes el café. Consigues que el líquido no aterrice en la cara de Sharon, pero un mecánico que pasaba por ahí no corre la misma suerte."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "El hombre suelta unos cuantos improperios y se marcha mientras te disculpas, medio tartamudeando. Cuando vuelves a mirar a Sharon ves que ella ha apartado la mirada."
+		},
+		{
+			"choice": "Mantienes la compostura.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Has escuchado bien? Consigues mantener la compostura, o al menos eso crees, porque Sharon acaba de ver cómo te bebes su café de prácticamente un solo trago."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Disculpa, ¿qué dijiste?"
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_010",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "A lo mejor estoy siendo demasiado precipitada, pero las cosas o se hacen o no se hacen. Vienes mucho por aquí a verme así que imagino que la cosa es recíproca."
+		},
+		{
+			"choice": "Lo cierto es que tú también me gustas un poco.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sharon se acerca a ti con decisión y posa sus manos en tu cintura. El olor a sudor y aceite se te cuela por las fosas nasales."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "En cualquier otra situación no resultaría agradable, pero dirías que… te gusta el cariz que está tomando la situación. Tu pulso se acelera alocadamente."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Perfecto. Fase 1 superada."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿Fase 1?"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sharon te estrecha fuertemente una mano."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Escucha. Hay un almacén aquí mismo. Sólo yo tengo la llave. Ven conmigo."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sin darte tiempo siquiera a responder, Sharon prácticamente te arrastra hasta el almacén. Un lugar mágico donde posiblemente también alcanzaréis las Fases 2, 3 y 4 de vuestra relación."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "El sexo no es como te lo esperas... en absoluto."
+		},
+		{
+			"definition": "1685713211-787",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"definition": "1685996385-366",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "love"
+		},
+		{
+			"choice": "Me parece muy precipitado, efectivamente.",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Sharon intenta disimular la expresión de desconcierto sin conseguirlo."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "Bueno. Era algo que tenía que decirte sí o sí. Me gusta ser directa. Las cosas se hacen o no se hacen."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Lo siento, creo que necesito tiempo para pensar en todo esto."
+		},
+		{
+			"character": "character-1685477911.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Perfectamente comprensible. Yo… Yo ya he tenido el mío. Lo justo es que tengas el tuyo."
+		},
+		{
+			"character": "character-1685478188.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Lo siento por lo del café. Creo que me voy."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Te marchas dejando a Sharon plantada en el hangar, posiblemente con muchas cosas sobre las que pensar ahora mismo."
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_013"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.5",
