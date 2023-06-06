@@ -230,7 +230,7 @@ func _on_Study_pressed():
 func study():
 	var rand_n = randi() % 3
 	var study_timeline_name = ""
-	if day_stage < 4:
+	if day_stage < Period.Evening:
 		study_timeline_name = "T0" + str(rand_n + 1)
 	else:
 		study_timeline_name = "T1" + str(rand_n + 1)
