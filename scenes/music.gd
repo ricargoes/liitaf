@@ -10,5 +10,5 @@ func transition_to(new_track):
 func distorsion_level(new_level):
 	var fl = -80
 	if new_level > 0:
-		fl = -15 + (-20/new_level)
+		fl = -20 + (-40/new_level)
 	$Distorsion.volume_db = fl
