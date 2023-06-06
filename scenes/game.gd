@@ -350,5 +350,6 @@ func _on_Debug_text_changed(new_text, line_edit_name):
 	if line_edit_name == "LESP": Dialogic.set_variable("sp", new_text)
 	if line_edit_name == "LEZP": Dialogic.set_variable("zp", new_text)
 	if line_edit_name == "LEWP": Dialogic.set_variable("wp", new_text)
+	if line_edit_name == "LEIN": Dialogic.set_variable("informant_status", new_text)
 
 	#prepare_academy() ?
