@@ -117,42 +117,44 @@ func prepare_academy():
 	$"%GroupRZ".hide()
 	$"%GroupASW".hide()
 	$"%Extracurricular".hide()
-	if day == DayOf.Trivia and day_stage == Period.Break3:
-		print("Meetings in groups")
-		$"%GroupRZ".show()
-		$"%GroupASW".show()
-		$"%Study".show()
-	elif day <= DayOf.Love and day_stage < Period.Evening:
-		print("Standard meetings during breaks")
-		$"%Characters".show()
-		$"%Study".show()
-	elif day >= DayOf.Introductions and day_stage == Period.Evening:
+	if day_stage < Period.Evening:
+		if day == DayOf.Trivia and day_stage == Period.Break3:
+			print("Meetings in groups")
+			$"%GroupRZ".show()
+			$"%GroupASW".show()
+			$"%Study".show()
+		elif day > DayOf.Love:
+			print("Return to main menu")
+			get_tree().change_scene("res://scenes/MainMenu.tscn")
+		else:
+			print("Standard meetings during breaks")
+			$"%Characters".show()
+			$"%Study".show()
+	elif day_stage == Period.Evening:
 		print("Extracurriculars")
 		$"%Extracurricular".show()
 		if day == DayOf.Introductions:
 			print("  - First day party")
 			$"%Party".show()
 			$"%Study".show()
+		elif day == DayOf.Trivia or day == DayOf.Feelings:
+			print("  - Evening plans")
+			launch_extracurricular_selector()
 		elif day == DayOf.Love:
 			print("  - Ending")
 			launch_ending_selector()
-		else:
-			print("  - Evening plans")
-			launch_extracurricular_selector()
-	elif day < DayOf.Love and day_stage == Period.Night:
-		print("Informat mail")
-		var timeline_name = ""
-		if informant_status == "alive":
-			timeline_name = "I1" + str(day + 1)
-		else:
-			timeline_name = "I01"
-		launch_dialog(timeline_name)
-	elif day == DayOf.Love and day_stage > Period.Evening:
-		print("Goodbye dialog")
-		launch_dialog("N02")
-	elif day > DayOf.Love:
-		print("Return to main menu")
-		get_tree().change_scene("res://scenes/MainMenu.tscn")
+	elif day_stage == Period.Night:
+		if day < DayOf.Love:
+			print("Informat mail")
+			var timeline_name = ""
+			if informant_status == "alive":
+				timeline_name = "I1" + str(day + 1)
+			else:
+				timeline_name = "I01"
+			launch_dialog(timeline_name)
+		elif day == DayOf.Love:
+			print("Goodbye dialog")
+			launch_dialog("N02")
 
 
 func fill_debug_panel():
