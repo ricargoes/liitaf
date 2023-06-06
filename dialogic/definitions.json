@@ -76,28 +76,28 @@
 			"value": ""
 		},
 		{
-			"id": "1685900611-648",
-			"name": "informant_status",
-			"type": 0,
-			"value": "alive"
-		},
-		{
 			"id": "1685875303-648",
 			"name": "roxxane_extra",
 			"type": 0,
 			"value": "not-invited"
 		},
 		{
-			"id": "1685716044-648",
-			"name": "pc_name",
-			"type": 0,
-			"value": "Maverik"
-		},
-		{
 			"id": "1685873489-648",
 			"name": "roxxane_anxiety",
 			"type": 0,
 			"value": "0"
+		},
+		{
+			"id": "1685900611-648",
+			"name": "informant_status",
+			"type": 0,
+			"value": "alive"
+		},
+		{
+			"id": "1685716044-648",
+			"name": "pc_name",
+			"type": 0,
+			"value": "Maverick"
 		}
 	]
 }
