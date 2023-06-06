@@ -154,6 +154,17 @@ func prepare_academy():
 		get_tree().change_scene("res://scenes/MainMenu.tscn")
 
 
+func fill_debug_panel():
+	$"%LEPP".text = Dialogic.get_variable("pp")
+	$"%LECP".text = Dialogic.get_variable("cp")
+	$"%LEAP".text = Dialogic.get_variable("ap")
+	$"%LERP".text = Dialogic.get_variable("rp")
+	$"%LESP".text = Dialogic.get_variable("sp")
+	$"%LEZP".text = Dialogic.get_variable("zp")
+	$"%LEWP".text = Dialogic.get_variable("wp")
+	$"%LEIN".text = Dialogic.get_variable("informant_status")
+
+
 func launch_dialog(timeline_name):
 	$Popup.hide()
 	$"%Extracurricular".hide()
@@ -175,11 +186,18 @@ func _on_timeline_end(_timeline_name):
 	update_scores()
 	show()
 	prepare_academy()
+	fill_debug_panel()
 
 
 func _input(event):
 	if event.is_action_pressed("quit"):
 		get_tree().quit()
+
+	if Input.is_key_pressed(KEY_F12):
+		if $"%DebugPanel".visible:
+			$"%DebugPanel".hide()
+		else:
+			$"%DebugPanel".show()
 
 
 func _on_WaiTing_pressed():
@@ -303,3 +321,15 @@ func _on_GroupRZ_pressed():
 
 func _on_GroupASW_pressed():
 	launch_dialog("X02")
+
+
+func _on_Debug_text_changed(new_text, line_edit_name):
+	if line_edit_name == "LEPP": Dialogic.set_variable("pp", new_text)
+	if line_edit_name == "LECP": Dialogic.set_variable("cp", new_text)
+	if line_edit_name == "LEAP": Dialogic.set_variable("ap", new_text)
+	if line_edit_name == "LERP": Dialogic.set_variable("rp", new_text)
+	if line_edit_name == "LESP": Dialogic.set_variable("sp", new_text)
+	if line_edit_name == "LEZP": Dialogic.set_variable("zp", new_text)
+	if line_edit_name == "LEWP": Dialogic.set_variable("wp", new_text)
+
+	#prepare_academy() ?
