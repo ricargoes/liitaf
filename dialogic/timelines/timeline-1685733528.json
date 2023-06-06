@@ -259,6 +259,14 @@
 			"event_id": "dialogic_013"
 		},
 		{
+			"definition": "1685996407-146",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "love"
+		},
+		{
 			"event_id": "dialogic_022",
 			"transition_duration": 1
 		}
