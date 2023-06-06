@@ -58,7 +58,7 @@ done
 count_study () {
 	count_pp=$(grep -c '1685480190-265' $1)
 	count_cp=$(grep -c '1685713211-787' $1)
-	echo Sxx: $1 pp_refs: $count_pp cp_refs: $count_cp
+	echo Txx: $1 pp_refs: $count_pp cp_refs: $count_cp
 }
 study_scenes=$(grep -l 'T[0-9]\{2\}' dialogic/timelines/*)
 for scene in $study_scenes; do
