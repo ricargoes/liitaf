@@ -78,6 +78,7 @@ func _ready():
 
 
 func update_scores():
+	time_passes()
 	char_scores["Alexei"]["score"] = int(Dialogic.get_variable("ap"))
 	char_scores["Roxxane"]["score"] = int(Dialogic.get_variable("rp"))
 	char_scores["Sharon"]["score"] = int(Dialogic.get_variable("sp"))
@@ -95,17 +96,16 @@ func update_scores():
 	platypus_score = int(Dialogic.get_variable("cp"))
 	Music.distorsion_level(platypus_score)
 	informant_status = Dialogic.get_variable("informant_status")
+
+
+func time_passes():
 	day_stage += 1
 	if day_stage > Period.Night:
 		day += 1
 		day_stage = Period.Break1
-		topics_done = {
-			"Alexei": [],
-			"Roxxane": [],
-			"Sharon": [],
-			"Zachary": [],
-			"Wai-Ting": [],
-		}
+		for char_name in char_scores.keys():
+			topics_done[char_name] = []
+			Dialogic.set_variable(char_name + "_extracurricular", "")
 	print("Scene end. New period -> Day: " + str(day) + ", Period: " + str(day_stage))
 
 
@@ -121,11 +121,12 @@ func prepare_academy():
 		print("Meetings in groups")
 		$"%GroupRZ".show()
 		$"%GroupASW".show()
+		$"%Study".show()
 	elif day <= DayOf.Love and day_stage < Period.Evening:
 		print("Standard meetings during breaks")
 		$"%Characters".show()
 		$"%Study".show()
-	elif day > DayOf.Introductions and day_stage == Period.Evening:
+	elif day >= DayOf.Introductions and day_stage == Period.Evening:
 		print("Extracurriculars")
 		$"%Extracurricular".show()
 		if day == DayOf.Introductions:
@@ -193,7 +194,7 @@ func _input(event):
 	if event.is_action_pressed("quit"):
 		get_tree().quit()
 
-	if Input.is_key_pressed(KEY_F12):
+	if event.is_action_pressed("debug"):
 		if $"%DebugPanel".visible:
 			$"%DebugPanel".hide()
 		else:
@@ -221,6 +222,10 @@ func _on_Roxxane_pressed():
 
 
 func _on_Study_pressed():
+	launch_topic_selection_popup("Study")
+
+
+func study():
 	var rand_n = randi() % 3
 	var study_timeline_name = ""
 	if day_stage < 4:
@@ -235,19 +240,26 @@ func launch_topic_selection_popup(char_name):
 	for item in $"%PopUpOptions".get_children():
 		item.queue_free()
 	
-	if Dialogic.get_variable(char_name + "_relationship") == hate_relationship_id:
-		$"%PopUpDescription".text = char_name + " no quiere volver a hablar contigo nunca."
+	if char_name == 'Study':
+		$"%PopUpDescription".text = "¿Quieres ir a la biblioteca a estudiar?"
+		var button = Button.new()
+		button.text = "¡A estudiar!"
+		button.connect("pressed", self, "study")
+		$"%PopUpOptions".add_child(button)
 	else:
-		var char_level = str(char_scores[char_name]["level"])
-		$"%PopUpDescription".text = "¿De qué te gustaría hablar con " + char_name + "?"
-		var char_topics = character_topics[char_name][char_level]
-		for topic_idx in range(char_topics.size()):
-			if topics_done[char_name].has(topic_idx):
-				continue
-			var button = Button.new()
-			button.text = char_topics[topic_idx]
-			button.connect("pressed", self, "launch_topic", [char_name, char_level, topic_idx])
-			$"%PopUpOptions".add_child(button)
+		if Dialogic.get_variable(char_name + "_relationship") == hate_relationship_id:
+			$"%PopUpDescription".text = char_name + " no quiere volver a hablar contigo nunca."
+		else:
+			var char_level = str(char_scores[char_name]["level"])
+			$"%PopUpDescription".text = "¿De qué te gustaría hablar con " + char_name + "?"
+			var char_topics = character_topics[char_name][char_level]
+			for topic_idx in range(char_topics.size()):
+				if topics_done[char_name].has(topic_idx):
+					continue
+				var button = Button.new()
+				button.text = char_topics[topic_idx]
+				button.connect("pressed", self, "launch_topic", [char_name, char_level, topic_idx])
+				$"%PopUpOptions".add_child(button)
 	$Popup.popup_centered()
 
 
@@ -255,8 +267,8 @@ func launch_extracurricular_selector():
 	for item in $"%ExtracurricularOptions".get_children():
 		item.queue_free()
 	
-	for char_name in char_scores.keys:
-		if Dialogic.get_variable(char_name + "") != "":
+	for char_name in char_scores.keys():
+		if Dialogic.get_variable(char_name + "_extracurricular") != "":
 			var button = Button.new()
 			button.text = "Pasa tiempo con " + char_name
 			var extracurricular_topic_bit = ""

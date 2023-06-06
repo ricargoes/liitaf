@@ -46,18 +46,6 @@
 			"value": "0"
 		},
 		{
-			"id": "1685996358-787",
-			"name": "Roxxane_relationship",
-			"type": 0,
-			"value": ""
-		},
-		{
-			"id": "1685996335-648",
-			"name": "Alexei_relationship",
-			"type": 0,
-			"value": ""
-		},
-		{
 			"id": "1685996385-366",
 			"name": "Sharon_relationship",
 			"type": 0,
@@ -88,16 +76,58 @@
 			"value": "0"
 		},
 		{
+			"id": "1685716044-648",
+			"name": "pc_name",
+			"type": 0,
+			"value": "Maverick"
+		},
+		{
+			"id": "1685996335-648",
+			"name": "Alexei_relationship",
+			"type": 0,
+			"value": ""
+		},
+		{
+			"id": "1685996358-787",
+			"name": "Roxxane_relationship",
+			"type": 0,
+			"value": ""
+		},
+		{
 			"id": "1685900611-648",
 			"name": "informant_status",
 			"type": 0,
 			"value": "alive"
 		},
 		{
-			"id": "1685716044-648",
-			"name": "pc_name",
+			"id": "1686058365-648",
+			"name": "Alexei_extracurricular",
 			"type": 0,
-			"value": "Maverick"
+			"value": ""
+		},
+		{
+			"id": "1686058379-787",
+			"name": "Roxxane_extracurricular",
+			"type": 0,
+			"value": ""
+		},
+		{
+			"id": "1686058389-366",
+			"name": "Sharon_extracurricular",
+			"type": 0,
+			"value": ""
+		},
+		{
+			"id": "1686058402-146",
+			"name": "Zachary_extracurricular",
+			"type": 0,
+			"value": ""
+		},
+		{
+			"id": "1686058419-918",
+			"name": "Wai-Ting_extracurricular",
+			"type": 0,
+			"value": ""
 		}
 	]
 }
