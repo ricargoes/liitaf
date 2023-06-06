@@ -190,7 +190,7 @@
 			"operation": "+",
 			"random_upper_limit": 100,
 			"set_random": false,
-			"set_value": "1"
+			"set_value": "2"
 		},
 		{
 			"choice": "Aham... Continua por favor...",
