@@ -396,7 +396,7 @@
 			"text": "Te marchas, y cuando miras hacia atrás ves a Alexei corriendo. Se te escapa una risita bobalicona. ¿Cómo puede correr alguien tan rápido y al mismo tiempo de una forma tan torpe?"
 		},
 		{
-			"definition": "1685713217-366",
+			"definition": "1685713211-787",
 			"event_id": "dialogic_014",
 			"operation": "+",
 			"random_upper_limit": 100,
@@ -451,6 +451,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Alexei se marcha, y tú también."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
 		},
 		{
 			"event_id": "dialogic_013"
@@ -509,6 +513,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Alexei te da la espalda y se marcha. Tú también."
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
 		},
 		{
 			"event_id": "dialogic_013"

@@ -37,6 +37,14 @@
 			"text": "Te das cuenta de lo mucho que le esta costando compartir este momento contigo. Aún así los dos disfrutáis de este momento extrañamente íntimo."
 		},
 		{
+			"definition": "1685713256-970",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
 			"event_id": "dialogic_022",
 			"transition_duration": 1
 		}

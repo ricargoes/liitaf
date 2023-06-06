@@ -240,12 +240,12 @@
 			"text": "¿Siempre ha sido así o es que te das cuenta ahora?"
 		},
 		{
-			"definition": "1685713217-366",
+			"definition": "1685996335-648",
 			"event_id": "dialogic_014",
-			"operation": "+",
+			"operation": "=",
 			"random_upper_limit": 100,
 			"set_random": false,
-			"set_value": "1"
+			"set_value": "love"
 		},
 		{
 			"choice": "Lo apartas.",
@@ -472,12 +472,16 @@
 			"event_id": "dialogic_013"
 		},
 		{
-			"definition": "1685713217-366",
+			"definition": "1685713211-787",
 			"event_id": "dialogic_014",
 			"operation": "+",
 			"random_upper_limit": 100,
 			"set_random": false,
 			"set_value": "1"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
 		}
 	],
 	"metadata": {

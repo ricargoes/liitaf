@@ -17,6 +17,14 @@
 			"text": "Al cabo de un rato, el pájaro aterriza sin ningún tipo de problema. Sharon sonríe, satisfecha. Es muy buena en lo suyo."
 		},
 		{
+			"definition": "1685713237-918",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
 			"event_id": "dialogic_022",
 			"transition_duration": 1
 		}

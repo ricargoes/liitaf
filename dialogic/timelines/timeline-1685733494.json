@@ -23,6 +23,14 @@
 			"text": "Te pasas el resto de la tarde cambiando aceite de motor, y cuando vuelves a casa, tu ropa está hecha unos zorros."
 		},
 		{
+			"definition": "1685713237-918",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
 			"event_id": "dialogic_022",
 			"transition_duration": 1
 		}

@@ -427,7 +427,7 @@
 			"character": "character-1685734475.json",
 			"event_id": "dialogic_001",
 			"portrait": "Default",
-			"text": "Pero tienes suerte, soy una persona hones y te estoy diciendo la verdad."
+			"text": "Pero tienes suerte, soy una persona honesta y te estoy diciendo la verdad."
 		},
 		{
 			"event_id": "dialogic_013"
@@ -564,6 +564,22 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Con una mirada explicita hacia la puerta, la implicación está clara: la conversación ha terminado."
+		},
+		{
+			"definition": "1685713256-970",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"definition": "1686058419-918",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "yes"
 		},
 		{
 			"event_id": "dialogic_022",

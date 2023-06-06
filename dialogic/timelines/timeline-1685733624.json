@@ -862,7 +862,23 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Con una sonrisa traviesa Wai-Tin sale del laboratorio. Tú vas detrás intentando poner tu camisa presentable y preguntandote que diablos fue aquel ruido."
+			"text": "Con una sonrisa traviesa Wai-Tin sale del laboratorio. Tú vas detrás intentando poner tu camisa presentable y preguntándote que diablos fue aquel ruido."
+		},
+		{
+			"definition": "1685996421-918",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "love"
+		},
+		{
+			"definition": "1685713211-787",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
 		},
 		{
 			"event_id": "dialogic_022",

@@ -562,12 +562,12 @@
 			"text": "Volvéis a fundiros en un beso que hace que el tiempo se detenga a vuestro alrededor. Definitivamente el cielo es hoy más azul que nunca."
 		},
 		{
-			"definition": "1685713217-366",
+			"definition": "1685996335-648",
 			"event_id": "dialogic_014",
-			"operation": "+",
+			"operation": "=",
 			"random_upper_limit": 100,
 			"set_random": false,
-			"set_value": "1000"
+			"set_value": "love"
 		},
 		{
 			"choice": "Le apartas de un empujón.",
@@ -605,14 +605,6 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Te marchas, dejando a Alexei allí plantado con el ánimo por los suelos, más o menos a la misma altura que su pie hinchado, sin dejar de pensar si acabas de cometer un error o no."
-		},
-		{
-			"definition": "1685713217-366",
-			"event_id": "dialogic_014",
-			"operation": "+",
-			"random_upper_limit": 100,
-			"set_random": false,
-			"set_value": "1"
 		},
 		{
 			"event_id": "dialogic_013"
@@ -670,12 +662,12 @@
 			"text": "Te marchas dejando a Alexei con el ánimo por los suelos."
 		},
 		{
-			"definition": "1685713217-366",
+			"definition": "1685996335-648",
 			"event_id": "dialogic_014",
 			"operation": "=",
 			"random_upper_limit": 100,
 			"set_random": false,
-			"set_value": "-1"
+			"set_value": "hate"
 		},
 		{
 			"event_id": "dialogic_013"

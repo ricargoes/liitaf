@@ -259,13 +259,13 @@
 			"character": "character-1685734475.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "tirarme pedos delante de gente, hablar de mis preferencias sexuales, prender fuego a ovejas, desnudarme delante de extraños, hablar en QuaQinaZthor, echar a la gente cuando ya no sé qué decirles, silencios incómodos, insultar a los demás cuando no me dejan hablar,"
+			"text": "hablar de mis preferencias sexuales, perseguir a gente para que me legue sus órganos, desnudarme delante de extraños, hablar en QuaQinaZthor, echar a la gente cuando ya no sé qué decirles, silencios incómodos, insultar a los demás cuando no me dejan hablar,"
 		},
 		{
 			"character": "character-1685734475.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "  hablar de lo mucho que me gustaría llevarme algo entre las piernas, desvelar detalles de mi misión con el Imperio sin darme cuenta, insultar y empujar niños, intentar hablar con patos en público, intentar ligar con patos en público.. "
+			"text": "pedir permiso para trepanaciones, desvelar detalles de mi misión con el Imperio sin darme cuenta, insultar y empujar niños, intentar hablar con patos en público, intentar ligar con patos en público.. "
 		},
 		{
 			"character": "character-1685478188.json",
@@ -289,19 +289,43 @@
 			"character": "character-1685734475.json",
 			"event_id": "dialogic_001",
 			"portrait": "Annoyed",
-			"text": "Es que no entiendo por qué les molesta tanto. La oveja, por ejemplo: estaba haciendo un experimiento sobre los riesgos de la ropa de lana en entornos inflamables."
+			"text": "Es que no entiendo por qué les molesta tanto. Las trepanaciones, por ejemplo: encontré un niño muy raro que cada vez que se juntaba con un adulto, le rodeaba con los brazos y en muchos casos recibía monedas a cambio. ¡Era un caso fascinante!."
 		},
 		{
 			"character": "character-1685734475.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Pues resulta que es peligroso porque arde muy rápido y pude tomar muchos datos mientras la oveja ardía, también pude apuntar cosas para mi investigación sobre los límites del dolor.."
+			"text": "¿Qué clase de habilidades tenía para manipularles de esa forma?. Estuve siguiendo al niño durante semanas para descubrirlo. Al principio de lejos claro, para no interferir con el sujeto."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Pero necesitaba más datos, necesitaba ver como pensaba, meterme en su cerebro. Y por mucho que te diga Zachary, la forma más rápida de meterte en la cabeza de alguien es haciendo un agujero en el cráneo: la trepanación."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Le pregunté al niño un par de veces, la primera le pedí que lo hiciese por la ciencia, en la segunda le ofrecí... cosas. Pero el maldito mono salía corriendo, claramente quería ocultar su secreto."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "La tercera vez que le fui a preguntar me estaba esperando la policia, ¡la policía! ¡Todo por intentar llevar una investigación honesta!"
 		},
 		{
 			"character": "character-1685734475.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": " ¡Ahí lo tienes!, una buena investigación con buenos datos como resultado. ¡Pues no veas cómo se pusieron!, ¡si la iban a matar de todas formas! ¡Malditos hipócritas! Lo que querían era matarla ellos y no dar nada a cambio."
+			"text": " ¡Ahí lo tienes!, una buena investigación prometedora truncada porque la gente no sabe de Ciencia. ¡Y no veas cómo se pusieron!."
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "Wai-Ting suspira y mira al suelo, a pesar de sus palabras está claramente avergonzada por el recuerdo."
 		},
 		{
 			"character": "character-1685734475.json",
@@ -376,7 +400,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Wai-Ting asiente con la cabeza, mientras recupera su entereza. \"¿Donde me he metido?\", te preguntas, por un lado asustado, por el otro excitado."
+			"text": "Wai-Ting asiente con la cabeza, mientras recupera su entereza. \"¿Donde me he metido?\", te preguntas con terror por un lado, con excitación por el otro."
 		},
 		{
 			"event_id": "dialogic_013"
@@ -389,7 +413,27 @@
 			"value": ""
 		},
 		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		},
+		{
 			"event_id": "dialogic_013"
+		},
+		{
+			"definition": "1685713256-970",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
+			"definition": "1685996421-918",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "yes"
 		},
 		{
 			"event_id": "dialogic_022",

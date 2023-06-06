@@ -83,6 +83,14 @@
 			"text": "Wai-Ting apoya su cabeza en tu pecho, suspira y cierra los ojos. Sientes su cálido cuerpo contra el tuyo, su respiración acompasada con tu respiración y el latido de su corazón acelerado. Tú también cierras los ojos y dejáis el tiempo pasar, en oscuridad, en silencio, en paz. "
 		},
 		{
+			"definition": "1685713256-970",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "2"
+		},
+		{
 			"event_id": "dialogic_022",
 			"transition_duration": 1
 		}

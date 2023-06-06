@@ -723,6 +723,22 @@
 			"text": "Le dedicas una última sonrisa a Wai-Ting y sales del laboratorio."
 		},
 		{
+			"definition": "1685996421-918",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "yes"
+		},
+		{
+			"definition": "1685713211-787",
+			"event_id": "dialogic_014",
+			"operation": "+",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "1"
+		},
+		{
 			"event_id": "dialogic_022",
 			"transition_duration": 1
 		}
