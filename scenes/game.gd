@@ -269,6 +269,11 @@ func launch_extracurricular_selector():
 	for item in $"%ExtracurricularOptions".get_children():
 		item.queue_free()
 	
+	var study_button = Button.new()
+	study_button.text = "¡A estudiar!"
+	study_button.connect("pressed", self, "study")
+	$"%ExtracurricularOptions".add_child(study_button)
+	
 	for char_name in char_scores.keys():
 		if Dialogic.get_variable(char_name + "_extracurricular") != "":
 			var button = Button.new()

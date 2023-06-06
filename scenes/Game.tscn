@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=2]
+[gd_scene load_steps=13 format=2]
 
 [ext_resource path="res://resources/backgrounds/ACADEMY MAP.png" type="Texture" id=1]
 [ext_resource path="res://scenes/game.gd" type="Script" id=2]
@@ -11,10 +11,12 @@
 [ext_resource path="res://resources/icon/roxxane.png" type="Texture" id=9]
 [ext_resource path="res://resources/icon/Roxxane & Zack.png" type="Texture" id=10]
 [ext_resource path="res://resources/icon/Wai, Sharon & Alexei.png" type="Texture" id=11]
+[ext_resource path="res://resources/main_theme.tres" type="Theme" id=12]
 
 [node name="Game" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
+theme = ExtResource( 12 )
 script = ExtResource( 2 )
 
 [node name="Academy" type="TextureRect" parent="."]
@@ -73,38 +75,50 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = -150.0
+margin_left = -400.0
 margin_top = -20.0
-margin_right = 150.0
+margin_right = 400.0
 margin_bottom = 20.0
-rect_min_size = Vector2( 300, 0 )
+rect_min_size = Vector2( 800, 0 )
 
 [node name="CenterContainer2" type="CenterContainer" parent="Academy/Extracurricular"]
-anchor_right = 1.0
-anchor_bottom = 1.0
-margin_left = 4.0
-margin_top = 4.0
-margin_right = 4.0
-margin_bottom = 8.0
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -440.0
+margin_top = -77.5
+margin_right = 440.0
+margin_bottom = 77.5
 
-[node name="VBoxContainer" type="VBoxContainer" parent="Academy/Extracurricular/CenterContainer2"]
-margin_right = 300.0
-margin_bottom = 44.0
-rect_min_size = Vector2( 300, 0 )
+[node name="MarginContainer" type="MarginContainer" parent="Academy/Extracurricular/CenterContainer2"]
+margin_right = 880.0
+margin_bottom = 155.0
+custom_constants/margin_right = 40
+custom_constants/margin_top = 40
+custom_constants/margin_left = 40
+custom_constants/margin_bottom = 40
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Academy/Extracurricular/CenterContainer2/MarginContainer"]
+margin_left = 40.0
+margin_top = 40.0
+margin_right = 840.0
+margin_bottom = 115.0
+rect_min_size = Vector2( 800, 0 )
 custom_constants/separation = 30
 
-[node name="ExtracurricularDescription" type="Label" parent="Academy/Extracurricular/CenterContainer2/VBoxContainer"]
-margin_right = 300.0
-margin_bottom = 14.0
+[node name="ExtracurricularDescription" type="Label" parent="Academy/Extracurricular/CenterContainer2/MarginContainer/VBoxContainer"]
+margin_right = 800.0
+margin_bottom = 45.0
 text = "¿Que quieres hacer esta tarde?"
 align = 1
 autowrap = true
 
-[node name="ExtracurricularOptions" type="VBoxContainer" parent="Academy/Extracurricular/CenterContainer2/VBoxContainer"]
+[node name="ExtracurricularOptions" type="VBoxContainer" parent="Academy/Extracurricular/CenterContainer2/MarginContainer/VBoxContainer"]
 unique_name_in_owner = true
-margin_top = 44.0
-margin_right = 300.0
-margin_bottom = 44.0
+margin_top = 75.0
+margin_right = 800.0
+margin_bottom = 75.0
 custom_constants/separation = 20
 
 [node name="Party" type="TextureButton" parent="Academy"]
@@ -144,42 +158,40 @@ rect_min_size = Vector2( 170, 150 )
 texture_normal = ExtResource( 3 )
 
 [node name="Popup" type="PopupPanel" parent="."]
+visible = true
 anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = -150.0
-margin_top = -20.0
-margin_right = 150.0
-margin_bottom = 20.0
-rect_min_size = Vector2( 300, 0 )
+margin_left = -400.0
+margin_top = -41.5
+margin_right = 400.0
+margin_bottom = 41.5
+rect_min_size = Vector2( 800, 0 )
 
 [node name="CenterContainer" type="CenterContainer" parent="Popup"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = 4.0
-margin_top = 4.0
-margin_right = -4.0
-margin_bottom = -4.0
 
 [node name="VBoxContainer" type="VBoxContainer" parent="Popup/CenterContainer"]
-margin_right = 300.0
-margin_bottom = 44.0
-rect_min_size = Vector2( 300, 0 )
+margin_top = 4.0
+margin_right = 800.0
+margin_bottom = 79.0
+rect_min_size = Vector2( 800, 0 )
 custom_constants/separation = 30
 
 [node name="PopUpDescription" type="Label" parent="Popup/CenterContainer/VBoxContainer"]
 unique_name_in_owner = true
-margin_right = 300.0
-margin_bottom = 14.0
+margin_right = 800.0
+margin_bottom = 45.0
 align = 1
 autowrap = true
 
 [node name="PopUpOptions" type="VBoxContainer" parent="Popup/CenterContainer/VBoxContainer"]
 unique_name_in_owner = true
-margin_top = 44.0
-margin_right = 300.0
-margin_bottom = 44.0
+margin_top = 75.0
+margin_right = 800.0
+margin_bottom = 75.0
 custom_constants/separation = 20
 
 [node name="DebugPanel" type="Panel" parent="."]
@@ -187,8 +199,9 @@ unique_name_in_owner = true
 visible = false
 anchor_top = 1.0
 anchor_bottom = 1.0
-margin_top = -160.0
+margin_top = -240.0
 margin_right = 310.0
+rect_min_size = Vector2( 0, 240 )
 
 [node name="HBoxContainer" type="HBoxContainer" parent="DebugPanel"]
 margin_left = 5.0
@@ -198,220 +211,210 @@ margin_bottom = 155.0
 
 [node name="VBoxContainer" type="VBoxContainer" parent="DebugPanel/HBoxContainer"]
 margin_right = 148.0
-margin_bottom = 150.0
+margin_bottom = 241.0
 size_flags_horizontal = 3
 
 [node name="HBoxContainer" type="HBoxContainer" parent="DebugPanel/HBoxContainer/VBoxContainer"]
 margin_right = 148.0
-margin_bottom = 26.0
+margin_bottom = 45.0
 size_flags_vertical = 3
 
 [node name="Label" type="Label" parent="DebugPanel/HBoxContainer/VBoxContainer/HBoxContainer"]
-margin_top = 6.0
-margin_right = 30.0
-margin_bottom = 20.0
+margin_right = 40.0
+margin_bottom = 45.0
 rect_min_size = Vector2( 30, 0 )
 text = "PP"
 
 [node name="LEPP" type="LineEdit" parent="DebugPanel/HBoxContainer/VBoxContainer/HBoxContainer"]
 unique_name_in_owner = true
-margin_left = 34.0
+margin_left = 44.0
 margin_right = 148.0
-margin_bottom = 26.0
+margin_bottom = 45.0
 size_flags_horizontal = 3
 align = 1
 
 [node name="HBoxContainer2" type="HBoxContainer" parent="DebugPanel/HBoxContainer/VBoxContainer"]
-margin_top = 30.0
+margin_top = 49.0
 margin_right = 148.0
-margin_bottom = 57.0
+margin_bottom = 94.0
 size_flags_vertical = 3
 
 [node name="Label" type="Label" parent="DebugPanel/HBoxContainer/VBoxContainer/HBoxContainer2"]
-margin_top = 6.0
-margin_right = 30.0
-margin_bottom = 20.0
+margin_right = 43.0
+margin_bottom = 45.0
 rect_min_size = Vector2( 30, 0 )
 text = "CP"
 
 [node name="LECP" type="LineEdit" parent="DebugPanel/HBoxContainer/VBoxContainer/HBoxContainer2"]
 unique_name_in_owner = true
-margin_left = 34.0
+margin_left = 47.0
 margin_right = 148.0
-margin_bottom = 27.0
+margin_bottom = 45.0
 size_flags_horizontal = 3
 align = 1
 
 [node name="HBoxContainer3" type="HBoxContainer" parent="DebugPanel/HBoxContainer/VBoxContainer"]
-margin_top = 61.0
+margin_top = 98.0
 margin_right = 148.0
-margin_bottom = 88.0
+margin_bottom = 143.0
 size_flags_vertical = 3
 
 [node name="Label" type="Label" parent="DebugPanel/HBoxContainer/VBoxContainer/HBoxContainer3"]
-margin_top = 6.0
-margin_right = 30.0
-margin_bottom = 20.0
+margin_right = 42.0
+margin_bottom = 45.0
 rect_min_size = Vector2( 30, 0 )
 text = "AP"
 
 [node name="LEAP" type="LineEdit" parent="DebugPanel/HBoxContainer/VBoxContainer/HBoxContainer3"]
 unique_name_in_owner = true
-margin_left = 34.0
+margin_left = 46.0
 margin_right = 148.0
-margin_bottom = 27.0
+margin_bottom = 45.0
 size_flags_horizontal = 3
 align = 1
 
 [node name="HBoxContainer4" type="HBoxContainer" parent="DebugPanel/HBoxContainer/VBoxContainer"]
-margin_top = 92.0
+margin_top = 147.0
 margin_right = 148.0
-margin_bottom = 119.0
+margin_bottom = 192.0
 size_flags_vertical = 3
 
 [node name="Label" type="Label" parent="DebugPanel/HBoxContainer/VBoxContainer/HBoxContainer4"]
-margin_top = 6.0
-margin_right = 30.0
-margin_bottom = 20.0
+margin_right = 41.0
+margin_bottom = 45.0
 rect_min_size = Vector2( 30, 0 )
 text = "RP"
 
 [node name="LERP" type="LineEdit" parent="DebugPanel/HBoxContainer/VBoxContainer/HBoxContainer4"]
 unique_name_in_owner = true
-margin_left = 34.0
+margin_left = 45.0
 margin_right = 148.0
-margin_bottom = 27.0
+margin_bottom = 45.0
 size_flags_horizontal = 3
 align = 1
 
 [node name="HBoxContainer5" type="HBoxContainer" parent="DebugPanel/HBoxContainer/VBoxContainer"]
-margin_top = 123.0
+margin_top = 196.0
 margin_right = 148.0
-margin_bottom = 150.0
+margin_bottom = 241.0
 size_flags_vertical = 3
 
 [node name="Label" type="Label" parent="DebugPanel/HBoxContainer/VBoxContainer/HBoxContainer5"]
-margin_top = 6.0
-margin_right = 30.0
-margin_bottom = 20.0
+margin_right = 40.0
+margin_bottom = 45.0
 rect_min_size = Vector2( 30, 0 )
 text = "SP"
 
 [node name="LESP" type="LineEdit" parent="DebugPanel/HBoxContainer/VBoxContainer/HBoxContainer5"]
 unique_name_in_owner = true
-margin_left = 34.0
+margin_left = 44.0
 margin_right = 148.0
-margin_bottom = 27.0
+margin_bottom = 45.0
 size_flags_horizontal = 3
 align = 1
 
 [node name="VBoxContainer2" type="VBoxContainer" parent="DebugPanel/HBoxContainer"]
 margin_left = 152.0
 margin_right = 300.0
-margin_bottom = 150.0
+margin_bottom = 241.0
 size_flags_horizontal = 3
 
 [node name="HBoxContainer" type="HBoxContainer" parent="DebugPanel/HBoxContainer/VBoxContainer2"]
 margin_right = 148.0
-margin_bottom = 26.0
+margin_bottom = 45.0
 size_flags_vertical = 3
 
 [node name="Label" type="Label" parent="DebugPanel/HBoxContainer/VBoxContainer2/HBoxContainer"]
-margin_top = 6.0
-margin_right = 30.0
-margin_bottom = 20.0
+margin_right = 41.0
+margin_bottom = 45.0
 rect_min_size = Vector2( 30, 0 )
 text = "ZP"
 
 [node name="LEZP" type="LineEdit" parent="DebugPanel/HBoxContainer/VBoxContainer2/HBoxContainer"]
 unique_name_in_owner = true
-margin_left = 34.0
+margin_left = 45.0
 margin_right = 148.0
-margin_bottom = 26.0
+margin_bottom = 45.0
 size_flags_horizontal = 3
 align = 1
 
 [node name="HBoxContainer2" type="HBoxContainer" parent="DebugPanel/HBoxContainer/VBoxContainer2"]
-margin_top = 30.0
+margin_top = 49.0
 margin_right = 148.0
-margin_bottom = 57.0
+margin_bottom = 94.0
 size_flags_vertical = 3
 
 [node name="Label" type="Label" parent="DebugPanel/HBoxContainer/VBoxContainer2/HBoxContainer2"]
-margin_top = 6.0
-margin_right = 30.0
-margin_bottom = 20.0
+margin_right = 54.0
+margin_bottom = 45.0
 rect_min_size = Vector2( 30, 0 )
 text = "WP"
 
 [node name="LEWP" type="LineEdit" parent="DebugPanel/HBoxContainer/VBoxContainer2/HBoxContainer2"]
 unique_name_in_owner = true
-margin_left = 34.0
+margin_left = 58.0
 margin_right = 148.0
-margin_bottom = 27.0
+margin_bottom = 45.0
 size_flags_horizontal = 3
 align = 1
 
 [node name="HBoxContainer3" type="HBoxContainer" parent="DebugPanel/HBoxContainer/VBoxContainer2"]
-margin_top = 61.0
+margin_top = 98.0
 margin_right = 148.0
-margin_bottom = 88.0
+margin_bottom = 143.0
 size_flags_vertical = 3
 
 [node name="Label" type="Label" parent="DebugPanel/HBoxContainer/VBoxContainer2/HBoxContainer3"]
-margin_top = 6.0
-margin_right = 30.0
-margin_bottom = 20.0
+margin_right = 45.0
+margin_bottom = 45.0
 rect_min_size = Vector2( 30, 0 )
 text = "Inf"
 
 [node name="LEIN" type="LineEdit" parent="DebugPanel/HBoxContainer/VBoxContainer2/HBoxContainer3"]
 unique_name_in_owner = true
-margin_left = 34.0
+margin_left = 49.0
 margin_right = 148.0
-margin_bottom = 27.0
+margin_bottom = 45.0
 size_flags_horizontal = 3
 align = 1
 
 [node name="HBoxContainer4" type="HBoxContainer" parent="DebugPanel/HBoxContainer/VBoxContainer2"]
-margin_top = 92.0
+margin_top = 147.0
 margin_right = 148.0
-margin_bottom = 119.0
+margin_bottom = 192.0
 size_flags_vertical = 3
 
 [node name="Label" type="Label" parent="DebugPanel/HBoxContainer/VBoxContainer2/HBoxContainer4"]
-margin_top = 6.0
-margin_right = 30.0
-margin_bottom = 20.0
+margin_right = 53.0
+margin_bottom = 45.0
 rect_min_size = Vector2( 30, 0 )
 text = "N/A"
 
 [node name="LEN1" type="LineEdit" parent="DebugPanel/HBoxContainer/VBoxContainer2/HBoxContainer4"]
 unique_name_in_owner = true
-margin_left = 34.0
+margin_left = 57.0
 margin_right = 148.0
-margin_bottom = 27.0
+margin_bottom = 45.0
 size_flags_horizontal = 3
 align = 1
 
 [node name="HBoxContainer5" type="HBoxContainer" parent="DebugPanel/HBoxContainer/VBoxContainer2"]
-margin_top = 123.0
+margin_top = 196.0
 margin_right = 148.0
-margin_bottom = 150.0
+margin_bottom = 241.0
 size_flags_vertical = 3
 
 [node name="Label" type="Label" parent="DebugPanel/HBoxContainer/VBoxContainer2/HBoxContainer5"]
-margin_top = 6.0
-margin_right = 30.0
-margin_bottom = 20.0
+margin_right = 53.0
+margin_bottom = 45.0
 rect_min_size = Vector2( 30, 0 )
 text = "N/A"
 
 [node name="LEN2" type="LineEdit" parent="DebugPanel/HBoxContainer/VBoxContainer2/HBoxContainer5"]
 unique_name_in_owner = true
-margin_left = 34.0
+margin_left = 57.0
 margin_right = 148.0
-margin_bottom = 27.0
+margin_bottom = 45.0
 size_flags_horizontal = 3
 align = 1
 

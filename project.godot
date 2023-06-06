@@ -92,6 +92,8 @@ Music="*res://scenes/Music.tscn"
 
 window/size/width=1920
 window/size/height=1080
+window/stretch/mode="viewport"
+window/stretch/aspect="keep"
 
 [editor_plugins]
 
