@@ -110,6 +110,7 @@ func time_passes():
 
 
 func prepare_academy():
+	Music.transition_to("Base")
 	$Popup.hide()
 	$"%Characters".hide()
 	$"%Study".hide()
@@ -310,7 +311,7 @@ func launch_ending_selector():
 		timeline_conspiracy_bit = "2"
 	
 	if not lovers.empty():
-		for char_name in lovers.keys:
+		for char_name in lovers:
 			if Dialogic.get_variable(char_name + "") != "":
 				var button = Button.new()
 				button.text = "Declararte a " + char_name
