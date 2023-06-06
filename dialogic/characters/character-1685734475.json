@@ -1,5 +1,5 @@
 {
-	"color": "#ff88897f",
+	"color": "#ffcbccbe",
 	"description": "",
 	"display_name": "",
 	"display_name_bool": false,
@@ -40,6 +40,6 @@
 			"path": "res://resources/characters/Wai-Ting/Wai Ting Platypus.png"
 		}
 	],
-	"scale": 30,
+	"scale": 25,
 	"theme": ""
 }

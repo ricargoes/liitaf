@@ -1,5 +1,5 @@
 {
-	"color": "#ff312323",
+	"color": "#ffcc9191",
 	"description": "",
 	"display_name": "",
 	"display_name_bool": false,
@@ -36,6 +36,6 @@
 			"path": "res://resources/characters/Sharon/Flirting.png"
 		}
 	],
-	"scale": 30,
+	"scale": 25,
 	"theme": ""
 }

@@ -1,5 +1,5 @@
 {
-	"color": "#ff185006",
+	"color": "#ff5acc0e",
 	"description": "Fornido, bajo, ligeramente amenazador, competitivo, rudo",
 	"display_name": "",
 	"display_name_bool": false,
@@ -38,8 +38,12 @@
 		{
 			"name": "Billy Duck",
 			"path": "res://resources/characters/Alexei/Billy Duck.png"
+		},
+		{
+			"name": "Serious",
+			"path": "res://resources/characters/Alexei/Serious.png"
 		}
 	],
-	"scale": 30,
+	"scale": 25,
 	"theme": ""
 }
