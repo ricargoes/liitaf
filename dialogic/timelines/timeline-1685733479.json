@@ -233,7 +233,7 @@
 		{
 			"character": "character-1685477911.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "Mi padre murió ese día. 15 de Mayo de 1969. Dentro de poco se cumplirán 30 años. Era un hombre bueno. Se alistó porque era un pobre iluso soñador que creía en su país. "
 		},
 		{
@@ -279,12 +279,12 @@
 			"text": "Sharon carraspea sonoramente y echa un buen trago de agua."
 		},
 		{
-			"character": "",
+			"character": "character-1685477911.json",
 			"event_id": "dialogic_010",
 			"options": [
 
 			],
-			"portrait": "",
+			"portrait": "Default",
 			"question": "Con esto que te acabo de contar, imagino que te estarás preguntando qué coño hago aquí, en una puta academia militar."
 		},
 		{
@@ -347,7 +347,7 @@
 		{
 			"character": "character-1685477911.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "Sabes… Creo que esta institución necesita más gente como tú."
 		},
 		{
@@ -399,7 +399,7 @@
 			"options": [
 
 			],
-			"portrait": "",
+			"portrait": "Default",
 			"question": "Siempre me esfuerzo por hacer lo correcto. Pero puede que para otras personas mis decisiones no sean las adecuadas. ¿A ti te parezco buena persona?"
 		},
 		{
@@ -418,13 +418,13 @@
 		{
 			"character": "character-1685477911.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Happy",
 			"text": "Gracias."
 		},
 		{
-			"character": "character-1685477911.json",
+			"character": "character-1685478188.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "De hecho, creo que esta institución necesita más gente como tú."
 		},
 		{

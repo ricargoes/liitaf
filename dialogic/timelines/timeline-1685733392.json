@@ -308,6 +308,12 @@
 			"text": "Alexei extiende los brazos hacia el cielo."
 		},
 		{
+			"character": "character-1685475571.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "¿...no merece la pena sacrificarse por esto?"
+		},
+		{
 			"character": "",
 			"event_id": "dialogic_010",
 			"options": [
@@ -333,7 +339,7 @@
 			"character": "character-1685475571.json",
 			"event_id": "dialogic_001",
 			"portrait": "Default",
-			"text": "¿Sabes qué? ¡Así se habla, - - -! Quizá nuestro destino sea cambiar las cosas desde dentro. ¡Aunque el camino sea oscuro y tormentudo!"
+			"text": "¿Sabes qué? ¡Así se habla, [pc_name]! Quizá nuestro destino sea cambiar las cosas desde dentro. ¡Aunque el camino sea oscuro y tormentudo!"
 		},
 		{
 			"character": "character-1685478188.json",

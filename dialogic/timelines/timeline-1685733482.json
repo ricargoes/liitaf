@@ -198,6 +198,9 @@
 			"text": "Disculpa, ¿qué dijiste?"
 		},
 		{
+			"event_id": "dialogic_013"
+		},
+		{
 			"character": "character-1685477911.json",
 			"event_id": "dialogic_010",
 			"options": [
@@ -319,9 +322,6 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Te marchas dejando a Sharon plantada en el hangar, posiblemente con muchas cosas sobre las que pensar ahora mismo."
-		},
-		{
-			"event_id": "dialogic_013"
 		},
 		{
 			"event_id": "dialogic_013"
