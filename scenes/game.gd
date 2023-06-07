@@ -85,17 +85,24 @@ func update_scores():
 	char_scores["Zachary"]["score"] = int(Dialogic.get_variable("zp"))
 	char_scores["Wai-Ting"]["score"] = int(Dialogic.get_variable("wp"))
 	for char_name in char_scores.keys():
-		if day > DayOf.Introductions:
-			char_scores[char_name]["level"] = WeAre.Acquaintances
-		if day > DayOf.Trivia and char_scores[char_name]["score"] > FRIENDSHIP_THRESHOLD:
-			char_scores[char_name]["level"] = WeAre.Friends
-		if day > DayOf.Feelings and char_scores[char_name]["score"] > LOVE_THRESHOLD:
-			char_scores[char_name]["level"] = WeAre.Lovers
+		var current_relationship_level = char_scores[char_name]["level"]
+		if current_relationship_level == WeAre.Strangers and day > DayOf.Introductions:
+			relationship_level_up(char_name, WeAre.Acquaintances)
+		if current_relationship_level == WeAre.Acquaintances and day > DayOf.Trivia and char_scores[char_name]["score"] > FRIENDSHIP_THRESHOLD:
+			relationship_level_up(char_name, WeAre.Friends)
+		if current_relationship_level == WeAre.Friends and day > DayOf.Feelings and char_scores[char_name]["score"] > LOVE_THRESHOLD:
+			relationship_level_up(char_name, WeAre.Lovers)
 		
 	study_score = int(Dialogic.get_variable("pp"))
 	platypus_score = int(Dialogic.get_variable("cp"))
 	Music.distorsion_level(platypus_score)
 	informant_status = Dialogic.get_variable("informant_status")
+
+
+func relationship_level_up(char_name, new_level):
+	print("* Relationship with " + char_name + " level up to " + str(new_level))
+	topics_done[char_name] = []
+	char_scores[char_name]["level"] = new_level
 
 
 func time_passes():
@@ -104,7 +111,6 @@ func time_passes():
 		day += 1
 		day_stage = Period.Break1
 		for char_name in char_scores.keys():
-			topics_done[char_name] = []
 			Dialogic.set_variable(char_name + "_extracurricular", "")
 	print("Scene end. New period -> Day: " + str(day) + ", Period: " + str(day_stage))
 
