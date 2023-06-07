@@ -18,7 +18,7 @@ const love_relationship_id = "love"
 const unclear_relationship_id = ""
 
 const FRIENDSHIP_THRESHOLD = 4
-const LOVE_THRESHOLD = 9
+const LOVE_THRESHOLD = 8
 const PLATYPUS_AWARENESS_THRESHOLD = 6
 const GREATNESS_BY_STUDY_THRESHOLD = 14
 
@@ -88,9 +88,9 @@ func update_scores():
 		var current_relationship_level = char_scores[char_name]["level"]
 		if current_relationship_level == WeAre.Strangers and day > DayOf.Introductions:
 			relationship_level_up(char_name, WeAre.Acquaintances)
-		if current_relationship_level == WeAre.Acquaintances and day > DayOf.Trivia and char_scores[char_name]["score"] > FRIENDSHIP_THRESHOLD:
+		if current_relationship_level == WeAre.Acquaintances and day > DayOf.Trivia and char_scores[char_name]["score"] >= FRIENDSHIP_THRESHOLD:
 			relationship_level_up(char_name, WeAre.Friends)
-		if current_relationship_level == WeAre.Friends and day > DayOf.Feelings and char_scores[char_name]["score"] > LOVE_THRESHOLD:
+		if current_relationship_level == WeAre.Friends and day > DayOf.Feelings and char_scores[char_name]["score"] >= LOVE_THRESHOLD:
 			relationship_level_up(char_name, WeAre.Lovers)
 		
 	study_score = int(Dialogic.get_variable("pp"))
@@ -311,12 +311,11 @@ func launch_ending_selector():
 			timeline_conspiracy_bit = char_name[0] + "9"
 			lovers.append(char_name)
 	
-	if platypus_score >= PLATYPUS_AWARENESS_THRESHOLD:
-		timeline_conspiracy_bit = "1"
-	else:
-		timeline_conspiracy_bit = "2"
-	
 	if not lovers.empty():
+		if platypus_score >= PLATYPUS_AWARENESS_THRESHOLD:
+			timeline_conspiracy_bit = "1"
+		else:
+			timeline_conspiracy_bit = "2"
 		for char_name in lovers:
 			if Dialogic.get_variable(char_name + "") != "":
 				var button = Button.new()
@@ -325,12 +324,20 @@ func launch_ending_selector():
 				button.connect("pressed", self, "launch_dialog", [timeline_name])
 				$"%ExtracurricularOptions".add_child(button)
 	elif study_score >= GREATNESS_BY_STUDY_THRESHOLD:
+		if platypus_score >= PLATYPUS_AWARENESS_THRESHOLD - 2:
+			timeline_conspiracy_bit = "1"
+		else:
+			timeline_conspiracy_bit = "2"
 		var button = Button.new()
 		button.text = "Ascender a grandeza"
 		var timeline_name = "E2" + timeline_conspiracy_bit
 		button.connect("pressed", self, "launch_dialog", [timeline_name])
 		$"%ExtracurricularOptions".add_child(button)
 	else:
+		if platypus_score >= PLATYPUS_AWARENESS_THRESHOLD - 2:
+			timeline_conspiracy_bit = "1"
+		else:
+			timeline_conspiracy_bit = "2"
 		var button = Button.new()
 		button.text = "Vivir una vida tranquila."
 		var timeline_name = "E1" + timeline_conspiracy_bit
