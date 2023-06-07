@@ -12,7 +12,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Lo veías en sus ojos, no querían hacerlo. Tus compañeros de academia no querían matarte, les caías bien.\n\nPero tú eras humano y ellos, ornitorrincos.\nTú eras un militar fracasado y ellos eran espias del más alto nivel.\nTú eras un cabo suelto que conocía su secreto y ellos se dedicaban a atar cabos.\n\nAl menos te concedieron una muerte rápida y ya no tendríás que ser testigo de la destrucción de tu mundo.\n\n\n[center]Vía del desastre esperado finalizada.[/center]"
+			"text": "Lo veías en sus ojos, no querían hacerlo. Tus compañeros de academia no querían matarte, les caías bien.\n\nPero tú eras humano, y ellos ornitorrincos.\nTú eras un fracaso militar y ellos eran espias del más alto nivel.\nTú eras un cabo suelto que conocía su secreto y ellos se dedicaban a atar cabos.\n\nAl menos te concedieron una muerte rápida y ya no tendríás que ser testigo de la destrucción de tu mundo.\n\n[center]Vía del desastre esperado finalizada.[/center]"
 		},
 		{
 			"event_id": "dialogic_022",

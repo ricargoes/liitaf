@@ -12,13 +12,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Es el lejano año 1997.\n\nTu nombre es [pc_name]. Como piloto idealista de las USSF (Fuerza Espacial de los Estados Unidos), has descubierto que el ejército es una institución moralmente corrupta que no puede servir para proteger a la humanidad.\n\nLa única solución que ves en el horizonte es obtener el título de General de Cinco Estrellas y para ello debes volver a la academia militar.\n\nPero la ajetreada vida social y los potenciales desarrollos románticos se interpondrán en tu camino."
-		},
-		{
-			"character": "",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "¿Conseguirás tu objetivo sin enamorarte?\n\n¡Buena suerte! Y no olvides que el futuro de la humanidad descansa sobre tus hombros."
+			"text": "Es el lejano año 1997.\n\nTu nombre es [pc_name]. Como piloto idealista de las USSF (Fuerza Espacial de los Estados Unidos), has descubierto que el ejército es una institución moralmente corrupta que no puede servir para proteger a la humanidad.\n\nLa única solución que ves en el horizonte es obtener el título de General de Cinco Estrellas y para ello debes volver a la academia militar. Pero la ajetreada vida social y los potenciales desarrollos románticos se interpondrán en tu camino.\\n\\n¿Conseguirás tu objetivo sin enamorarte?\n\n¡Buena suerte! Y no olvides que el futuro de la humanidad descansa sobre tus hombros."
 		},
 		{
 			"event_id": "dialogic_024",

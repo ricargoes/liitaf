@@ -12,7 +12,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "[center]Acabas de ser testigo a uno de los 15 finales que te presenta el juego.\n\nQuizá quieras darle otra vuelta y conocer un poco más en profundidad a los personajes. Ya sabes, desentrañar sus misterios. Recuerda que estudiar no lo es todo en la vida.. a no ser que quieras llegar a General de 5 Estrellas, en ese caso no deberías siquiera plantearte hacer otra cosa.\n\nBueno, le vayas a dar otro intento o no, esperamos que te lo hayas pasado tan bien jugando como nosotros haciéndolo. \n\n\n¡Muchas gracias por jugar a nuestro juego![/center]"
+			"text": "[center]Acabas de ser testigo de uno de los 15 finales que te presenta el juego.\n\nQuizá quieras darle otra vuelta y conocer un poco más en profundidad a los personajes. Ya sabes, desentrañar sus misterios. Recuerda que estudiar no lo es todo en la vida... a no ser que quieras llegar a General de 5 Estrellas, en ese caso no deberías siquiera plantearte hacer otra cosa.\n\nBueno, le vayas a dar otro intento o no, esperamos que te lo hayas pasado tan bien jugando como nosotros haciéndolo. \n\n\n¡Muchas gracias por jugar a nuestro juego![/center]"
 		},
 		{
 			"event_id": "dialogic_022",
