@@ -165,10 +165,6 @@
 			"event_id": "dialogic_013"
 		},
 		{
-			"background": "res://resources/backgrounds/camo.png",
-			"event_id": "dialogic_021"
-		},
-		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -568,7 +564,7 @@
 			"character": "character-1685734475.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Habia desarrollado una prótesis cibernética, necesitaba probarla y además las utilidades extra que aporta me venían muy bien. Así que me amputé el brazo y me puse el brazo. "
+			"text": "Habia desarrollado una prótesis cibernética, necesitaba probarla y además las utilidades extra que aporta me venían muy bien. Así que me amputé el brazo y me puse la protesis. "
 		},
 		{
 			"character": "character-1685734475.json",

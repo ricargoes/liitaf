@@ -242,7 +242,7 @@
 			"text": "La sonrisa se agranda y ves un brillito malicioso a través de sus grandes gafas."
 		},
 		{
-			"character": "",
+			"character": "character-1685734475.json",
 			"event_id": "dialogic_010",
 			"options": [
 
@@ -661,6 +661,14 @@
 			"text": "Ante tus palabras ella se queda paralizada. La quitas de encima tuyo y te vas del laboratorio."
 		},
 		{
+			"definition": "1685996421-918",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "hate"
+		},
+		{
 			"event_id": "dialogic_022",
 			"transition_duration": 1
 		},
@@ -739,12 +747,6 @@
 			"text": "Empiezas a desabrochar su camisa y cuando su cuello queda al descubierto le empiezas a dar besos ahí."
 		},
 		{
-			"character": "",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "[shake rate=15.0 level=15]¡¡¡¡¡BBBBRRRRRRRLLLLLLLLRRRRRRRRLLLLLLLRRRRRRLLLLLLL!!!!![/shake]"
-		},
-		{
 			"animation": "bounce.gd",
 			"animation_length": 0.3,
 			"change_mirror_portrait": false,
@@ -764,6 +766,12 @@
 			},
 			"type": 2,
 			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[shake rate=15.0 level=15]¡¡¡¡¡BBBBRRRRRRRLLLLLLLLRRRRRRRRLLLLLLLRRRRRRLLLLLLL!!!!![/shake]"
 		},
 		{
 			"character": "",
@@ -787,19 +795,13 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Con algo de esfuerzo ignoras el extraño sonido y sigues liandote con ella."
+			"text": "Con algo de esfuerzo te olvidas el extraño sonido y sigues liandote con ella."
 		},
 		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Terminas de desabrocharle la camisa y le acaricias los pechos por encima del sujetador."
-		},
-		{
-			"character": "",
-			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": "[shake rate=15.0 level=15]¡¡¡¡¡BBBBRRRRRRRLLLLLLLLRRRRRRRRLLLLLLLRRRRRRLLLLLLL!!!!![/shake]"
 		},
 		{
 			"animation": "bounce.gd",
@@ -821,6 +823,12 @@
 			},
 			"type": 2,
 			"z_index": 0
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[shake rate=15.0 level=15]¡¡¡¡¡BBBBRRRRRRRLLLLLLLLRRRRRRRRLLLLLLLRRRRRRLLLLLLL!!!!![/shake]"
 		},
 		{
 			"character": "character-1685478188.json",

@@ -139,7 +139,7 @@
 			"character": "character-1685734475.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Y estoy al servicio de Su Majestad, tengo que infiltrarme es vuestras estructuras de poder para allanar el camino al Imperio. Pero..."
+			"text": "Y estoy al servicio de Su Majestad, tengo que infiltrarme en vuestras estructuras de poder para allanar el camino al Imperio. Pero..."
 		},
 		{
 			"character": "character-1685734475.json",
@@ -210,7 +210,7 @@
 		},
 		{
 			"event_id": "dialogic_015",
-			"id": "anchor-1634488067",
+			"id": "anchor-1686266429",
 			"index": 0,
 			"name": "love platypus ending"
 		},
@@ -265,7 +265,7 @@
 			"value": ""
 		},
 		{
-			"anchor_id": "anchor-1634488067",
+			"anchor_id": "anchor-1686266429",
 			"event_id": "dialogic_016"
 		},
 		{

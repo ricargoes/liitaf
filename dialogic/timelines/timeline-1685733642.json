@@ -1,7 +1,7 @@
 {
 	"events": [
 		{
-			"background": "res://resources/backgrounds/lab.png",
+			"background": "res://resources/backgrounds/camo.png",
 			"event_id": "dialogic_021"
 		},
 		{
@@ -80,7 +80,7 @@
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Wai-Ting apoya su cabeza en tu pecho, suspira y cierra los ojos. Sientes su cálido cuerpo contra el tuyo, su respiración acompasada con tu respiración y el latido de su corazón acelerado. Tú también cierras los ojos y dejáis el tiempo pasar, en oscuridad, en silencio, en paz. "
+			"text": "Wai-Ting apoya su cabeza en tu pecho, suspira y cierra los ojos. Sientes su cálido cuerpo contra el tuyo, su respiración acompasada con tu respiración y el latido de su corazón acelerado. Tú también cierras los ojos y dejáis pasar el tiempo, en oscuridad, en silencio, en paz. "
 		},
 		{
 			"definition": "1685713256-970",

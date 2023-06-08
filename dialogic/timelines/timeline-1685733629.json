@@ -82,7 +82,7 @@
 			"character": "character-1685734475.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
-			"text": "Te equivocasssh, el alcohol essh creasión mia. Un poquico de metanol por aquííí, otro poquillo de metanoool por allááá y luego otro poquillho de otros oles, ashí a cholón. El resssultado: alcohol sin inhibiciones, sin reshaca y sin remordimientosss."
+			"text": "Te equivocasssh, el alcohol essh creasión mia. Un poquico de metanol por aquííí, otro poquillo de etanol por allááá y luego otro poquillho de otros oles, ashí a cholón. El resssultado: alcohol sin inhibiciones, sin reshaca y sin remordimientosss."
 		},
 		{
 			"character": "",
@@ -152,6 +152,14 @@
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "Te vas sin mirar atrás. Oyes un golpe a tus espaldas. Cierras la puerta a tu paso."
+		},
+		{
+			"definition": "1685996421-918",
+			"event_id": "dialogic_014",
+			"operation": "=",
+			"random_upper_limit": 100,
+			"set_random": false,
+			"set_value": "hate"
 		},
 		{
 			"event_id": "dialogic_022",

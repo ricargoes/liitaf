@@ -17,7 +17,7 @@ const hate_relationship_id = "hate"
 const love_relationship_id = "love"
 const unclear_relationship_id = ""
 
-const FRIENDSHIP_THRESHOLD = 4
+const FRIENDSHIP_THRESHOLD = 5
 const LOVE_THRESHOLD = 8
 const PLATYPUS_AWARENESS_THRESHOLD = 6
 const GREATNESS_BY_STUDY_THRESHOLD = 14
@@ -124,7 +124,10 @@ func prepare_academy():
 	$"%GroupRZ".hide()
 	$"%GroupASW".hide()
 	$"%Extracurricular".hide()
-	$"%LabelTime".text = str(day_stage + 1) + " de 4."
+	if day_stage < Period.Evening:
+		$"%LabelTime".text = "Descanso " + str(day_stage + 1) + " de 4."
+	else:
+		$"%LabelTime".text = "Por la tarde."
 	$"%LabelDay".text = str(day + 1) + " de 4."
 	if day_stage < Period.Evening:
 		if day == DayOf.Trivia and day_stage == Period.Break3:
@@ -288,9 +291,10 @@ func launch_extracurricular_selector():
 			var button = Button.new()
 			button.text = "Pasa tiempo con " + char_name
 			var extracurricular_topic_bit = ""
-			if day == DayOf.Trivia:
+			var current_relationship_level = char_scores[char_name]["level"]
+			if current_relationship_level < WeAre.Friends:
 				extracurricular_topic_bit = "1"
-			elif day == DayOf.Feelings:
+			else:
 				extracurricular_topic_bit = "2"
 			var timeline_name = char_name[0] + "8" + extracurricular_topic_bit
 			button.connect("pressed", self, "launch_dialog", [timeline_name])
